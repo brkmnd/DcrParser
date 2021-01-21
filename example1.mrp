@@ -1,0 +1,129 @@
+{
+
+    "id": "1000719",
+
+    "flavor": 2,
+
+    "framework": "dcr",
+
+    "version": 1.0,
+
+    "time": "2020-04-28",
+
+    "source": "procurement",
+
+    "input": "Receive ... ",
+
+    "tops": [
+
+        0, 1, 2, 3, 4, 5, 6, 7, 8
+
+    ],
+
+    "nodes": [
+
+        {
+
+            "id": 0,
+
+            "label": "Receive order request in ServiceNow"
+
+        },
+
+        ....,
+
+        {
+
+            "id": 8,
+
+            "label": "Close order in ServiceNow"
+
+        },
+
+        {
+
+             "id": 9,
+
+            "label": "Purchaser"
+
+        },
+
+        {
+
+             "id": 10,
+
+            "label": "Seller"
+
+        },
+
+    ],
+
+    "edges": [
+
+        {
+
+            "source": 0,
+
+            "target": 9,
+
+            "label": "role"
+
+        },
+
+        {
+
+            "source": 1,
+
+            "target": 9,
+
+            "label": "role"
+
+        },
+
+        ...,
+
+        {
+
+            "source": 0,
+
+            "target": 0,
+
+            "label": "exclusion"
+
+        },
+
+        {
+
+            "source": 0,
+
+            "target": 1,
+
+            "label": "inclusion"
+
+        },
+
+        {
+
+            "source": 0,
+
+            "target": 1,
+
+            "label": "condition"
+
+        },
+
+        {
+
+            "source": 0,
+
+            "target": 1,
+
+            "label": "response"
+
+        },
+
+        ...
+
+    ]
+
+}

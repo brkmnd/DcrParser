@@ -1,0 +1,1048 @@
+<dcrgraph title="Group 9 Exam Graph Mikkeller Webshop -  Final Version" dataTypesStatus="hide"  filterLevel="1" zoomLevel="-4" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#f3f3f3" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity0" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="425" yLoc="100" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>customer</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;access Mikkeller Webshop platform&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>1</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity13" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="625" yLoc="100" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>customer</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;leave the webshop page&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>14</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity20_1" type="subprocess" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="25" yLoc="1100" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>26</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                    <event id="Activity9" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="50" yLoc="1150" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>customer</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>&lt;p&gt;fill correct contact&lt;/p&gt;</eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>10</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity18Copy" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="425" yLoc="1150" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>Mikkeller Webshop</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription></eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>23</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity11" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="625" yLoc="1150" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>customer</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>&lt;p&gt;billing details&lt;/p&gt;</eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>12</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity14_1" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="625" yLoc="1375" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>Mikkeller Webshop</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription></eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>16</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity18" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="425" yLoc="1325" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>Mikkeller Webshop</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription></eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>21</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity14" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="425" yLoc="1625" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>Mikkeller Webshop</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>&lt;p&gt;payment will be rejected&lt;/p&gt;</eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>15</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity8" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="625" yLoc="1625" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>Mikkeller Webshop</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>&lt;p&gt;complete the purchase&lt;/p&gt;</eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>9</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity20" type="subprocess" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="-25" yLoc="275" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>28</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                    <event id="Activity1" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="0" yLoc="400" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>customer</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>&lt;p&gt;browse the products in the webshop&lt;/p&gt;</eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>2</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="BasketQty" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="250" yLoc="350" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>customer</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>&lt;p&gt;access the basket&lt;/p&gt;</eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>4</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="4" width="small" placeholder="" hinttext="" dataSetList="" multiple="false">choice</dataType>
+                                <dictionary>
+                                    <item key="Empty " value="1"></item>
+                                    <item key="Not Empty " value="2"></item>
+                                </dictionary>
+                                <validationRules></validationRules>
+                            </eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity17" type="subprocess" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="650" yLoc="325" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role />
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription></eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>20</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                        <event id="Activity6" >
+                            <precondition message=""  />
+                            <custom>
+                                <visualization>
+                                    <location xLoc="675" yLoc="375" />
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                </visualization>
+                                <roles>
+                                    <role>customer</role>
+                                </roles>
+                                <groups>
+                                    <group />
+                                </groups>
+                                <phases>
+                                    <phase />
+                                </phases>
+                                <eventType></eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData></eventTypeData>
+                                <eventDescription>&lt;p&gt;remove products within the basket&lt;/p&gt;</eventDescription>
+                                <purpose></purpose>
+                                <guide></guide>
+                                <insight use="false"></insight>
+                                <level>1</level>
+                                <sequence>7</sequence>
+                                <costs>0</costs>
+                                <eventData></eventData>
+                                <interfaces></interfaces>
+                            </custom>
+                        </event>
+                        <event id="Activity16" >
+                            <precondition message=""  />
+                            <custom>
+                                <visualization>
+                                    <location xLoc="850" yLoc="375" />
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                </visualization>
+                                <roles>
+                                    <role>customer</role>
+                                </roles>
+                                <groups>
+                                    <group />
+                                </groups>
+                                <phases>
+                                    <phase />
+                                </phases>
+                                <eventType></eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData></eventTypeData>
+                                <eventDescription></eventDescription>
+                                <purpose></purpose>
+                                <guide></guide>
+                                <insight use="false"></insight>
+                                <level>1</level>
+                                <sequence>19</sequence>
+                                <costs>0</costs>
+                                <eventData></eventData>
+                                <interfaces></interfaces>
+                            </custom>
+                        </event>
+                    </event>
+                    <event id="Activity7" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="875" yLoc="675" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>customer</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>&lt;p&gt;proceed to check-out&lt;/p&gt;</eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>8</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="EmptyBasket" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="600" yLoc="850" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>customer</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription></eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>18</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="18" width="small" placeholder="" hinttext="Are you sure you want to empty your basket?" dataSetList="" multiple="false">choice</dataType>
+                                <dictionary>
+                                    <item key="yes " value="1"></item>
+                                    <item key="no " value="2"></item>
+                                </dictionary>
+                                <validationRules></validationRules>
+                            </eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="FillBasket" type="subprocess" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="25" yLoc="800" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role />
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription></eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>25</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                        <event id="AddMoreQty" >
+                            <precondition message=""  />
+                            <custom>
+                                <visualization>
+                                    <location xLoc="50" yLoc="850" />
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                </visualization>
+                                <roles>
+                                    <role>customer</role>
+                                </roles>
+                                <groups>
+                                    <group />
+                                </groups>
+                                <phases>
+                                    <phase />
+                                </phases>
+                                <eventType></eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData></eventTypeData>
+                                <eventDescription>&lt;p&gt;adjust the quantity of the products prior to adding the product to the basket&lt;/p&gt;</eventDescription>
+                                <purpose></purpose>
+                                <guide></guide>
+                                <insight use="false"></insight>
+                                <level>1</level>
+                                <sequence>5</sequence>
+                                <costs>0</costs>
+                                <eventData>
+                                    <dataType sequence="5" width="medium" placeholder="Dont want to answer" hinttext="How many of this item do you want?">slider</dataType>
+                                    <dictionary>
+                                        <item key="startVal" value="##2##true"></item>
+                                        <item key="middleVal" value="##50##false"></item>
+                                        <item key="endVal" value="##100##false"></item>
+                                    </dictionary>
+                                    <validationRules></validationRules>
+                                </eventData>
+                                <interfaces></interfaces>
+                            </custom>
+                        </event>
+                        <event id="Activity19" >
+                            <precondition message=""  />
+                            <custom>
+                                <visualization>
+                                    <location xLoc="225" yLoc="850" />
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                </visualization>
+                                <roles>
+                                    <role>customer</role>
+                                </roles>
+                                <groups>
+                                    <group />
+                                </groups>
+                                <phases>
+                                    <phase />
+                                </phases>
+                                <eventType></eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData></eventTypeData>
+                                <eventDescription></eventDescription>
+                                <purpose></purpose>
+                                <guide></guide>
+                                <insight use="false"></insight>
+                                <level>1</level>
+                                <sequence>27</sequence>
+                                <costs>0</costs>
+                                <eventData></eventData>
+                                <interfaces></interfaces>
+                            </custom>
+                        </event>
+                    </event>
+                </event>
+            </events>
+            <subProcesses></subProcesses>
+            <distribution></distribution>
+            <labels>
+                <label id="access Mikkeller Webshop platform" />
+                <label id="leave the webshop page" />
+                <label id="Payment subprocess" />
+                <label id="Fill valid contact and shipping details" />
+                <label id="Information rejected" />
+                <label id="Fill valid billing details" />
+                <label id="Check payment feasability" />
+                <label id="Information accepted" />
+                <label id="Payment rejected" />
+                <label id="Order completed" />
+                <label id="Browsing process" />
+                <label id="Browse products in the webshop" />
+                <label id="Go to basket" />
+                <label id="Adjust basket" />
+                <label id="Remove some (not all) products within the basket" />
+                <label id="Adjust quantity within basket" />
+                <label id="proceed to check-out" />
+                <label id="Empty the basket" />
+                <label id="Fill basket" />
+                <label id="Add product with adjusted qty." />
+                <label id="Add product with default qty." />
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity0" labelId="access Mikkeller Webshop platform"/>
+                <labelMapping eventId="Activity13" labelId="leave the webshop page"/>
+                <labelMapping eventId="Activity20_1" labelId="Payment subprocess"/>
+                <labelMapping eventId="Activity9" labelId="Fill valid contact and shipping details"/>
+                <labelMapping eventId="Activity18Copy" labelId="Information rejected"/>
+                <labelMapping eventId="Activity11" labelId="Fill valid billing details"/>
+                <labelMapping eventId="Activity14_1" labelId="Check payment feasability"/>
+                <labelMapping eventId="Activity18" labelId="Information accepted"/>
+                <labelMapping eventId="Activity14" labelId="Payment rejected"/>
+                <labelMapping eventId="Activity8" labelId="Order completed"/>
+                <labelMapping eventId="Activity20" labelId="Browsing process"/>
+                <labelMapping eventId="Activity1" labelId="Browse products in the webshop"/>
+                <labelMapping eventId="BasketQty" labelId="Go to basket"/>
+                <labelMapping eventId="Activity17" labelId="Adjust basket"/>
+                <labelMapping eventId="Activity6" labelId="Remove some (not all) products within the basket"/>
+                <labelMapping eventId="Activity16" labelId="Adjust quantity within basket"/>
+                <labelMapping eventId="Activity7" labelId="proceed to check-out"/>
+                <labelMapping eventId="EmptyBasket" labelId="Empty the basket"/>
+                <labelMapping eventId="FillBasket" labelId="Fill basket"/>
+                <labelMapping eventId="AddMoreQty" labelId="Add product with adjusted qty."/>
+                <labelMapping eventId="Activity19" labelId="Add product with default qty."/>
+            </labelMappings>
+            <expressions>
+                <expression id="BasketQty-path-Activity17--include" value="BasketQty = 2" />
+                <expression id="BasketQty-path-EmptyBasket--include" value="BasketQty = 2" />
+                <expression id="BasketQty-path-Activity7--include" value="BasketQty = 2" />
+            </expressions>
+            <variables></variables>
+            <variableAccesses>
+                <writeAccesses />
+            </variableAccesses>
+            <custom>
+                <keywords>Process v2,exam</keywords>
+                <roles>
+                    <role description="customer" specification="">customer</role>
+                    <role description="Mikkeller Webshop" specification="">Mikkeller Webshop</role>
+                </roles>
+                <groups></groups>
+                <phases></phases>
+                <eventTypes></eventTypes>
+                <eventParameters></eventParameters>
+                <graphDetails>When a customer access Mikkeller Webshop platform and they may browse the products in the webshop. A customer must browse for products prior to adding a product to the basket, but they can access the basket upon entering the webshop without any prior conditions. A customer may adjust the quantity of the products prior to adding the product to the basket, but they could also add a product with its default quantity of 1. A customer may adjust the quantity or remove products within the basket. In order to proceed to check-out at least one product must be in the basket. In order to complete the purchase, a customer must fill correct contact, shipping and billing details. The payment method used in the billing details must have sufficient funds to cover the order, otherwise the payment will be rejected. At any time the customer may leave the webshop page.</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups></filteredGroups>
+                    <filteredRoles></filteredRoles>
+                    <filteredPhases></filteredPhases>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"></hightlighterMarkup>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">When a customer access Mikkeller Webshop platform and they may browse the products in the webshop. A customer must browse for products prior to adding a product to the basket, but they can access the basket upon entering the webshop without any prior conditions. A customer may adjust the quantity of the products prior to adding the product to the basket, but they could also add a product with its default quantity of 1. A customer may adjust the quantity or remove products within the basket. In order to proceed to check-out at least one product must be in the basket. In order to complete the purchase, a customer must fill correct contact, shipping and billing details. The payment method used in the billing details must have sufficient funds to cover the order, otherwise the payment will be rejected. At any time the customer may leave the webshop page.</highlightLayer>
+                    </highlightLayers>
+                    <highlights>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="6" end="15"> customer</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="customer" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="16" end="49">access Mikkeller Webshop platform</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity0" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="23" end="40">Mikkeller Webshop</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Mikkeller Webshop" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="63" end="97">browse the products in the webshop</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="144" end="174">adding a product to the basket</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="undefined" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="189" end="206">access the basket</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="undefined" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="278" end="355">adjust the quantity of the products prior to adding the product to the basket</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="undefined" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="377" end="416">add a product with its default quantity</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="undefined" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="461" end="494">remove products within the basket</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity6" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="508" end="528">proceed to check-out</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity7" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="585" end="606">complete the purchase</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity8" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="624" end="644">fill correct contact</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity9" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="646" end="654">shipping</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="undefined" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="659" end="674">billing details</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity11" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="733" end="749">sufficient funds</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="undefined" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="784" end="808">payment will be rejected</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity14" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="839" end="861">leave the webshop page</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity13" />
+                            </items>
+                        </highlight>
+                    </highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity0" targetId="Activity1" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity0" targetId="BasketQty" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="BasketQty" targetId="EmptyBasket" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity11" targetId="Activity14_1" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity18" targetId="Activity11" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity14_1" targetId="Activity14" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity14_1" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity0" targetId="Activity13" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity1" targetId="FillBasket" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="FillBasket" targetId="EmptyBasket" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="BasketQty" targetId="Activity7" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="FillBasket" targetId="Activity7" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity7" targetId="Activity20_1" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity9" targetId="Activity18Copy" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity9" targetId="Activity18" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="BasketQty" targetId="Activity17" filterLevel="0"  description=""  time=""  groups=""  />
+            </conditions>
+            <responses>
+                <response sourceId="Activity11" targetId="Activity14_1" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity14_1" targetId="Activity14" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity14_1" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity9" targetId="Activity18Copy" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity9" targetId="Activity18" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity14" targetId="Activity11" filterLevel="0"  description=""  time=""  groups=""  />
+            </responses>
+            <coresponses></coresponses>
+            <excludes>
+                <exclude sourceId="EmptyBasket" targetId="Activity7" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity18" targetId="Activity18Copy" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity18Copy" targetId="Activity18" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity8" targetId="Activity14" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity14" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity8" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity0" targetId="Activity0" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity13" targetId="Activity13" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity1" targetId="Activity17" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity1" targetId="EmptyBasket" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity7" targetId="Activity7" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity8" targetId="Activity20_1" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity1" targetId="Activity7" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity13" targetId="Activity20" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity7" targetId="Activity20" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="EmptyBasket" targetId="Activity17" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity14_1" targetId="Activity14_1" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity18Copy" targetId="Activity18Copy" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity18" targetId="Activity18" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity14" targetId="Activity14" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity13" targetId="Activity20_1" filterLevel="0"  description=""  time=""  groups=""  />
+            </excludes>
+            <includes>
+                <include sourceId="Activity0" targetId="Activity13" filterLevel="0"  description=""  time=""  groups=""  />
+                <include sourceId="Activity13" targetId="Activity0" filterLevel="0"  description=""  time=""  groups=""  />
+                <include sourceId="Activity1" targetId="FillBasket" filterLevel="0"  description=""  time=""  groups=""  />
+                <include sourceId="BasketQty" targetId="Activity17" filterLevel="0"  description=""  time=""  groups=""  expressionId="BasketQty-path-Activity17--include"  />
+                <include sourceId="BasketQty" targetId="EmptyBasket" filterLevel="0"  description=""  time=""  groups=""  expressionId="BasketQty-path-EmptyBasket--include"  />
+                <include sourceId="BasketQty" targetId="Activity7" filterLevel="0"  description=""  time=""  groups=""  expressionId="BasketQty-path-Activity7--include"  />
+                <include sourceId="Activity7" targetId="Activity20_1" filterLevel="0"  description=""  time=""  groups=""  />
+                <include sourceId="Activity9" targetId="Activity18Copy" filterLevel="0"  description=""  time=""  groups=""  />
+                <include sourceId="Activity9" targetId="Activity18" filterLevel="0"  description=""  time=""  groups=""  />
+                <include sourceId="Activity18" targetId="Activity11" filterLevel="0"  description=""  time=""  groups=""  />
+                <include sourceId="Activity0" targetId="Activity20" filterLevel="0"  description=""  time=""  groups=""  />
+                <include sourceId="Activity11" targetId="Activity14_1" filterLevel="0"  description=""  time=""  groups=""  />
+                <include sourceId="Activity14_1" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
+                <include sourceId="Activity14_1" targetId="Activity14" filterLevel="0"  description=""  time=""  groups=""  />
+            </includes>
+            <milestones></milestones>
+            <spawns></spawns>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking></globalMarking>
+        </custom>
+        <marking>
+            <globalStore></globalStore>
+            <executed></executed>
+            <included>
+                <event id="Activity0" />
+                <event id="Activity9" />
+                <event id="Activity18Copy" />
+                <event id="Activity11" />
+                <event id="Activity14_1" />
+                <event id="Activity18" />
+                <event id="Activity14" />
+                <event id="Activity8" />
+                <event id="Activity20" />
+                <event id="Activity1" />
+                <event id="BasketQty" />
+                <event id="Activity6" />
+                <event id="Activity16" />
+                <event id="Activity7" />
+                <event id="EmptyBasket" />
+                <event id="FillBasket" />
+                <event id="AddMoreQty" />
+                <event id="Activity19" />
+            </included>
+            <pendingResponses></pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

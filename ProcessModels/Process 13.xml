@@ -1,0 +1,1274 @@
+<dcrgraph title="DCR - Translation Order Handling Process" dataTypesStatus="hide"  filterLevel="-1" zoomLevel="2" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity0" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="25" yLoc="75" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>agent</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>received</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>0</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity2" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="200" yLoc="350" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>agent</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>analyses</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>2</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity6" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="350" yLoc="350" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>agent</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>sets a quota</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>5</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity7" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="500" yLoc="350" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>agent</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>choose a translator</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>6</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity8" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="650" yLoc="350" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>agent</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>sends a request</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>7</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity12" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="800" yLoc="625" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>agent</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>sends the quota to the client</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>10</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity21" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="1650" yLoc="725" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>agent</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>close the case</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>17</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity20_1" type="subprocess" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="600" yLoc="500" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>20</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                    <event id="Activity10" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="625" yLoc="550" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>translator</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>decline</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>9</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity9" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="625" yLoc="700" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>translator</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>accept</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>8</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity20_2" type="subprocess" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="200" yLoc="50" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>21</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                    <event id="Activity5" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="475" yLoc="100" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>agent</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>requests</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>4</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity3" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="350" yLoc="100" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>agent</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>converts</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>3</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity1" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="225" yLoc="100" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>agent</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>check</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>1</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity21_1" type="subprocess" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="950" yLoc="500" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>22</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                    <event id="Activity15" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="975" yLoc="700" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>client</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>quota is declined</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>12</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity13" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="975" yLoc="550" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>client</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>accepts</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>11</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity21_2" type="nesting" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="1150" yLoc="250" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>23</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                    <event id="Activity19_1" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="1175" yLoc="300" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>translator</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription></eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>19</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity19" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="1325" yLoc="300" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>translator</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>translator uploads the translated document</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>15</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity20" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="1575" yLoc="300" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>agent</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>check the translated work</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>16</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity22" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="1700" yLoc="300" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>agent</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription>the translated document together with an invoice is sent to the client.</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>18</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                </event>
+            </events>
+            <subProcesses></subProcesses>
+            <distribution></distribution>
+            <labels>
+                <label id="Receive order" />
+                <label id="Analyse document " />
+                <label id="Set quota" />
+                <label id=" Choose a translator" />
+                <label id="Send a request to translator" />
+                <label id="Send the quota to the client" />
+                <label id="Close the case" />
+                <label id="Choice" />
+                <label id="Decline request " />
+                <label id="Accept request" />
+                <label id="Choice" />
+                <label id="Request different format " />
+                <label id="Convert from pdf " />
+                <label id="Check document format " />
+                <label id="Choice" />
+                <label id="Decline quota" />
+                <label id="Accept quota" />
+                <label id="Translation Process" />
+                <label id="Begin translation " />
+                <label id="Upload the translated document" />
+                <label id="Check the translated work" />
+                <label id="Send document with an invoice " />
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity0" labelId="Receive order"/>
+                <labelMapping eventId="Activity2" labelId="Analyse document "/>
+                <labelMapping eventId="Activity6" labelId="Set quota"/>
+                <labelMapping eventId="Activity7" labelId=" Choose a translator"/>
+                <labelMapping eventId="Activity8" labelId="Send a request to translator"/>
+                <labelMapping eventId="Activity12" labelId="Send the quota to the client"/>
+                <labelMapping eventId="Activity21" labelId="Close the case"/>
+                <labelMapping eventId="Activity20_1" labelId="Choice"/>
+                <labelMapping eventId="Activity10" labelId="Decline request "/>
+                <labelMapping eventId="Activity9" labelId="Accept request"/>
+                <labelMapping eventId="Activity20_2" labelId="Choice"/>
+                <labelMapping eventId="Activity5" labelId="Request different format "/>
+                <labelMapping eventId="Activity3" labelId="Convert from pdf "/>
+                <labelMapping eventId="Activity1" labelId="Check document format "/>
+                <labelMapping eventId="Activity21_1" labelId="Choice"/>
+                <labelMapping eventId="Activity15" labelId="Decline quota"/>
+                <labelMapping eventId="Activity13" labelId="Accept quota"/>
+                <labelMapping eventId="Activity21_2" labelId="Translation Process"/>
+                <labelMapping eventId="Activity19_1" labelId="Begin translation "/>
+                <labelMapping eventId="Activity19" labelId="Upload the translated document"/>
+                <labelMapping eventId="Activity20" labelId="Check the translated work"/>
+                <labelMapping eventId="Activity22" labelId="Send document with an invoice "/>
+            </labelMappings>
+            <expressions></expressions>
+            <variables></variables>
+            <variableAccesses>
+                <writeAccesses />
+            </variableAccesses>
+            <custom>
+                <keywords></keywords>
+                <roles>
+                    <role description="agent" specification="">agent</role>
+                    <role description="client" specification="">client</role>
+                    <role description="translator" specification="">translator</role>
+                </roles>
+                <groups></groups>
+                <phases></phases>
+                <eventTypes></eventTypes>
+                <eventParameters></eventParameters>
+                <graphDetails>Every time a translation order is received, an agent needs to check it. If the document is in a DOCX (Word) format, the agent “analyses” it in the ERP (this will automatically process the document and fill in information regarding document length, word count and repetition count). If the document is a PDF format, the agent either converts the document manually to DOCX through a third-party program or calls the client and requests a different format document. Once the document is analysed, the agent sets a quota for the order in the system. The agent choose a translator from the database and sends a request to them. The translator can either accept or decline the task. If accepted the agent receives a notification and sends the quota to the client. If the client accepts it, a notification is sent to the translator that work can begin, otherwise if the quota is declined the order is closed. If the translator declines the request, the agent looks for another translator. Once the translator is done with the translation, the translator uploads the translated document. The agent will then check the translated work to ensure that it looks up-to-standard. If deemed satisfactory the agent will close the case and the translated document together with an invoice is sent to the client. </graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups></filteredGroups>
+                    <filteredRoles></filteredRoles>
+                    <filteredPhases></filteredPhases>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"></hightlighterMarkup>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">Every time a translation order is received, an agent needs to check it. If the document is in a DOCX (Word) format, the agent “analyses” it in the ERP (this will automatically process the document and fill in information regarding document length, word count and repetition count). If the document is a PDF format, the agent either converts the document manually to DOCX through a third-party program or calls the client and requests a different format document. Once the document is analysed, the agent sets a quota for the order in the system. The agent choose a translator from the database and sends a request to them. The translator can either accept or decline the task. If accepted the agent receives a notification and sends the quota to the client. If the client accepts it, a notification is sent to the translator that work can begin, otherwise if the quota is declined the order is closed. If the translator declines the request, the agent looks for another translator. Once the translator is done with the translation, the translator uploads the translated document. The agent will then check the translated work to ensure that it looks up-to-standard. If deemed satisfactory the agent will close the case and the translated document together with an invoice is sent to the client.</highlightLayer>
+                    </highlightLayers>
+                    <highlights>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="47" end="52">agent</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="agent" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="120" end="125">agent</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="agent" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="319" end="324">agent</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="agent" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="498" end="503">agent</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="agent" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="550" end="555">agent</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="agent" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="693" end="698">agent</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="agent" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="946" end="951">agent</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="agent" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1084" end="1089">agent</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="agent" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1193" end="1198">agent</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="agent" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="565" end="575">translator</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="translator" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="627" end="637">translator</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="translator" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="814" end="824">translator</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="translator" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="909" end="919">translator</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="translator" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="970" end="980">translator</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="translator" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="991" end="1001">translator</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="translator" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1036" end="1046">translator</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="translator" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="414" end="420">client</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="client" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="750" end="756">client</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="client" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="765" end="771">client</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="client" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1287" end="1293">client</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="client" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="34" end="42">received</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity0" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="62" end="67">check</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="127" end="135">analyses</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="332" end="340">converts</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity3" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="425" end="433">requests</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity5" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="504" end="516">sets a quota</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity6" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="555" end="575">choose a translator</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity7" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="598" end="613">sends a request</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity8" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="649" end="655">accept</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity9" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="659" end="666">decline</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity10" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="727" end="756">sends the quota to the client</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity12" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="772" end="779">accepts</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity13" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="863" end="880">quota is declined</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity15" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1036" end="1078">translator uploads the translated document</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity19" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1100" end="1125">check the translated work</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity20" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1204" end="1218">close the case</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity21" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1223" end="1294">the translated document together with an invoice is sent to the client.</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity22" />
+                            </items>
+                        </highlight>
+                    </highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity2" targetId="Activity6" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity6" targetId="Activity7" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity7" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity8" targetId="Activity20_1" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity12" targetId="Activity21_1" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity19_1" targetId="Activity19" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity19" targetId="Activity20" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity20" targetId="Activity22" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity22" targetId="Activity21" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity9" targetId="Activity12" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity13" targetId="Activity21_2" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity0" targetId="Activity20_2" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity20_2" targetId="Activity2" filterLevel="0"  description=""  time=""  groups=""  />
+            </conditions>
+            <responses>
+                <response sourceId="Activity2" targetId="Activity6" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity6" targetId="Activity7" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity7" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity8" targetId="Activity20_1" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity10" targetId="Activity7" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity15" targetId="Activity21" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity19" targetId="Activity20" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity20" targetId="Activity22" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity22" targetId="Activity21" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity13" targetId="Activity21_2" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity0" targetId="Activity20_2" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity20_2" targetId="Activity2" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity9" targetId="Activity12" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity12" targetId="Activity21_1" filterLevel="0"  description=""  time=""  groups=""  />
+            </responses>
+            <coresponses>
+                <coresponse sourceId="Activity20_2" targetId="Activity20_2" filterLevel="0"  description=""  time=""  groups=""  />
+            </coresponses>
+            <excludes>
+                <exclude sourceId="Activity15" targetId="Activity13" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity15" targetId="Activity21_2" filterLevel="0"  description=""  time=""  groups=""  />
+            </excludes>
+            <includes></includes>
+            <milestones></milestones>
+            <spawns></spawns>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking></globalMarking>
+        </custom>
+        <marking>
+            <globalStore></globalStore>
+            <executed></executed>
+            <included>
+                <event id="Activity0" />
+                <event id="Activity2" />
+                <event id="Activity6" />
+                <event id="Activity7" />
+                <event id="Activity8" />
+                <event id="Activity12" />
+                <event id="Activity21" />
+                <event id="Activity20_1" />
+                <event id="Activity10" />
+                <event id="Activity9" />
+                <event id="Activity20_2" />
+                <event id="Activity5" />
+                <event id="Activity3" />
+                <event id="Activity1" />
+                <event id="Activity21_1" />
+                <event id="Activity15" />
+                <event id="Activity13" />
+                <event id="Activity21_2" />
+                <event id="Activity19_1" />
+                <event id="Activity19" />
+                <event id="Activity20" />
+                <event id="Activity22" />
+            </included>
+            <pendingResponses>
+                <event id="Activity0" />
+            </pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>
