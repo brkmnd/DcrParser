@@ -165,8 +165,12 @@ def xml2mrp(f_name):
     return mrp.toString()
 
 
+def save_mrp(d,f_name):
+    with open(f_name + ".mrp","w") as f:
+        f.write(d)
+
 f_name = "ProcessModels/Process 25.xml"
 
 res = xml2mrp(f_name)
-print(res)
+save_mrp(res,"example_res1")
 
