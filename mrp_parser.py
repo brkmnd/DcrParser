@@ -134,7 +134,7 @@ class Mrp:
             retval += self.con_indent(6)
             retval += "\"label\":\"" + e["label"] + "\"\n"
             retval += self.con_indent(4)
-            retval += "}\n"
+            retval += "},\n"
         retval += self.con_indent(2)
         retval += "]\n"
         return retval
