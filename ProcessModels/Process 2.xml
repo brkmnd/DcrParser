@@ -390,10 +390,7 @@
                 <hightlighterMarkup id="HLM"></hightlighterMarkup>
                 <highlighterMarkup>
                     <highlightLayers>
-                        <highlightLayer default="true" name="description">Insurance process. 
-
-Source from: https://bpmai.org/foswiki/pub/BPMAcademicInitiative/CreateProcessModels/ex2_insurance_process.pdf
-
+                        <highlightLayer default="true" name="description">
 Consider the following business process at an insurance company. The process includes two major roles, agents (supporting customers outdoor) and clerks (work indoors). When the insurance company receives a new claim , the clerk calls the agent to actually check the claim, and creates a new case. As both tasks are executed by different roles (that are mapped to different people), the activities are scheduled in parallel. After the agent has confirmed the claim to the clerk, he supports the customer with additional assistance (e.g. getting a new id-card from the public authority). After the clerk has received the confirmation from the agent, she issues a money order for the claim. If the agent has completed his additional support and the clerk has issued the money order, the claim is closed. 
 
 Additional changes to the text (not present in the original specification): 

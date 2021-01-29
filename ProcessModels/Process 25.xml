@@ -323,7 +323,11 @@
                 <hightlighterMarkup id="HLM"></hightlighterMarkup>
                 <highlighterMarkup>
                     <highlightLayers>
-                        <highlightLayer default="true" name="description">DCR Graph</highlightLayer>
+                        <highlightLayer default="true" name="description">
+The process is always initiated when the purchaser receives an order request in their portal ServiceNow, which is modelled in the graph as an activity called Receive order in ServiceNow. Followed by this is the activity Check stock, which means that the purchaser must check whether or not the product is on stock, before he knows where to go next. There are now six paths the purchaser can execute which are based on the six different required scenarios and the two forbidden scenarios. The scenarios are described in detail later on in this section.
+
+The first thing the Purchaser does is checking if the item is on stock. From here he will move on directly to Check item value so that he knows if the product should be registered in the system for the individual user. This is a necessary step which needs to be done and is a result of checking the stock. Now if the item has a low value, it is ready for delivery, but if it has a high value the Check item value activity, makes Registration available for execution. After this has been done, the delivery of the item is now a mandatory part of the process. This will end with the purchaser always closing the order in ServiceNow. If the item is not on stock, the purchaser must first place the order from an external vendor. From here, the purchaser must again go to the activity of Check item value, so that he will know if the item should be registered or not. After this, the purchaser must ensure whether the item has been received, and if not, the purchaser contacts the vendor which is shown in the activities Check delivery status followed by Contact vendor. Lastly the order can be closed in ServiceNow, which is shown with the activity Close order in ServiceNow.
+                        </highlightLayer>
                     </highlightLayers>
                     <highlights></highlights>
                 </highlighterMarkup>

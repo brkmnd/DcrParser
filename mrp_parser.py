@@ -1,11 +1,24 @@
 from html.parser import HTMLParser
-    
+import time
+import os
+
+def get_time():
+    t0 = time.localtime()
+    return str(t0.tm_hour) + ":" + str(t0.tm_min) + ":" + str(t0.tm_sec)
+
+def get_attr(attrs,attr_name):
+    res = None
+    for (a_name,a_val) in attrs:
+        if a_name == attr_name:
+            res = a_val
+    return res
 
 class XmlParser(HTMLParser):
     # outer return value
     nodes = []
     top_nodes = []
     edges = []
+    desc = ""
 
     # inner workings
     # id of events
@@ -22,9 +35,9 @@ class XmlParser(HTMLParser):
     def handle_starttag(self, tag, attrs):
         if tag == "labelmapping":
             lm = {
-                      "eid":attrs[0][1]
+                      "eid":get_attr(attrs,"eventid").strip()
                     , "nid":self.nid
-                    , "label":attrs[1][1]
+                    , "label":get_attr(attrs,"labelid").strip()
                     }
             self.map_eid[lm["eid"]] = self.nid
             self.nodes.append(lm)
@@ -32,11 +45,12 @@ class XmlParser(HTMLParser):
             self.nid += 1
         elif tag == "role" and len(attrs) > 0:
             self.tag = tag
-        elif tag in ["conditions","responses","excludes","includes","events"]:
+        elif tag in ["conditions","responses","excludes","includes","events","coresponses","milestones"]:
             self.tag = tag
-        elif tag in ["condition","response","exclude","include"] and self.tag in ["conditions","responses","excludes","includes"]:
-            sid = self.map_eid[attrs[0][1]]
-            tid = self.map_eid[attrs[1][1]]
+        elif tag in ["condition","response","exclude","include","coresponse","milestone"] and self.tag in ["conditions","responses","excludes","includes","coresponses","milestones"]:
+            #print(self.map_eid)
+            sid = self.map_eid[get_attr(attrs,"sourceid")]
+            tid = self.map_eid[get_attr(attrs,"targetid")]
             em = {
                       "source":sid
                     , "target":tid
@@ -45,14 +59,20 @@ class XmlParser(HTMLParser):
             self.edges.append(em)
         elif self.tag == "events":
             if tag == "event":
-                self.role_eid = attrs[0][1]
+                self.role_eid = get_attr(attrs,"id")
             elif tag == "role":
                 self.tag = "event-role"
+        elif tag == "highlightlayer" and get_attr(attrs,"name") == "description":
+            self.tag = "high-desc"
 
     def handle_endtag(self, tag):
         if tag == "role" and self.tag == tag:
             self.tag = ""
-        elif tag in ["conditions","responses","excludes","includes","events"] and tag == self.tag:
+        elif tag == "role" and self.tag in ["event-role"]:
+            self.tag = ""
+        elif tag == "highlightlayer" and self.tag == "high-desc":
+            self.tag = ""
+        elif tag in ["conditions","responses","excludes","includes","events","coresponses","milestones"] and tag == self.tag:
             self.tag = ""
 
     def handle_data(self, data):
@@ -68,13 +88,21 @@ class XmlParser(HTMLParser):
             self.map_events.append((self.role_eid,data))
             self.tag = "events"
             self.role_eid = ""
+        elif self.tag == "high-desc":
+            self.desc = data.strip()
 
 class Mrp:
-    def __init__(self,xml_parser):
+    def __init__(self,xml_parser,fname):
         self.xml_parser = xml_parser
         self.nodes = xml_parser.nodes
         self.edges = xml_parser.edges
         self.top_nodes = xml_parser.top_nodes
+        self.desc = xml_parser.desc.replace("\"","`")
+        self.fname = fname
+        self.id = fname.split(" ")[-1][:-4]
+
+        if self.desc == "":
+            print("warning, empty description for" + fname)
 
     def con_indent(self,n):
         return " " * n
@@ -82,19 +110,19 @@ class Mrp:
     def con_header(self):
         retval = ""
         retval += self.con_indent(2)
-        retval += "\"id\":\"1234\",\n"
+        retval += "\"id\":\"" + self.id + "\",\n"
         retval += self.con_indent(2)
-        retval += "\"flavor\":\"1234\",\n"
+        retval += "\"flavor\":2,\n"
         retval += self.con_indent(2)
-        retval += "\"framwork\":\"1234\",\n"
+        retval += "\"framework\":\"dcr\",\n"
         retval += self.con_indent(2)
-        retval += "\"version\":\"1234\",\n"
+        retval += "\"version\":1.0,\n"
         retval += self.con_indent(2)
-        retval += "\"time\":\"1234\",\n"
+        retval += "\"time\":\"" + get_time() + "\",\n" # time for convertion
         retval += self.con_indent(2)
-        retval += "\"source\":\"1234\",\n"
+        retval += "\"source\":\""+self.fname+"\",\n"
         retval += self.con_indent(2)
-        retval += "\"input\":\"1234\",\n"
+        retval += "\"input\":\"" + self.desc + "\",\n"
         return retval
 
     def con_tops(self):
@@ -148,8 +176,8 @@ class Mrp:
         retval += "}"
         return retval
 
-def xml2mrp(f_name):
-    with open(f_name,"r") as f:
+def xml2mrp(fname):
+    with open("ProcessModels/" + fname,"r") as f:
         parser = XmlParser()
         parser.feed(f.read())
     role_edges = []
@@ -161,16 +189,21 @@ def xml2mrp(f_name):
                 }
         role_edges.append(em)
     parser.edges = role_edges + parser.edges
-    mrp = Mrp(parser)
+    mrp = Mrp(parser,fname)
     return mrp.toString()
 
 
-def save_mrp(d,f_name):
-    with open(f_name + ".mrp","w") as f:
-        f.write(d)
+def save_mrp(txt,fname):
+    fname = "Mrps/" + fname + ".mrp"
+    with open(fname,"w") as f:
+        f.write(txt)
+    print("saved '" + fname + "'")
 
-f_name = "ProcessModels/Process 25.xml"
-
-res = xml2mrp(f_name)
-save_mrp(res,"example_res1")
+if __name__ == "__main__":
+    fs = os.listdir("ProcessModels")
+    for fname in fs:
+        if fname[-4:] == ".swp":
+            continue
+        res = xml2mrp(fname)
+        save_mrp(res,fname[:-4])
 

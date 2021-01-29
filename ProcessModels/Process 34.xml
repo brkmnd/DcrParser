@@ -1124,6 +1124,10 @@
                                     <labelMapping eventId="Activity7" labelId="Make sure machine is clean"/>
                                     <labelMapping eventId="Activity8" labelId="ingredients inspected before production"/>
                                     <labelMapping eventId="Activity9" labelId="Iregularity = Decline Ingredients"/>
+
+                                    <labelMapping eventId="Activity30" labelId="Product Shipped"/>
+                                    <labelMapping eventId="Activity34" labelId="Warehouse Request more Product"/>
+                                    <labelMapping eventId="Activity32_1" labelId="Cacellation of inqury"/>
                                 </labelMappings>
                                 <expressions></expressions>
                                 <variables></variables>

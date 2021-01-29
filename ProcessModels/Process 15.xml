@@ -794,9 +794,13 @@
                 <hightlighterMarkup id="HLM"></hightlighterMarkup>
                 <highlighterMarkup>
                     <highlightLayers>
-                        <highlightLayer default="true" name="description">A description of the renting process at Kræmmergården Dragor’s shop. Our graph demonstrates the renting process and how a seller is able to extend and the decision process from management. 
+                        <highlightLayer default="true" name="description">
+The process begins when an employee chooses a seller from the long-term renting waiting list. The employee selects a seller and can only pay and decide upon a renting period if the seller confirms the shelf that has become available. If the seller does not confirm the shelf, the employee will pick another potential seller. After the confirmation the seller must decide their renting period which should be at least 14 weeks. Afterwards the seller needs to decide whether they pay over the phone or at the shop which requires an employee to take payment or to pay through the website which automatically will take the payment. Hereafter it is possible for the seller to maintain their shelf parallel to other activities where they can provide new items, clean the shelf, take items down and renew prices. After they have made the payment they can move out at any time without any other needed activities.
 
-</highlightLayer>
+Two weeks before the renting period is done, management needs to contact the seller to announce that the renting period is almost complete and ask the seller if they want an extension. However, it is also possible for sellers to contact management which then would not require management to contact them. If they do not want to extend, they will move out. If they would like an extension, management needs to check their revenue.
+
+If the revenue is equal or above 700 DKK a week then they can extend the renting period which requires the seller to choose a renting period again and new payment method. If the revenue is below 700 DKK a week then management can end the contract. Management has the choice to contact the seller again to persuade them to not extend the shelf since it is unprofitable for the shop. If the seller agrees to not extend, they need to move out after their renting period. However, if they disagree with management the ‘extension is granted’ and they have decided the renting period and choose a new payment method. Even though this path is recommended we have shown that it is still possible for management to grant an extension directly to a seller if they have a revenue below 700 DKK a week.
+                        </highlightLayer>
                     </highlightLayers>
                     <highlights></highlights>
                 </highlighterMarkup>

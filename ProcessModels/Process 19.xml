@@ -518,7 +518,21 @@
                 <hightlighterMarkup id="HLM"></hightlighterMarkup>
                 <highlighterMarkup>
                     <highlightLayers>
-                        <highlightLayer default="true" name="description">DCR Graph</highlightLayer>
+                        <highlightLayer default="true" name="description">
+                                            The end-to-end process chosen as the scope for this report is initiated by the event-start notation in the Sales department “Negotiations with customer initiated”. It is marked as an event because the negotiations are not considered an action in the scope, but the decision of choosing Tradeshift as the vendor of choice lies with the customer. Therefore, an XOR-gate with two outcomes: 1) Negotiations terminated, which leads to the event of terminating the process, 2) Tradeshift is Vendor of Choice, which leads to the action of handing the customer to Service Sales.
+
+Service Sales conducts the SoW workshop with the customer, in order to scope and align expectations for the project and notifies Professional Services of an incoming project. The next step in the process is for Service Sales to create estimations for the SoW, which is, for the scope of this report, three estimations occurring simultaneously. In the model, it is demonstrated with an AND-split which is used to model the split of the three actions happening in parallel. These parallel actions are then merged with the AND-join which is used “​... to synchronize the execution of two or more parallel branches.​” (Dumas et al., 2013; p.82). The SoW is sent to the customer for review, and the customer then decides, depicted by the XOR-gate, whether they want to reject the SoW which terminates the project, rework it by sending it back to Service Sales for reiterations, or sign the contract in order for the project to proceed.
+
+If the customer requests to rework the SoW, it is sent back to Service Sales, and the process loops back to before the AND-split gate. This means the grouped parallel actions of SoW Creation, and the SoW review is considered a repetition block.
+
+“We have a workshop with a customer for 1-2 days then we prepare a draft for a SoW. Then there is an internal SoW approval process. This is shared with the customer + we try to figure out a price. This then gets sent along with the order form. Our current timing target is 3 weeks. When we can meet that, it's great. The forecasting of deals are challenging. A lot of back and forth.” (​ #1b)
+
+If the customer signs the SoW, Service Sales hand-over the customer to Professional Services where the Project Team will be established and the resources are allocated in the Project Management tool, Krow. The information Professional Services utilize to deliver the project, is the SoW previously estimated by Service Sales.
+
+“... we have Krow, our project tool and here we are supposed to allocate the resources' time and how much they work on each and every project.”​ (#3b)
+
+During Project Delivery, the customer has the option to initiate a change request. If this is the case, the project will be sent to Service Sales for scoping, and the change order is then accompanied in Krow with the proper resource reallocation. This repetition block can be initiated as many times as the customer desires, until there are no longer any change requests and the project is terminated due to the product being delivered. The termination of the process is depicted by the “Project Completion” event.
+                        </highlightLayer>
                     </highlightLayers>
                     <highlights></highlights>
                 </highlighterMarkup>

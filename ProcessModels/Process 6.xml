@@ -804,10 +804,14 @@ If the customer has successfully added items to the basket, he or she have to de
                     <filteredRoles></filteredRoles>
                     <filteredPhases></filteredPhases>
                 </graphFilters>
-                <hightlighterMarkup id="HLM"></hightlighterMarkup>
-                <highlighterMarkup>
+                <hightlighterMarkup id="HLM"><highlighterMarkup>
                     <highlightLayers>
-                        <highlightLayer default="true" name="description"></highlightLayer>
+                        <highlightLayer default="true" name="description">
+                                            Mikkeller has created a webshop to sell their products to customers that are not able to buy them in physical stores or prefers to buy them online. The webshop ordering includes 3 roles: webshop, customer and warehouse.
+The process starts when the customer enters Mikkeller.dk. Before the customer adds an item to his basket, he must decide the quantity of the product that he wishes to purchase. Once he has done so he adds the product to his basket.
+The webshop registers that a customer has sent the above request, and the webshop will then have to “check stock availability”. Should the items be available, the webshop will proceed by adding the items to the basket. Unfortunately, it can happen that the chosen items are not available, if that happens the webshop will display the maximum amount available of the chosen product to the customer. The customer now has to choose the product again (and add an amount within the limit) or choose another product.
+If the customer has successfully added items to the basket, he or she have to decide to either keep shopping, thereby following the above process again or “create order”. When the order has been created the customer will fill out the billing information. The webshop must then check that everything is fine if not, the customer will have to fill out the form again, otherwise the webshop will have to confirm the order by sending a confirmation order to the customer. If the customer regrets, the cancelation must be done within 30 minutes. If not cancelled within 30 minutes the webshop shall send a purchase order to the warehouse. After the warehouse has received the purchase order, they collect the requested products, pack them and send them to the customer. The customer then receives the ordered products. The customer can always leave the webshop.
+                        </highlightLayer>
                     </highlightLayers>
                     <highlights></highlights>
                 </highlighterMarkup>

@@ -746,7 +746,15 @@
                 <hightlighterMarkup id="HLM"></hightlighterMarkup>
                 <highlighterMarkup>
                     <highlightLayers>
-                        <highlightLayer default="true" name="description">DCR Graph</highlightLayer>
+                        <highlightLayer default="true" name="description">
+                                      the process starts when a customer wants to rent a bike, this is requested online through their website. In the first step, the customer will write an email asking if there are any bikes available at that time. Swapfiets online customer service will receive the email and contact the Swapfiets store employees, those are the ones who check the availability of the bikes. If no bikes are available, Swapfiets online customer service will notify the customer, and the service will not be supported.
+
+Otherwise, if bikes are available, the customer must fill in all the required information and pay the first fee while the Swapfiets store employees prepare the bike. Once they have completed everything, they can get the bike from the shop and the contract will be started.
+
+In case something is wrong, maintenance will be requested, and it will be the Swapfiets store employees who will fix or swap the bike. The customer will proceed to take the bike to the nearest Swapfiets store or also, the staff will pick up the bike at the customer's place, so that the store employees can check that it is something wrong. The bike will be analyzed, and depending on the damage, it will be swapped for another one, or fixed. Once the bike is ready to be used, the customer will pick it up at the store and start using it again. The maintenance process can be performed as many times as the bike requires.
+
+Once the customer wants to terminate the contract, provided that at least two months have passed since the beginning of the contract, he must send a warning message to Swapfiets employees saying that he wants to terminate the contract. The customer must take the bike to the shop, and the employees will check it and if everything is correct, they will register it as available and ready for a new rental contract.    
+                        </highlightLayer>
                     </highlightLayers>
                     <highlights></highlights>
                 </highlighterMarkup>
