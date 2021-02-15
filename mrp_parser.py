@@ -1,6 +1,7 @@
 from html.parser import HTMLParser
 import time
 import os
+import re
 
 def get_time():
     t0 = time.localtime()
@@ -48,7 +49,6 @@ class XmlParser(HTMLParser):
         elif tag in ["conditions","responses","excludes","includes","events","coresponses","milestones"]:
             self.tag = tag
         elif tag in ["condition","response","exclude","include","coresponse","milestone"] and self.tag in ["conditions","responses","excludes","includes","coresponses","milestones"]:
-            #print(self.map_eid)
             sid = self.map_eid[get_attr(attrs,"sourceid")]
             tid = self.map_eid[get_attr(attrs,"targetid")]
             em = {
@@ -92,14 +92,17 @@ class XmlParser(HTMLParser):
             self.desc = data.strip()
 
 class Mrp:
-    def __init__(self,xml_parser,fname):
+    def __init__(self,xml_parser,fname,id0):
         self.xml_parser = xml_parser
         self.nodes = xml_parser.nodes
         self.edges = xml_parser.edges
         self.top_nodes = xml_parser.top_nodes
-        self.desc = xml_parser.desc.replace("\"","`")
+        self.desc = xml_parser.desc.strip().replace("\"","'").replace("\n"," ")
+        self.desc = re.sub("\s+"," ",self.desc)
+        self.desc = self.desc.encode("ascii","ignore").decode("utf-8") # remove strange chars
         self.fname = fname
-        self.id = fname.split(" ")[-1][:-4]
+        self.id = str(id0)
+        self.time = get_time()
 
         if self.desc == "":
             print("warning, empty description for" + fname)
@@ -107,76 +110,74 @@ class Mrp:
     def con_indent(self,n):
         return " " * n
 
-    def con_header(self):
-        retval = ""
-        retval += self.con_indent(2)
-        retval += "\"id\":\"" + self.id + "\",\n"
-        retval += self.con_indent(2)
-        retval += "\"flavor\":2,\n"
-        retval += self.con_indent(2)
-        retval += "\"framework\":\"dcr\",\n"
-        retval += self.con_indent(2)
-        retval += "\"version\":1.0,\n"
-        retval += self.con_indent(2)
-        retval += "\"time\":\"" + get_time() + "\",\n" # time for convertion
-        retval += self.con_indent(2)
-        retval += "\"source\":\""+self.fname+"\",\n"
-        retval += self.con_indent(2)
-        retval += "\"input\":\"" + self.desc + "\",\n"
+    def con_header(self,framework):
+        retval  = "\"id\":\"" + self.id + "\","
+        retval += "\"flavor\":2,"
+        retval += "\"framework\":\"" + framework + "\","
+        retval += "\"version\":1.0,"
+        retval += "\"time\":\"" + self.time + "\"," # time for convertion
+        retval += "\"source\":\""+self.fname+"\","
+        retval += "\"input\":\"" + self.desc + "\","
         return retval
 
     def con_tops(self):
-        retval = self.con_indent(2)
-        retval += "\"tops\":[\n"
-        retval += self.con_indent(4)
+        retval  = "\"tops\":["
         retval += ",".join([str(x["nid"]) for x in self.top_nodes])
-        retval += "\n"
-        retval += self.con_indent(2)
-        retval += "],\n"
+        retval += "],"
         return retval
 
     def con_nodes(self):
-        retval = self.con_indent(2) + "\"nodes\":[\n"
-        for n in self.nodes:
-            retval += self.con_indent(4)
-            retval += "{\n"
-            retval += self.con_indent(6)
-            retval += "\"id\":" + str(n["nid"]) + ",\n"
-            retval += self.con_indent(6)
-            retval += "\"label\":\"" + n["label"] + "\"\n"
-            retval += self.con_indent(4)
-            retval += "},\n"
-        retval += self.con_indent(2)
-        retval += "],\n"
+        def create_node(nid,l):
+            retval  = "{"
+            retval += "\"id\":" + str(nid) + ","
+            retval += "\"label\":\"" + l + "\""
+            retval += "}"
+            return retval
+
+        ns = [create_node(x["nid"],x["label"]) for x in self.nodes]
+        retval  = "\"nodes\":["
+        retval += ",".join(ns)
+        retval += "],"
         return retval
 
     def con_edges(self):
-        retval = self.con_indent(2) + "\"edges\":[\n"
-        for e in self.edges:
-            retval += self.con_indent(4)
-            retval += "{\n"
-            retval += self.con_indent(6)
-            retval += "\"source\":" + str(e["source"]) + ",\n"
-            retval += self.con_indent(6)
-            retval += "\"target\":" + str(e["target"]) + ",\n"
-            retval += self.con_indent(6)
-            retval += "\"label\":\"" + e["label"] + "\"\n"
-            retval += self.con_indent(4)
-            retval += "},\n"
-        retval += self.con_indent(2)
-        retval += "]\n"
+        def create_edge(s,t,l):
+            retval  = "{"
+            retval += "\"source\":" + str(s) + ","
+            retval += "\"target\":" + str(t) + ","
+            retval += "\"label\":\"" + l + "\""
+            retval += "}"
+            return retval
+
+        edges = [create_edge(x["source"],x["target"],x["label"]) for x in self.edges]
+        retval  = "\"edges\":["
+        retval += ",".join(edges)
+        retval += "]"
         return retval
 
-    def toString(self):
-        retval = "{\n"
-        retval += self.con_header()
+    def create_input(self):
+        retval  = "{"
+        retval += "\"id\": \"" + self.id + "\", "
+        retval += "\"version\": 1.1, "
+        retval += "\"time\": \"" + self.time + "\", "
+        retval += "\"language\": \"eng\", "
+        retval += "\"source\": \"lpps\", "
+        retval += "\"provenance\": \"MRP 2020\", "
+        retval += "\"targets\": [\"eds\", \"amr\", \"ucca\", \"ptg\"], "
+        retval += "\"input\": " + "\"" + self.desc + "\"" 
+        retval += "}"
+        return retval
+
+    def toString(self,framework):
+        retval = "{"
+        retval += self.con_header(framework)
         retval += self.con_tops()
         retval += self.con_nodes()
         retval += self.con_edges()
         retval += "}"
         return retval
 
-def xml2mrp(fname):
+def xml2mrp(fname,id0):
     with open("ProcessModels/" + fname,"r") as f:
         parser = XmlParser()
         parser.feed(f.read())
@@ -189,21 +190,43 @@ def xml2mrp(fname):
                 }
         role_edges.append(em)
     parser.edges = role_edges + parser.edges
-    mrp = Mrp(parser,fname)
-    return mrp.toString()
+    mrp = Mrp(parser,fname,id0)
+    return mrp
 
 
-def save_mrp(txt,fname):
-    fname = "Mrps/" + fname + ".mrp"
+def save_data(txt,fname):
+    #fname = "models/2020/cf/" + fname + ".mrp"
+    fname = "mrp_data/2020/cf/" + fname
     with open(fname,"w") as f:
         f.write(txt)
     print("saved '" + fname + "'")
 
-if __name__ == "__main__":
+def main():
     fs = os.listdir("ProcessModels")
+    res = []
+    descs = []
+    id0 = 1
     for fname in fs:
         if fname[-4:] == ".swp":
             continue
-        res = xml2mrp(fname)
-        save_mrp(res,fname[:-4])
+        mrp = xml2mrp(fname,id0)
+        res.append(mrp)
+        descs.append(mrp.desc)
+        id0 += 1
+   
+    res_train_amr = [x.toString("amr") for x in res[:-10]]
+    res_train_ucca = [x.toString("ucca") for x in res[:-10]]
+    res_val_amr = [x.toString("amr") for x in res[-10:-5]]
+    res_val_ucca = [x.toString("ucca") for x in res[-10:-5]]
+    res_eval = [x.create_input() for x in res[-5:]]
+    
+    save_data("\n".join(res_train_ucca),"training/ucca.mrp")
+    save_data("\n".join(res_train_amr),"training/amr.mrp")
+    save_data("\n".join(res_val_ucca),"validation/ucca.mrp")
+    save_data("\n".join(res_val_amr),"validation/amr.mrp")
+    save_data("\n".join(res_eval),"evaluation/input.mrp")
+    save_data("\n".join(descs),"companion/udpipe.txt")
+
+if __name__ == "__main__":
+    main()
 
