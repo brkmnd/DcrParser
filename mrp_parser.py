@@ -12,31 +12,42 @@ def get_attr(attrs,attr_name):
     for (a_name,a_val) in attrs:
         if a_name == attr_name:
             res = a_val
+    assert (res != None),"could not find attribute '" + attr_name + "' in " + str(attrs)
     return res
 
 class XmlParser(HTMLParser):
-    # outer return value
-    nodes = []
-    top_nodes = []
-    edges = []
-    desc = ""
 
-    # inner workings
-    # id of events
-    map_eid = {}
-    # id of roles
-    map_rid = {}
-    # from event to role
-    map_events = []
-    nid = 0
-    tag = ""
+    edgelabels = ["condition","response","exclude","include","coresponse","milestone"] 
+    edgelabels_parents = ["conditions","responses","excludes","includes","events","coresponses","milestones"]
+    edgelabels_parents_0events = ["conditions","responses","excludes","includes","coresponses","milestones"]
     
-    # for event roles
-    role_eid = ""
+    def __init__(self,fname):
+        super().__init__()
+
+        self.fname = fname
+
+        # outer return value
+        self.nodes = []
+        self.top_nodes = []
+        self.edges = []
+        self.desc = ""
+
+        # inner workings
+        # id of events/activities
+        self.map_eid = {}
+        # id of roles
+        self.map_rid = {}
+        # from event to role
+        self.map_event2role = []
+        self.nid = 0
+        self.tag = ""
+
+        # for event roles
+        self.role_eventid = ""
+
     def handle_starttag(self, tag, attrs):
         if tag == "labelmapping":
-            lm = {
-                      "eid":get_attr(attrs,"eventid").strip()
+            lm = {    "eid":get_attr(attrs,"eventid").strip()
                     , "nid":self.nid
                     , "label":get_attr(attrs,"labelid").strip()
                     }
@@ -44,50 +55,51 @@ class XmlParser(HTMLParser):
             self.nodes.append(lm)
             self.top_nodes.append(lm)
             self.nid += 1
-        elif tag == "role" and len(attrs) > 0:
+        elif tag == "role" and len(attrs) > 0 and not self.tag in ["event2role","events"]:
             self.tag = tag
-        elif tag in ["conditions","responses","excludes","includes","events","coresponses","milestones"]:
+        elif tag in self.edgelabels_parents:
             self.tag = tag
-        elif tag in ["condition","response","exclude","include","coresponse","milestone"] and self.tag in ["conditions","responses","excludes","includes","coresponses","milestones"]:
+        elif tag in self.edgelabels and self.tag in self.edgelabels_parents_0events:
             sid = self.map_eid[get_attr(attrs,"sourceid")]
             tid = self.map_eid[get_attr(attrs,"targetid")]
-            em = {
-                      "source":sid
+            em = {    "source":sid
                     , "target":tid
                     , "label":tag
+                    , "source_name":get_attr(attrs,"sourceid")
+                    , "target_name":get_attr(attrs,"targetid")
                     }
             self.edges.append(em)
-        elif self.tag == "events":
-            if tag == "event":
-                self.role_eid = get_attr(attrs,"id")
-            elif tag == "role":
-                self.tag = "event-role"
+        elif self.tag == "events" and tag == "event":
+            self.role_eventid = get_attr(attrs,"id").strip()
+        elif self.tag == "events" and tag == "role":
+            self.tag = "event2role"
         elif tag == "highlightlayer" and get_attr(attrs,"name") == "description":
             self.tag = "high-desc"
 
     def handle_endtag(self, tag):
-        if tag == "role" and self.tag == tag:
-            self.tag = ""
-        elif tag == "role" and self.tag in ["event-role"]:
+        if tag == "role" and self.tag == "event2role":
+            self.tag = "events"
+        if tag == "role" and self.tag == "role":
             self.tag = ""
         elif tag == "highlightlayer" and self.tag == "high-desc":
             self.tag = ""
-        elif tag in ["conditions","responses","excludes","includes","events","coresponses","milestones"] and tag == self.tag:
+        elif tag in self.edgelabels_parents and tag == self.tag:
             self.tag = ""
 
     def handle_data(self, data):
         if self.tag == "role":
-            lm = {
-                      "nid":self.nid
+            lm = {    "nid":self.nid
                     , "label":data
                     }
             self.nodes.append(lm)
             self.map_rid[lm["label"]] = self.nid
             self.nid += 1
-        elif self.tag == "event-role" and self.role_eid != "":
-            self.map_events.append((self.role_eid,data))
-            self.tag = "events"
-            self.role_eid = ""
+        elif self.tag == "event2role":
+            data = data.strip()
+            if self.role_eventid == "" or data == "":
+                print("warning in " + self.fname + ": empty event2role: '" + self.role_eventid + "' -> '" + data + "'")
+            #print("[" + self.fname + "]" + self.role_eventid + "->" + data)
+            self.map_event2role.append((self.role_eventid,data))
         elif self.tag == "high-desc":
             self.desc = data.strip()
 
@@ -114,10 +126,11 @@ class Mrp:
         retval  = "\"id\":\"" + self.id + "\","
         retval += "\"flavor\":2,"
         retval += "\"framework\":\"" + framework + "\","
-        retval += "\"version\":1.0,"
+        retval += "\"version\":1.1,"
         retval += "\"time\":\"" + self.time + "\"," # time for convertion
         retval += "\"source\":\""+self.fname+"\","
         retval += "\"input\":\"" + self.desc + "\","
+
         return retval
 
     def con_tops(self):
@@ -141,15 +154,16 @@ class Mrp:
         return retval
 
     def con_edges(self):
-        def create_edge(s,t,l):
+        def create_edge(x):
             retval  = "{"
-            retval += "\"source\":" + str(s) + ","
-            retval += "\"target\":" + str(t) + ","
-            retval += "\"label\":\"" + l + "\""
+            retval += "\"source\":" + str(x["source"]) + ","
+            retval += "\"target\":" + str(x["target"]) + ","
+            retval += "\"label\":\"" + x["label"] + "\""
             retval += "}"
+            #print(x["source_name"] + " -[" + x["label"] + "]> " + x["target_name"])
             return retval
 
-        edges = [create_edge(x["source"],x["target"],x["label"]) for x in self.edges]
+        edges = [create_edge(x) for x in self.edges]
         retval  = "\"edges\":["
         retval += ",".join(edges)
         retval += "]"
@@ -179,15 +193,16 @@ class Mrp:
 
 def xml2mrp(fname,id0):
     with open("ProcessModels/" + fname,"r") as f:
-        parser = XmlParser()
+        parser = XmlParser(fname)
         parser.feed(f.read())
     role_edges = []
-    for (evnt,role) in parser.map_events:
-        em = {
-                    "source":parser.map_eid[evnt]
+    for (evnt,role) in parser.map_event2role:
+        em = {      "source":parser.map_eid[evnt]
                   , "target":parser.map_rid[role]
                   , "label":"role"
-                }
+                  , "source_name":evnt
+                  , "target_name":role
+                  }
         role_edges.append(em)
     parser.edges = role_edges + parser.edges
     mrp = Mrp(parser,fname,id0)
@@ -206,15 +221,17 @@ def main():
     res = []
     descs = []
     id0 = 1
+
     for fname in fs:
         if fname[-4:] == ".swp":
             continue
+        #print(str(id0) + ":" + fname)
         mrp = xml2mrp(fname,id0)
         res.append(mrp)
         descs.append(mrp.desc)
         id0 += 1
-   
-    res_train_amr = [x.toString("amr") for x in res[:-10]]
+
+    res_train_amr = [x.toString("amr") for x in res[:]]
     res_train_ucca = [x.toString("ucca") for x in res[:-10]]
     res_val_amr = [x.toString("amr") for x in res[-10:-5]]
     res_val_ucca = [x.toString("ucca") for x in res[-10:-5]]

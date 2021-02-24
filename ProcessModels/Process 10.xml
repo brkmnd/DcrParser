@@ -346,6 +346,14 @@
                                 <labelMappings>
                                     <labelMapping eventId="Activity8" labelId="Give Feedback"/>
                                     <labelMapping eventId="Activity9" labelId="Process feedback"/>
+                                    <labelMapping eventId="Activity0" labelId="Put in Request for Design"/>
+                                    <labelMapping eventId="Activity1" labelId="Create label design"/>
+                                    <labelMapping eventId="Activity2" labelId="consider Design"/>
+                                    <labelMapping eventId="Activity3" labelId="Send design to test group"/>
+                                    <labelMapping eventId="Activity4" labelId="If applicaple - implement feedback"/>
+                                    <labelMapping eventId="Activity5" labelId="Submit design for approval"/>
+                                    <labelMapping eventId="Activity6" labelId="Send final Design"/>
+                                    <labelMapping eventId="Activity13" labelId="Redesign based on feedback"/>
                                 </labelMappings>
                                 <expressions></expressions>
                                 <variables></variables>
@@ -431,14 +439,6 @@
                 <label id="Redesign based on feedback" />
             </labels>
             <labelMappings>
-                <labelMapping eventId="Activity0" labelId="Put in Request for Design"/>
-                <labelMapping eventId="Activity1" labelId="Create label design"/>
-                <labelMapping eventId="Activity2" labelId="consider Design"/>
-                <labelMapping eventId="Activity3" labelId="Send design to test group"/>
-                <labelMapping eventId="Activity4" labelId="If applicaple - implement feedback"/>
-                <labelMapping eventId="Activity5" labelId="Submit design for approval"/>
-                <labelMapping eventId="Activity6" labelId="Send final Design"/>
-                <labelMapping eventId="Activity13" labelId="Redesign based on feedback"/>
             </labelMappings>
             <expressions></expressions>
             <variables></variables>
