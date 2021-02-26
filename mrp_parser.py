@@ -18,8 +18,8 @@ def get_attr(attrs,attr_name):
 class XmlParser(HTMLParser):
 
     edgelabels = ["condition","response","exclude","include","coresponse","milestone"] 
-    edgelabels_parents = ["conditions","responses","excludes","includes","events","coresponses","milestones"]
     edgelabels_parents_0events = ["conditions","responses","excludes","includes","coresponses","milestones"]
+    edgelabels_parents = edgelabels_parents_0events + ["events"]
     
     def __init__(self,fname):
         super().__init__()
@@ -127,7 +127,8 @@ class Mrp:
         retval += "\"flavor\":2,"
         retval += "\"framework\":\"" + framework + "\","
         retval += "\"version\":1.1,"
-        retval += "\"time\":\"" + self.time + "\"," # time for convertion
+        #retval += "\"time\":\"" + self.time + "\"," # time for convertion
+        retval += "\"time\": \"2021-02-09\", "
         retval += "\"source\":\""+self.fname+"\","
         retval += "\"input\":\"" + self.desc + "\","
 
@@ -173,7 +174,8 @@ class Mrp:
         retval  = "{"
         retval += "\"id\": \"" + self.id + "\", "
         retval += "\"version\": 1.1, "
-        retval += "\"time\": \"" + self.time + "\", "
+        #retval += "\"time\": \"" + self.time + "\", "
+        retval += "\"time\": \"2021-02-09\", "
         retval += "\"language\": \"eng\", "
         retval += "\"source\": \"lpps\", "
         retval += "\"provenance\": \"MRP 2020\", "
@@ -231,7 +233,7 @@ def main():
         descs.append(mrp.desc)
         id0 += 1
 
-    res_train_amr = [x.toString("amr") for x in res[:]]
+    res_train_amr = [x.toString("amr") for x in res[:-10]]
     res_train_ucca = [x.toString("ucca") for x in res[:-10]]
     res_val_amr = [x.toString("amr") for x in res[-10:-5]]
     res_val_ucca = [x.toString("ucca") for x in res[-10:-5]]
