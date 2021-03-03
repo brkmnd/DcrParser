@@ -1196,7 +1196,7 @@ the start.</graphDetails>
                                     <hightlighterMarkup id="HLM"></hightlighterMarkup>
                                     <highlighterMarkup>
                                         <highlightLayers>
-                                            <highlightLayer default="true" name="description">The production starts of with a warehouse sending an inquiry for more product. This then
+<highlightLayer default="true" name="description">¤The production starts of with a warehouse sending an inquiry for more product. This then
 starts the production.
 The production has three phases, the preproduction, the production itself and the control of
 the product. The pre production mainly concerns following the required legislation in order to
@@ -1915,7 +1915,7 @@ the start.</graphDetails>
                 <hightlighterMarkup id="HLM"></hightlighterMarkup>
                 <highlighterMarkup>
                     <highlightLayers>
-                        <highlightLayer default="true" name="description">The production starts of with a warehouse sending an inquiry for more product. This then
+<highlightLayer default="true" name="description">¤The production starts of with a warehouse sending an inquiry for more product. This then
 starts the production.
 The production has three phases, the preproduction, the production itself and the control of
 the product. The pre production mainly concerns following the required legislation in order to

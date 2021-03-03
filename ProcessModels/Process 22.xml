@@ -615,8 +615,8 @@
                 <hightlighterMarkup id="HLM"></hightlighterMarkup>
                 <highlighterMarkup>
                     <highlightLayers>
-                        <highlightLayer default="true" name="description">
-                        The process initiates when a new batch of product arrives at Puori’s european or american
+<highlightLayer default="true" name="description">
+                        ¤The process initiates when a new batch of product arrives at Puori’s european or american
 storage facilities. The Product and Regulatory Department (Henceforth “Puori”) is immediately notified, and a sample of the batch is sent to the laboratory, Ellipse. Puori then requests a series of tests from Ellipse by sending a purchase order. As Ellipse lacks the equipment and skills to do certain tests they outsource these to another laboratory, Eurofarm. When the tests are done, Puori reviews the results and either accepts or rejects them. If Puori accepts the results Ellipse sends the report to the publishing company cleanlabelproject.com (Henceforth “Clean Label”) for 3rd party publication. If the results are rejected Ellipse re-tests the samples and a new report is subjected to Puori for acceptance or rejection. When the results are available online Clean Label notifies Puori who checks the published results, to ensure that the data is correctly displayed. Once Puori has checked the published data and no errors has been found the process is completed and terminates. Should errors be found, Puori compiles a list of errors for Clean Label to fix. When this is eventually implemented the process ends.
                         </highlightLayer>
                     </highlightLayers>

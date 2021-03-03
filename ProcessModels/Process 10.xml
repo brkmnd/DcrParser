@@ -384,7 +384,7 @@
                                     <highlighterMarkup>
                                         <highlightLayers>
                                             <highlightLayer default="true" name="description">
-                                            When P&R puts in a request for a label design, Marketing must create a label design and submit it for approval to the product owner. After the design is approved by the product owner, Marketing may send the design to test groups for feedback. If changes are made based on the feedback Marketing must submit the design for approval to the product owner. After the design is approved, if the design is not sent to test groups, Marketing must send the design to P&R.    
+                                            ¤When P&R puts in a request for a label design, Marketing must create a label design and submit it for approval to the product owner. After the design is approved by the product owner, Marketing may send the design to test groups for feedback. If changes are made based on the feedback Marketing must submit the design for approval to the product owner. After the design is approved, if the design is not sent to test groups, Marketing must send the design to P&R.    
                                             </highlightLayer>
                                         </highlightLayers>
                                         <highlights></highlights>

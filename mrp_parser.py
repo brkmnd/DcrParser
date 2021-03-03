@@ -2,6 +2,7 @@ from html.parser import HTMLParser
 import time
 import os
 import re
+import html
 
 def get_time():
     t0 = time.localtime()
@@ -31,6 +32,7 @@ class XmlParser(HTMLParser):
         self.top_nodes = []
         self.edges = []
         self.desc = ""
+        self.anchors = {}
 
         # inner workings
         # id of events/activities
@@ -41,6 +43,7 @@ class XmlParser(HTMLParser):
         self.map_event2role = []
         self.nid = 0
         self.tag = ""
+        self.anch = None
 
         # for event roles
         self.role_eventid = ""
@@ -75,6 +78,18 @@ class XmlParser(HTMLParser):
             self.tag = "event2role"
         elif tag == "highlightlayer" and get_attr(attrs,"name") == "description":
             self.tag = "high-desc"
+        elif tag == "highlights":
+            self.tag = "highlight-pos"
+        elif tag == "range" and self.tag == "highlight-pos":
+            tag_start = int(get_attr(attrs,"start").strip())
+            tag_end = int(get_attr(attrs,"end").strip())
+            self.anch = tag_start,tag_end
+        elif tag == "item" and self.tag == "highlight-pos":
+            anch_label = get_attr(attrs,"id").strip()
+            if anch_label not in self.anchors:
+                self.anchors[anch_label] = []
+            self.anchors[anch_label].append((self.anch[0],self.anch[1]))
+            self.anch = None
 
     def handle_endtag(self, tag):
         if tag == "role" and self.tag == "event2role":
@@ -82,6 +97,8 @@ class XmlParser(HTMLParser):
         if tag == "role" and self.tag == "role":
             self.tag = ""
         elif tag == "highlightlayer" and self.tag == "high-desc":
+            self.tag = ""
+        elif tag == "highlights":
             self.tag = ""
         elif tag in self.edgelabels_parents and tag == self.tag:
             self.tag = ""
@@ -101,20 +118,48 @@ class XmlParser(HTMLParser):
             #print("[" + self.fname + "]" + self.role_eventid + "->" + data)
             self.map_event2role.append((self.role_eventid,data))
         elif self.tag == "high-desc":
-            self.desc = data.strip()
+            self.desc = data
+
+def get_anchor_offset(fname):
+    off_dict = {
+              "Process 1.xml":7
+            }
+    if fname in off_dict:
+        return off_dict[fname]
+    else:
+        return 0
+
+def get_desc_offset(fname,desc):
+    retval = -1
+    try:
+        retval = desc.index("¤")
+    except:
+        raise Exception("no ¤ in '" + fname + "'")
+
+    return retval
 
 class Mrp:
     def __init__(self,xml_parser,fname,id0):
         self.xml_parser = xml_parser
         self.nodes = xml_parser.nodes
         self.edges = xml_parser.edges
+        self.anchors = xml_parser.anchors
         self.top_nodes = xml_parser.top_nodes
-        self.desc = xml_parser.desc.strip().replace("\"","'").replace("\n"," ")
-        self.desc = re.sub("\s+"," ",self.desc)
-        self.desc = self.desc.encode("ascii","ignore").decode("utf-8") # remove strange chars
+
+        self.desc = xml_parser.desc
+        self.desc_offset = get_desc_offset(fname,self.desc)
+        self.desc = self.desc[self.desc_offset + 1:]
+        self.desc = html.unescape(self.desc)
+        self.desc = self.desc.replace("\u200b","")
+        self.desc = self.desc.replace("\u00A0"," ")
+        self.desc = self.desc.replace("\n",";")
+        self.desc = re.sub(" +"," ",self.desc)
+
+        self.anchor_offset = get_anchor_offset(fname)
         self.fname = fname
         self.id = str(id0)
         self.time = get_time()
+        self.flavor = 2
 
         if self.desc == "":
             print("warning, empty description for" + fname)
@@ -124,7 +169,7 @@ class Mrp:
 
     def con_header(self,framework):
         retval  = "\"id\":\"" + self.id + "\","
-        retval += "\"flavor\":2,"
+        retval += "\"flavor\":" + str(self.flavor) + " ,"
         retval += "\"framework\":\"" + framework + "\","
         retval += "\"version\":1.1,"
         #retval += "\"time\":\"" + self.time + "\"," # time for convertion
@@ -141,14 +186,47 @@ class Mrp:
         return retval
 
     def con_nodes(self):
-        def create_node(nid,l):
+        nr_anchors = 0
+
+        def create_anchors(x):
+            nonlocal nr_anchors
+
+            def apt(a0):
+                return str(a0 - self.desc_offset + self.anchor_offset)
+
+            if "eid" in x:
+                eid = x["eid"]
+            else:
+                eid = x["label"]
+
+            anchors = None
+            if eid in self.anchors:
+                anchors = ["{\"from\":" + apt(a[0]) + ",\"to\":" + apt(a[1]) + "}" for a in self.anchors[eid]]
+
+            if anchors is None or len(anchors) <= 0:
+                return ""
+
+            nr_anchors += 1
+            retval  = ",\"anchors\":["
+            retval += ",".join(anchors)
+            retval += "]"
+            return retval
+
+        def create_node(x):
+            nid = x["nid"]
+            l = x["label"]
             retval  = "{"
             retval += "\"id\":" + str(nid) + ","
             retval += "\"label\":\"" + l + "\""
+            retval += create_anchors(x)
             retval += "}"
             return retval
+    
+        ns = [create_node(x) for x in self.nodes]
 
-        ns = [create_node(x["nid"],x["label"]) for x in self.nodes]
+        if nr_anchors <= 0:
+            print("--no anchors for '" + self.fname + "'")
+
         retval  = "\"nodes\":["
         retval += ",".join(ns)
         retval += "],"
@@ -184,7 +262,8 @@ class Mrp:
         retval += "}"
         return retval
 
-    def toString(self,framework):
+    def toString(self,framework,flavor=2):
+        self.flavor = flavor
         retval = "{"
         retval += self.con_header(framework)
         retval += self.con_tops()
@@ -223,6 +302,13 @@ def main():
     res = []
     descs = []
     id0 = 1
+    flavor = 1
+
+    """
+    m0 = xml2mrp("Process 1.xml",1)
+    m0.toString("amr",flavor)
+    return True
+    """
 
     for fname in fs:
         if fname[-4:] == ".swp":
@@ -233,10 +319,10 @@ def main():
         descs.append(mrp.desc)
         id0 += 1
 
-    res_train_amr = [x.toString("amr") for x in res[:-10]]
-    res_train_ucca = [x.toString("ucca") for x in res[:-10]]
-    res_val_amr = [x.toString("amr") for x in res[-10:-5]]
-    res_val_ucca = [x.toString("ucca") for x in res[-10:-5]]
+    res_train_amr = [x.toString("amr",flavor) for x in res[:-10]]
+    res_train_ucca = [x.toString("ucca",flavor) for x in res[:-10]]
+    res_val_amr = [x.toString("amr",flavor) for x in res[-10:-5]]
+    res_val_ucca = [x.toString("ucca",flavor) for x in res[-10:-5]]
     res_eval = [x.create_input() for x in res[-5:]]
     
     save_data("\n".join(res_train_ucca),"training/ucca.mrp")

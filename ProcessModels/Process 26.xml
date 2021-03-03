@@ -675,7 +675,7 @@
                 <hightlighterMarkup id="HLM"></hightlighterMarkup>
                 <highlighterMarkup>
                     <highlightLayers>
-                        <highlightLayer default="true" name="description">When the shop manager starts ordering, he has to select an item, and then checks the stock. He then enters the amount of product that is needed for the following days. He must repeat this process for all goods which the shop sells. Once everything has been ordered, the shop manager must confirm the order. After confirming the order, he may edit, cancel, or send the order to the shop supply manager.
+<highlightLayer default="true" name="description">¤When the shop manager starts ordering, he has to select an item, and then checks the stock. He then enters the amount of product that is needed for the following days. He must repeat this process for all goods which the shop sells. Once everything has been ordered, the shop manager must confirm the order. After confirming the order, he may edit, cancel, or send the order to the shop supply manager.
 
 The supply manager collects orders from shops. If the supply manager does not receive an order list from a shop by the designated deadline, the supply manager will contact the shop manager in order to obtain the order list.
 

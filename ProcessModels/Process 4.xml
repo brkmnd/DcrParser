@@ -229,7 +229,7 @@
                 <hightlighterMarkup id="HLM"></hightlighterMarkup>
                 <highlighterMarkup>
                     <highlightLayers>
-                        <highlightLayer default="true" name="description">When an employee creates an expense report the money must be paid out within one week. After creating the expense report a manager should approve the expense report. if a manager approves the expense report the money can be paid out by finance. If the case is awaiting manager approval payout cannot happen. If the manager rejects the expense report he must later approve the expense report in order to payout to happen. The employee can redraw the expense report. Doing so will close the case. Once payout has been done the case is closed.</highlightLayer>
+                        <highlightLayer default="true" name="description">¤When an employee creates an expense report the money must be paid out within one week. After creating the expense report a manager should approve the expense report. if a manager approves the expense report the money can be paid out by finance. If the case is awaiting manager approval payout cannot happen. If the manager rejects the expense report he must later approve the expense report in order to payout to happen. The employee can redraw the expense report. Doing so will close the case. Once payout has been done the case is closed.</highlightLayer>
                     </highlightLayers>
                     <highlights>
                         <highlight type="role">
