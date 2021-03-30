@@ -3,6 +3,7 @@ import time
 import os
 import re
 import html
+import unidecode
 
 def get_time():
     t0 = time.localtime()
@@ -43,7 +44,7 @@ class XmlParser(HTMLParser):
         self.map_event2role = []
         self.nid = 0
         self.tag = ""
-        self.anch = None
+        self.anch_pos = None
 
         # for event roles
         self.role_eventid = ""
@@ -52,7 +53,7 @@ class XmlParser(HTMLParser):
         if tag == "labelmapping":
             lm = {    "eid":get_attr(attrs,"eventid").strip()
                     , "nid":self.nid
-                    , "label":get_attr(attrs,"labelid").strip()
+                    , "label":get_attr(attrs,"labelid")
                     }
             self.map_eid[lm["eid"]] = self.nid
             self.nodes.append(lm)
@@ -83,13 +84,14 @@ class XmlParser(HTMLParser):
         elif tag == "range" and self.tag == "highlight-pos":
             tag_start = int(get_attr(attrs,"start").strip())
             tag_end = int(get_attr(attrs,"end").strip())
-            self.anch = tag_start,tag_end
+            self.anch_pos = tag_start,tag_end
         elif tag == "item" and self.tag == "highlight-pos":
             anch_label = get_attr(attrs,"id").strip()
             if anch_label not in self.anchors:
                 self.anchors[anch_label] = []
-            self.anchors[anch_label].append((self.anch[0],self.anch[1]))
-            self.anch = None
+            if not self.anch_pos in self.anchors[anch_label] and self.anch_pos[0] < self.anch_pos[1]:
+                self.anchors[anch_label].append(self.anch_pos)
+            self.anch_pos = None
 
     def handle_endtag(self, tag):
         if tag == "role" and self.tag == "event2role":
@@ -120,23 +122,30 @@ class XmlParser(HTMLParser):
         elif self.tag == "high-desc":
             self.desc = data
 
-def get_anchor_offset(fname):
-    off_dict = {
-              "Process 1.xml":7
-            }
-    if fname in off_dict:
-        return off_dict[fname]
-    else:
-        return 0
 
-def get_desc_offset(fname,desc):
-    retval = -1
-    try:
-        retval = desc.index("¤")
-    except:
-        raise Exception("no ¤ in '" + fname + "'")
+def list_tokens_desc(desc):
+    rx = "[a-zA-Z0-9][a-zA-Z0-9'\\-]+|[.,\\-_]"
+    mre = re.compile(rx)
+    res = []
+    for m in mre.finditer(desc):
+        res.append((m.group(),m.start(),m.end()))
+    return res
 
-    return retval
+def create_desc2(desc,fname):
+    desc = html.unescape(desc)
+    desc = desc.replace("\u200b","") #blank/zero-space chars
+    desc = desc.replace("\u00A0"," ") #non-breaking wspace
+    desc = desc.replace("\n"," ") #keep newlines
+    #desc = re.sub(" +"," ",desc) #collapse spaces
+    desc = unidecode.unidecode(desc)
+    desc = desc.replace("\"","'")
+    return desc
+
+def create_desc3(desc):
+    desc = desc.encode('ascii', 'ignore').decode("utf-8")
+    desc = desc.replace("\"","'")
+    desc = desc.replace("\n",";")
+    return desc
 
 class Mrp:
     def __init__(self,xml_parser,fname,id0):
@@ -146,23 +155,59 @@ class Mrp:
         self.anchors = xml_parser.anchors
         self.top_nodes = xml_parser.top_nodes
 
-        self.desc = xml_parser.desc
-        self.desc_offset = get_desc_offset(fname,self.desc)
-        self.desc = self.desc[self.desc_offset + 1:]
-        self.desc = html.unescape(self.desc)
-        self.desc = self.desc.replace("\u200b","")
-        self.desc = self.desc.replace("\u00A0"," ")
-        self.desc = self.desc.replace("\n",";")
-        self.desc = re.sub(" +"," ",self.desc)
-
-        self.anchor_offset = get_anchor_offset(fname)
         self.fname = fname
         self.id = str(id0)
         self.time = get_time()
         self.flavor = 2
+        self.include_anchs = False
+
+        max_tokens_desc = 350
+        desc = xml_parser.desc
+        self.desc = create_desc2(desc,fname)
+        self.cutoff_desc(self.desc,max_tokens_desc)
 
         if self.desc == "":
             print("warning, empty description for" + fname)
+
+    def cutoff_desc(self,desc,max_ts):
+        c0 = len(desc)
+        if max_ts > 0:
+            desc_ts = list_tokens_desc(desc)
+            if len(desc_ts) > max_ts:
+                print("--cutoff " + str(len(desc_ts) - max_ts) + " tokens from '" + self.fname + "'")
+                last_t = desc_ts[max_ts]
+                c0 = last_t[2]
+        self.cutoff_anchs(c0)
+        self.desc = desc[:c0]
+
+    def cutoff_anchs(self,i):
+        res = {}
+        nr_cutoffs = 0
+        for a in self.anchors.keys():
+            ares = []
+            for atup in self.anchors[a]:
+                if atup[0] > i or atup[1] > i:
+                    nr_cutoffs += 1
+                    continue
+                ares.append(atup)
+            res[a] = ares
+        if nr_cutoffs > 0:
+            print("--cutoff " + str(nr_cutoffs) + " anchors from '" + self.fname + "'")
+            self.anchors = res
+
+    def test_anchors(self):
+        for x in self.nodes:
+            l = x["label"]
+            eid = l
+            if "eid" in x:
+                eid = x["eid"]
+            if eid in self.anchors:
+                for a in self.anchors[eid]:
+                    s0 = self.desc[a[0]:a[1]]
+                    print("")
+                    print("-label: '" + l + "'")
+                    print("-res  : '" + s0 + "'")
+                    print("*pos-org: " + str(a))
 
     def con_indent(self,n):
         return " " * n
@@ -170,6 +215,7 @@ class Mrp:
     def con_header(self,framework):
         retval  = "\"id\":\"" + self.id + "\","
         retval += "\"flavor\":" + str(self.flavor) + " ,"
+        retval += "\"language\":\"eng\" ,"
         retval += "\"framework\":\"" + framework + "\","
         retval += "\"version\":1.1,"
         #retval += "\"time\":\"" + self.time + "\"," # time for convertion
@@ -191,9 +237,8 @@ class Mrp:
         def create_anchors(x):
             nonlocal nr_anchors
 
-            def apt(a0):
-                return str(a0 - self.desc_offset + self.anchor_offset)
-
+            if not self.include_anchs:
+                return ""
             if "eid" in x:
                 eid = x["eid"]
             else:
@@ -201,7 +246,7 @@ class Mrp:
 
             anchors = None
             if eid in self.anchors:
-                anchors = ["{\"from\":" + apt(a[0]) + ",\"to\":" + apt(a[1]) + "}" for a in self.anchors[eid]]
+                anchors = ["{\"from\":" + str(a[0]) + ",\"to\":" + str(a[1]) + "}" for a in self.anchors[eid]]
 
             if anchors is None or len(anchors) <= 0:
                 return ""
@@ -220,12 +265,15 @@ class Mrp:
             retval += "\"label\":\"" + l + "\""
             retval += create_anchors(x)
             retval += "}"
+            #print(retval)
             return retval
     
         ns = [create_node(x) for x in self.nodes]
 
-        if nr_anchors <= 0:
+        if nr_anchors <= 0 and self.include_anchs:
             print("--no anchors for '" + self.fname + "'")
+
+        #self.test_anchors()
 
         retval  = "\"nodes\":["
         retval += ",".join(ns)
@@ -257,13 +305,14 @@ class Mrp:
         retval += "\"language\": \"eng\", "
         retval += "\"source\": \"lpps\", "
         retval += "\"provenance\": \"MRP 2020\", "
-        retval += "\"targets\": [\"eds\", \"amr\", \"ucca\", \"ptg\"], "
+        retval += "\"targets\": [\"eds\", \"amr\", \"ucca\", \"ptg\", \"dcr\"], "
         retval += "\"input\": " + "\"" + self.desc + "\"" 
         retval += "}"
         return retval
 
-    def toString(self,framework,flavor=2):
+    def toString(self,framework,flavor=2,include_anchs=True):
         self.flavor = flavor
+        self.include_anchs = include_anchs
         retval = "{"
         retval += self.con_header(framework)
         retval += self.con_tops()
@@ -297,38 +346,79 @@ def save_data(txt,fname):
         f.write(txt)
     print("saved '" + fname + "'")
 
+def sort_files(fs,stype_fun):
+    no_anchs = ['P05.xml', 'P06.xml', 'P10.xml', 'P15.xml', 'P16.xml', 'P18.xml', 'P19.xml', 'P20.xml', 'P22.xml', 'P23.xml', 'P25.xml']
+    stypes = {"normal":1,"by-anchs":2,"none":3}
+    stype = stype_fun(stypes)
+    is_not_xml = lambda x: x[-4:] == ".swp" or ".xml" not in x
+    if stype == stypes["normal"]:
+        fss = fs
+        fss.sort()
+        res = []
+        for fname in fss:
+            if is_not_xml(fname):
+                continue
+            res.append(fname)
+        return res
+    elif stype == stypes["by-anchs"]:
+        fss = fs
+        fss.sort()
+        res_h = []
+        res_t = []
+        for fname in fss:
+            if is_not_xml(fname):
+                continue
+            if fname in no_anchs:
+                res_t.append(fname)
+            else:
+                res_h.append(fname)
+        return res_h + res_t
+    else:
+        return fs
+
 def main():
     fs = os.listdir("ProcessModels")
+    fs = sort_files(fs,lambda t: t["normal"])
     res = []
     descs = []
     id0 = 1
     flavor = 1
 
-    """
-    m0 = xml2mrp("Process 1.xml",1)
-    m0.toString("amr",flavor)
-    return True
-    """
+    is_testing = False
+    if is_testing:
+        m0 = xml2mrp("P01.xml",1)
+        m0.toString("dcr",flavor,True)
+        return True
 
     for fname in fs:
-        if fname[-4:] == ".swp":
-            continue
         #print(str(id0) + ":" + fname)
         mrp = xml2mrp(fname,id0)
         res.append(mrp)
         descs.append(mrp.desc)
         id0 += 1
 
-    res_train_amr = [x.toString("amr",flavor) for x in res[:-10]]
     res_train_ucca = [x.toString("ucca",flavor) for x in res[:-10]]
-    res_val_amr = [x.toString("amr",flavor) for x in res[-10:-5]]
     res_val_ucca = [x.toString("ucca",flavor) for x in res[-10:-5]]
+
+    res_train_amr = [x.toString("amr",flavor,False) for x in res[:-10]]
+    res_val_amr = [x.toString("amr",flavor,False) for x in res[-10:-5]]
+
+    res_train_dcr = [x.toString("dcr",flavor,True) for x in res[:-10]]
+    res_val_dcr = [x.toString("dcr",flavor,True) for x in res[-10:-5]]
+
     res_eval = [x.create_input() for x in res[-5:]]
+
+    return True
     
     save_data("\n".join(res_train_ucca),"training/ucca.mrp")
-    save_data("\n".join(res_train_amr),"training/amr.mrp")
     save_data("\n".join(res_val_ucca),"validation/ucca.mrp")
+
+    save_data("\n".join(res_train_amr),"training/amr.mrp")
     save_data("\n".join(res_val_amr),"validation/amr.mrp")
+
+    save_data("\n".join(res_train_dcr),"training/dcr.mrp")
+    save_data("\n".join(res_val_dcr),"validation/dcr.mrp")
+
     save_data("\n".join(res_eval),"evaluation/input.mrp")
     save_data("\n".join(descs),"companion/udpipe.txt")
 

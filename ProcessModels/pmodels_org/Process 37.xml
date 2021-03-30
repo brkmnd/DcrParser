@@ -1,0 +1,973 @@
+<dcrgraph title="References for pls talk" dataTypesStatus="hide"  filterLevel="-1" zoomLevel="0" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity1" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="400" yLoc="100" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;makes a decision&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>2</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity2" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="250" yLoc="100" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>child or young person must be consulted on these matters</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>3</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity2_1" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="325" yLoc="250" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;examination&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>4</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity3" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="150" yLoc="250" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;child or young person may be in need of special support&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>5</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity4" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="150" yLoc="500" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>fails to have a child or young per- son examined or treated for a life-threatening disease or a disease in- volving the risk of substantial and permanent impairment of function</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>6</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity5" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="325" yLoc="500" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;decide to undertake such examination or treatment.&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>7</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity6" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="100" yLoc="100" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;was consulted immediately beforehand in connection with the performance of a child protection examination&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>8</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses></subProcesses>
+            <distribution></distribution>
+            <labels>
+                <label id="makes a decision (p48)" />
+                <label id="Perform child consultation (p48)" />
+                <label id="child protection examination (p50)" />
+                <label id="child or young person may be in need of special support (p50)" />
+                <label id="fails to have a child examined (p63)" />
+                <label id="decide to undertake such examination or treatment. (p63)" />
+                <label id="child  had undergone a child protection examination (p48)" />
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity1" labelId="makes a decision (p48)"/>
+                <labelMapping eventId="Activity2" labelId="Perform child consultation (p48)"/>
+                <labelMapping eventId="Activity2_1" labelId="child protection examination (p50)"/>
+                <labelMapping eventId="Activity3" labelId="child or young person may be in need of special support (p50)"/>
+                <labelMapping eventId="Activity4" labelId="fails to have a child examined (p63)"/>
+                <labelMapping eventId="Activity5" labelId="decide to undertake such examination or treatment. (p63)"/>
+                <labelMapping eventId="Activity6" labelId="child  had undergone a child protection examination (p48)"/>
+            </labelMappings>
+            <expressions></expressions>
+            <variables></variables>
+            <variableAccesses>
+                <writeAccesses />
+            </variableAccesses>
+            <custom>
+                <keywords></keywords>
+                <roles>
+                    <role description="child" specification="">child</role>
+                    <role description="child or young person" specification="">child or young person</role>
+                    <role description="children and young persons committee" specification="">children and young persons committee</role>
+                    <role description="custodial parent" specification="">custodial parent</role>
+                    <role description="municipal council" specification="">municipal council</role>
+                </roles>
+                <groups></groups>
+                <phases></phases>
+                <eventTypes></eventTypes>
+                <eventParameters></eventParameters>
+                <graphDetails> CASS §48(1): “Before the municipal council makes a decision under sections 51, 52, 52a, 56, 57a, 57b, 58, 62 and 63, section 65(2) and (3) and sections 68–71 and 75, the child or young person must be consulted on these matters. The consultation may be dispensed with if the child or young person was consulted immediately beforehand in connection with the performance of a child protection examination, cf. section 50 below. [...]”   CASS §50(7): “The examination must be completed within four (4) months after the municipal council has become aware that a child or young person may be in need of special support. Where, exceptionally, an examination cannot be completed within 4 months, the municipal council shall pre- pare a provisional assessment and complete the examination as soon as possible thereafter.”   CASS §63(1): “If the custodial parent fails to have a child or young per- son examined or treated for a life-threatening disease or a disease in- volving the risk of substantial and permanent impairment of function, the children and young persons committee may decide to undertake such examination or treatment.”       </graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups></filteredGroups>
+                    <filteredRoles></filteredRoles>
+                    <filteredPhases></filteredPhases>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"></hightlighterMarkup>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">CASS §48(1): “Before the municipal council makes a decision under sections 51, 52, 52a, 56, 57a, 57b, 58, 62 and 63, section 65(2) and (3) and sections 68–71 and 75, the child or young person must be consulted on these matters. The consultation may be dispensed with if the child or young person was consulted immediately beforehand in connection with the performance of a child protection examination, cf. section 50 below. [...]”
+
+   CASS §50(7): “The examination must be completed within four (4) months after the municipal council has become aware that a child or young person may be in need of special support. Where, exceptionally, an examination cannot be completed within 4 months, the municipal council shall pre- pare a provisional assessment and complete the examination as soon as possible thereafter.” 
+  CASS §63(1): “If the custodial parent fails to have a child or young per- son examined or treated for a life-threatening disease or a disease in- volving the risk of substantial and permanent impairment of function, the children and young persons committee may decide to undertake such examination or treatment.”</highlightLayer>
+                    </highlightLayers>
+                    <highlights>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1" end="15">CASS §48(1): “</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="15" end="21">Before</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="15" end="21">Before</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2--condition--Activity1" />
+                            </items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="21" end="44">the municipal council</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="44" end="60">makes a decision</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="44" end="60">makes a decision</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1" />
+                            </items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="60" end="76">under sections</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="76" end="109">51, 52, 52a, 56, 57a, 57b, 58, 62</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="109" end="114">and</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="114" end="116">63</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="116" end="126">, section</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="126" end="131">65(2)</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="131" end="136">and</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="136" end="139">(3)</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="139" end="153">and sections</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="153" end="158">68–71</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="158" end="163">and</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="163" end="165">75</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="165" end="193">, the child or young person</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="171" end="176">child</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="171" end="176">child</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="176" end="186">or young</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="186" end="192">person</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="192" end="193"></range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2" />
+                            </items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="193" end="197">must</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="193" end="197">must</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2" />
+                            </items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="197" end="198"></range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="197" end="198"></range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2" />
+                            </items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="198" end="227">be consulted on these matters</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="198" end="227">be consulted on these matters</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2" />
+                            </items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="227" end="246">. The consultation</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="246" end="246"></range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="246" end="262">may be dispensed</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity6--exclude--Activity2" />
+                            </items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="246" end="249">may</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="249" end="250"></range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="250" end="262">be dispensed</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="262" end="262"></range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="262" end="268">with</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="268" end="270">if</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="270" end="297">the child or young person</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="297" end="402">was consulted immediately beforehand in connection with the performance of a child protection examination</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="297" end="402">was consulted immediately beforehand in connection with the performance of a child protection examination</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity6" />
+                            </items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="402" end="416">, cf. section</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="416" end="418">50</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="418" end="432">below. [...]”</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="432" end="816">CASS §50(7): “The examination must be completed within four (4) months after the municipal council has become aware that a child or young person may be in need of special support. Where, exceptionally, an examination cannot be completed within 4 months, the municipal council shall pre- pare a provisional assessment and complete the examination as soon as possible thereafter.”</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="453" end="464">examination</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2_1" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="465" end="505">must be completed within four (4) months</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity3--response--Activity2_1" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="516" end="534">municipal council</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="municipal council" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="558" end="613">child or young person may be in need of special support</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity3" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="837" end="853">custodial parent</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="custodial parent" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="854" end="1030">fails to have a child or young per- son examined or treated for a life-threatening disease or a disease in- volving the risk of substantial and permanent impairment of function</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity4" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1036" end="1072">children and young persons committee</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="children and young persons committee" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1077" end="1127">decide to undertake such examination or treatment.</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity5" />
+                            </items>
+                        </highlight>
+                        <highlight type="none">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1129" end="1132"></range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="26" end="43">municipal council</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="municipal council" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="171" end="176">child or young person</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child or young person" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="176" end="186">child or young person</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child or young person" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="186" end="192">child or young person</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child or young person" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="275" end="296">child or young person</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child or young person" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="558" end="579">child or young person</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child or young person" />
+                            </items>
+                        </highlight>
+                    </highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity2" targetId="Activity1" filterLevel="0"  description="Before"  time=""  groups=""  />
+                <condition sourceId="Activity4" targetId="Activity5" filterLevel="0"  description=""  time=""  groups=""  />
+            </conditions>
+            <responses>
+                <response sourceId="Activity3" targetId="Activity2_1" filterLevel="0"  description="must be completed within four (4) months"  time="120"  groups=""  />
+            </responses>
+            <coresponses></coresponses>
+            <excludes>
+                <exclude sourceId="Activity6" targetId="Activity2" filterLevel="0"  description="may be dispensed"  time=""  groups=""  />
+            </excludes>
+            <includes></includes>
+            <milestones></milestones>
+            <spawns></spawns>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking></globalMarking>
+        </custom>
+        <marking>
+            <globalStore></globalStore>
+            <executed></executed>
+            <included>
+                <event id="Activity1" />
+                <event id="Activity2" />
+                <event id="Activity2_1" />
+                <event id="Activity3" />
+                <event id="Activity4" />
+                <event id="Activity5" />
+                <event id="Activity6" />
+            </included>
+            <pendingResponses></pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

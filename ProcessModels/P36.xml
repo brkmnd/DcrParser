@@ -1,0 +1,810 @@
+<dcrgraph title="P36" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="1" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#ffffff" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity0">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="650" yLoc="400"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>municipal council</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;pay compensation for loss of earnings&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>1</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity1">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="800" yLoc="225"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>person</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;physical or mental function is substantially and permanently impaired&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>2</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity2">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="800" yLoc="400"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>person</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;is suffering from serious, chronic or long-term illness&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>3</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity3">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="500" yLoc="225"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>person</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;maintaining a child under 18 in the home&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>4</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity4">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="500" yLoc="400"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>person</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;The requirement in paragraph (1) above that the child shall be cared for at home&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>5</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity5">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="650" yLoc="225"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>municipal council</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;it is most expedient for the mother or father to care for the child&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>6</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity6">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="650" yLoc="575"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>person</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;child mentioned in paragraph (1) who has been placed in care under section 52(3)(vii) in connection with the child&amp;rsquo;s hospital visit&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>7</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity7">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="500" yLoc="575"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>municipal council</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>the presence of the mother or father at the hospital is a necessary consequence of the child’s functional impairment</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>8</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity8">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="800" yLoc="575"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>municipal council</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;such presence is most expedient for the child&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>9</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses/>
+            <distribution/>
+            <labels>
+                <label id="pay compensation for loss of earnings"/>
+                <label id="documents that child's physical or mental function is substantially impaired"/>
+                <label id="documents that child is suffering from serious, chronic or long-term illness"/>
+                <label id="is maintaining a child under 18 at home "/>
+                <label id="documents child is cared for at home "/>
+                <label id="documents that it is most expedient for the mother or father to care for the child"/>
+                <label id="shows that child is cared in hospital"/>
+                <label id="documents the presence of the mother or father at the hospital"/>
+                <label id="documents that parents presence is most expedient for the child"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity0" labelId="pay compensation for loss of earnings"/>
+                <labelMapping eventId="Activity1" labelId="documents that child's physical or mental function is substantially impaired"/>
+                <labelMapping eventId="Activity2" labelId="documents that child is suffering from serious, chronic or long-term illness"/>
+                <labelMapping eventId="Activity3" labelId="is maintaining a child under 18 at home "/>
+                <labelMapping eventId="Activity4" labelId="documents child is cared for at home "/>
+                <labelMapping eventId="Activity5" labelId="documents that it is most expedient for the mother or father to care for the child"/>
+                <labelMapping eventId="Activity6" labelId="shows that child is cared in hospital"/>
+                <labelMapping eventId="Activity7" labelId="documents the presence of the mother or father at the hospital"/>
+                <labelMapping eventId="Activity8" labelId="documents that parents presence is most expedient for the child"/>
+            </labelMappings>
+            <expressions/>
+            <variables/>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords/>
+                <roles>
+                    <role description="child" specification="">child</role>
+                    <role description="municipal council" specification="">municipal council</role>
+                    <role description="person" specification="">person</role>
+                    <role description="" specification="">Role(s)</role>
+                </roles>
+                <groups/>
+                <phases/>
+                <eventTypes/>
+                <eventParameters/>
+                <graphDetails>Extracted from the Danish Service law, paragraph 42: Article (1) The municipal council shall pay compensation for loss of earnings to persons maintaining a child under 18 in the home whose physical or mental function is substantially and permanently impaired, or who is suffering from serious, chronic or long-term illness. Compensation shall be subject to the condition that the child is cared for at home as a necessary consequence of the impaired function, and that it is most expedient for the mother or father to care for the child. Article (2) The requirement in paragraph (1) above that the child shall be cared for at home shall not apply to any child mentioned in paragraph (1) who has been placed in care under section 52(3)(vii) in connection with the child’s hospital visit. It is a condition that the presence of the mother or father at the hospital is a necessary consequence of the child’s functional impairment and that such presence is most expedient for the child.</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups/>
+                    <filteredRoles/>
+                    <filteredPhases/>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"/>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">Extracted from the Danish Service law, paragraph 42: Article (1) The municipal council shall pay compensation for loss of earnings to persons maintaining a child under 18 in the home whose physical or mental function is substantially and permanently impaired, or who is suffering from serious, chronic or long-term illness. Compensation shall be subject to the condition that the child is cared for at home as a necessary consequence of the impaired function, and that it is most expedient for the mother or father to care for the child. Article (2) The requirement in paragraph (1) above that the child shall be cared for at home shall not apply to any child mentioned in paragraph (1) who has been placed in care under section 52(3)(vii) in connection with the child’s hospital visit. It is a condition that the presence of the mother or father at the hospital is a necessary consequence of the child’s functional impairment and that such presence is most expedient for the child.</highlightLayer>
+                    </highlightLayers>
+                    <highlights>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="69" end="86">municipal council</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="municipal council"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="87" end="92">shall</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1--condition--Activity0"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="93" end="130">pay compensation for loss of earnings</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity0"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="134" end="140">person</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="person"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="142" end="183">maintaining a child under 18 in the home</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity3"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="189" end="258">physical or mental function is substantially and permanently impaired</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="266" end="322">is suffering from serious, chronic or long-term illness</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="376" end="407">the child is cared for at home</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity4"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="469" end="536">it is most expedient for the mother or father to care for the child</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity5"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="550" end="630">The requirement in paragraph (1) above that the child shall be cared for at home</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity4"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="654" end="659">child mentioned in paragraph (1) who has been placed in care under section 52(3)(vii) in connection with the child’s hospital visit</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity6"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="810" end="926">the presence of the mother or father at the hospital is a necessary consequence of the child’s functional impairment</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity7"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="936" end="981">such presence is most expedient for the child</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity8"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="324" end="336">Compensation</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity0"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="337" end="370">shall be subject to the condition</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity6--include--Activity7"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="460" end="463">and</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity8--condition--Activity0"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="460" end="463">and</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity8--response--Activity0"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="408" end="458">s a necessary consequence of the impaired function</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity4--condition--Activity0"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="156" end="161">child</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="380" end="385">child</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="531" end="536">child</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="598" end="603">child</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="654" end="659">child</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="976" end="981">child</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="183" end="188">whose</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="263" end="266">who</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="631" end="647">shall not apply</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1--exclude--Activity2"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="631" end="647">shall not apply</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2--exclude--Activity1"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="787" end="809">It is a condition that</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity7--condition--Activity0"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="87" end="92">shall</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity3--condition--Activity0"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="87" end="92">shall</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity5--condition--Activity0"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="260" end="262">or</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2--condition--Activity0"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="87" end="92">shall</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1--response--Activity0"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="87" end="93">shall</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2--response--Activity0"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="407" end="458">as a necessary consequence of the impaired function</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity7--response--Activity0"/>
+                            </items>
+                        </highlight>
+                    </highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity1" targetId="Activity0" filterLevel="0" description="shall" time="" groups=""/>
+                <condition sourceId="Activity4" targetId="Activity0" filterLevel="0" description="s a necessary consequence of the impaired function" time="" groups=""/>
+                <condition sourceId="Activity3" targetId="Activity0" filterLevel="0" description="shall" time="" groups=""/>
+                <condition sourceId="Activity5" targetId="Activity0" filterLevel="0" description="shall" time="" groups=""/>
+                <condition sourceId="Activity2" targetId="Activity0" filterLevel="0" description="or" time="" groups=""/>
+                <condition sourceId="Activity7" targetId="Activity0" filterLevel="0" description="It is a condition that" time="" groups=""/>
+                <condition sourceId="Activity8" targetId="Activity0" filterLevel="0" description="and" time="" groups=""/>
+                <condition sourceId="Activity2" targetId="Activity5" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity1" targetId="Activity5" filterLevel="0" description="" time="" groups=""/>
+            </conditions>
+            <responses>
+                <response sourceId="Activity1" targetId="Activity0" filterLevel="0" description="shall" time="" groups=""/>
+                <response sourceId="Activity2" targetId="Activity0" filterLevel="0" description="shall " time="" groups=""/>
+                <response sourceId="Activity7" targetId="Activity0" filterLevel="0" description="as a necessary consequence of the impaired function" time="" groups=""/>
+                <response sourceId="Activity8" targetId="Activity0" filterLevel="0" description="and" time="" groups=""/>
+            </responses>
+            <coresponses/>
+            <excludes>
+                <exclude sourceId="Activity4" targetId="Activity6" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity6" targetId="Activity4" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity1" targetId="Activity2" filterLevel="0" description="shall not apply " time="" groups=""/>
+                <exclude sourceId="Activity2" targetId="Activity1" filterLevel="0" description="shall not apply " time="" groups=""/>
+            </excludes>
+            <includes>
+                <include sourceId="Activity6" targetId="Activity7" filterLevel="0" description="shall be subject to the condition" time="" groups=""/>
+                <include sourceId="Activity6" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+            </includes>
+            <milestones/>
+            <spawns/>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking/>
+        </custom>
+        <marking>
+            <globalStore/>
+            <executed/>
+            <included>
+                <event id="Activity0"/>
+                <event id="Activity1"/>
+                <event id="Activity2"/>
+                <event id="Activity3"/>
+                <event id="Activity4"/>
+                <event id="Activity5"/>
+                <event id="Activity6"/>
+            </included>
+            <pendingResponses>
+                <event id="Activity1"/>
+                <event id="Activity2"/>
+            </pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

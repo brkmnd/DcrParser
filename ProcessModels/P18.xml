@@ -1,0 +1,1231 @@
+<dcrgraph title="P18" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-5" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity29" type="nesting">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="150" yLoc="275"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>34</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity6">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="375" yLoc="475"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>CSC</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>7</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity7">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="375" yLoc="725"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>CSC</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>8</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity8">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="550" yLoc="475"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>HoD</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>9</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity9">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="550" yLoc="725"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>HoD</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>10</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity28_1">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="550" yLoc="975"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Automatic</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>33</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity25_1" type="nesting">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="750" yLoc="450"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Retailer</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>30</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                        <event id="Activity11">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="775" yLoc="500"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Retailer</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>12</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Activity12">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="775" yLoc="700"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Retailer</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>13</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                    </event>
+                    <event id="Activity30" type="nesting">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1450" yLoc="375"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>35</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                        <event id="Activity15">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1750" yLoc="425"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>GRM</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>16</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Activity17">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1750" yLoc="625"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Finance</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>18</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Activity18">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1475" yLoc="775"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Finance</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>19</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Activity19">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1975" yLoc="625"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Retailer</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>20</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Activity20">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="2175" yLoc="425"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Finance</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>21</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Activity21">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="2325" yLoc="425"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Finance</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>22</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Activity27_1" type="subprocess">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="2350" yLoc="575"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role/>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>32</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                            <event id="Activity22">
+                                <precondition message=""/>
+                                <custom>
+                                    <visualization>
+                                        <location xLoc="2375" yLoc="625"/>
+                                        <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                    </visualization>
+                                    <roles>
+                                        <role>GRM</role>
+                                    </roles>
+                                    <groups>
+                                        <group/>
+                                    </groups>
+                                    <phases>
+                                        <phase/>
+                                    </phases>
+                                    <eventType/>
+                                    <eventScope>private</eventScope>
+                                    <eventTypeData/>
+                                    <eventDescription/>
+                                    <purpose/>
+                                    <guide/>
+                                    <insight use="false"/>
+                                    <level>1</level>
+                                    <sequence>23</sequence>
+                                    <costs>0</costs>
+                                    <eventData/>
+                                    <interfaces/>
+                                </custom>
+                            </event>
+                            <event id="Activity23">
+                                <precondition message=""/>
+                                <custom>
+                                    <visualization>
+                                        <location xLoc="2500" yLoc="625"/>
+                                        <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                    </visualization>
+                                    <roles>
+                                        <role>CSC</role>
+                                    </roles>
+                                    <groups>
+                                        <group/>
+                                    </groups>
+                                    <phases>
+                                        <phase/>
+                                    </phases>
+                                    <eventType/>
+                                    <eventScope>private</eventScope>
+                                    <eventTypeData/>
+                                    <eventDescription/>
+                                    <purpose/>
+                                    <guide/>
+                                    <insight use="false"/>
+                                    <level>1</level>
+                                    <sequence>24</sequence>
+                                    <costs>0</costs>
+                                    <eventData/>
+                                    <interfaces/>
+                                </custom>
+                            </event>
+                            <event id="Activity24">
+                                <precondition message=""/>
+                                <custom>
+                                    <visualization>
+                                        <location xLoc="2625" yLoc="625"/>
+                                        <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                    </visualization>
+                                    <roles>
+                                        <role>CSC</role>
+                                    </roles>
+                                    <groups>
+                                        <group/>
+                                    </groups>
+                                    <phases>
+                                        <phase/>
+                                    </phases>
+                                    <eventType/>
+                                    <eventScope>private</eventScope>
+                                    <eventTypeData/>
+                                    <eventDescription/>
+                                    <purpose/>
+                                    <guide/>
+                                    <insight use="false"/>
+                                    <level>1</level>
+                                    <sequence>25</sequence>
+                                    <costs>0</costs>
+                                    <eventData/>
+                                    <interfaces/>
+                                </custom>
+                            </event>
+                            <event id="Activity25">
+                                <precondition message=""/>
+                                <custom>
+                                    <visualization>
+                                        <location xLoc="2750" yLoc="625"/>
+                                        <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                    </visualization>
+                                    <roles>
+                                        <role>CSC</role>
+                                    </roles>
+                                    <groups>
+                                        <group/>
+                                    </groups>
+                                    <phases>
+                                        <phase/>
+                                    </phases>
+                                    <eventType/>
+                                    <eventScope>private</eventScope>
+                                    <eventTypeData/>
+                                    <eventDescription/>
+                                    <purpose/>
+                                    <guide/>
+                                    <insight use="false"/>
+                                    <level>1</level>
+                                    <sequence>26</sequence>
+                                    <costs>0</costs>
+                                    <eventData/>
+                                    <interfaces/>
+                                </custom>
+                            </event>
+                        </event>
+                        <event id="Activity26_1" type="subprocess">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="2400" yLoc="850"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role/>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>31</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                            <event id="Activity27">
+                                <precondition message=""/>
+                                <custom>
+                                    <visualization>
+                                        <location xLoc="2425" yLoc="900"/>
+                                        <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                    </visualization>
+                                    <roles>
+                                        <role>DBA</role>
+                                    </roles>
+                                    <groups>
+                                        <group/>
+                                    </groups>
+                                    <phases>
+                                        <phase/>
+                                    </phases>
+                                    <eventType/>
+                                    <eventScope>private</eventScope>
+                                    <eventTypeData/>
+                                    <eventDescription/>
+                                    <purpose/>
+                                    <guide/>
+                                    <insight use="false"/>
+                                    <level>1</level>
+                                    <sequence>28</sequence>
+                                    <costs>0</costs>
+                                    <eventData/>
+                                    <interfaces/>
+                                </custom>
+                            </event>
+                            <event id="Activity26">
+                                <precondition message=""/>
+                                <custom>
+                                    <visualization>
+                                        <location xLoc="2550" yLoc="900"/>
+                                        <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                    </visualization>
+                                    <roles>
+                                        <role>DBA</role>
+                                    </roles>
+                                    <groups>
+                                        <group/>
+                                    </groups>
+                                    <phases>
+                                        <phase/>
+                                    </phases>
+                                    <eventType/>
+                                    <eventScope>private</eventScope>
+                                    <eventTypeData/>
+                                    <eventDescription/>
+                                    <purpose/>
+                                    <guide/>
+                                    <insight use="false"/>
+                                    <level>1</level>
+                                    <sequence>27</sequence>
+                                    <costs>0</costs>
+                                    <eventData/>
+                                    <interfaces/>
+                                </custom>
+                            </event>
+                        </event>
+                        <event id="Activity28">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="2975" yLoc="625"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>GRM</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>29</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                    </event>
+                    <event id="Activity32_1" type="nesting">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="925" yLoc="925"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Retailer</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>38</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                        <event id="Activity14">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="950" yLoc="975"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Retailer</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>15</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Activity13">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1125" yLoc="975"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>HoD</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>14</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                    </event>
+                    <event id="Activity32" type="nesting">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="175" yLoc="325"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>37</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                        <event id="Activity1">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="200" yLoc="575"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>GRM</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>2</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Activity2">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="200" yLoc="750"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Retailer</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>3</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Activity4">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="200" yLoc="950"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>GRM</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>5</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Activity0">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="200" yLoc="375"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>GRM</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>1</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                    </event>
+                </event>
+            </events>
+            <subProcesses/>
+            <distribution/>
+            <labels>
+                <label id="The process"/>
+                <label id="Register in Oracle"/>
+                <label id="Create JIRA task for HoD"/>
+                <label id="Create contract"/>
+                <label id="Send contract"/>
+                <label id="Automatic request cancelation"/>
+                <label id="Contract review"/>
+                <label id="Sign contract"/>
+                <label id="Reject contract"/>
+                <label id="Contract signed"/>
+                <label id="Receive signed contract"/>
+                <label id="Create invoice"/>
+                <label id="Send invoice"/>
+                <label id="Pay invoice"/>
+                <label id="Receive payment"/>
+                <label id="Notify GRM and CSC"/>
+                <label id="Register retailer data"/>
+                <label id="Upload contract to COMA"/>
+                <label id="Create JIRA task for DBA"/>
+                <label id="Register in webCRM"/>
+                <label id="Activate in Oracle"/>
+                <label id="Technical setup"/>
+                <label id="Register in retailer portal"/>
+                <label id="Whitelist IP address"/>
+                <label id="Send welcome email"/>
+                <label id="Handle rejection"/>
+                <label id="Cancel request"/>
+                <label id="Refine contract"/>
+                <label id="Obtain information"/>
+                <label id="Request information"/>
+                <label id="Provide information"/>
+                <label id="Forward information to CSC"/>
+                <label id="Receive retailer request"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity29" labelId="The process"/>
+                <labelMapping eventId="Activity6" labelId="Register in Oracle"/>
+                <labelMapping eventId="Activity7" labelId="Create JIRA task for HoD"/>
+                <labelMapping eventId="Activity8" labelId="Create contract"/>
+                <labelMapping eventId="Activity9" labelId="Send contract"/>
+                <labelMapping eventId="Activity28_1" labelId="Automatic request cancelation"/>
+                <labelMapping eventId="Activity25_1" labelId="Contract review"/>
+                <labelMapping eventId="Activity11" labelId="Sign contract"/>
+                <labelMapping eventId="Activity12" labelId="Reject contract"/>
+                <labelMapping eventId="Activity30" labelId="Contract signed"/>
+                <labelMapping eventId="Activity15" labelId="Receive signed contract"/>
+                <labelMapping eventId="Activity17" labelId="Create invoice"/>
+                <labelMapping eventId="Activity18" labelId="Send invoice"/>
+                <labelMapping eventId="Activity19" labelId="Pay invoice"/>
+                <labelMapping eventId="Activity20" labelId="Receive payment"/>
+                <labelMapping eventId="Activity21" labelId="Notify GRM and CSC"/>
+                <labelMapping eventId="Activity27_1" labelId="Register retailer data"/>
+                <labelMapping eventId="Activity22" labelId="Upload contract to COMA"/>
+                <labelMapping eventId="Activity23" labelId="Create JIRA task for DBA"/>
+                <labelMapping eventId="Activity24" labelId="Register in webCRM"/>
+                <labelMapping eventId="Activity25" labelId="Activate in Oracle"/>
+                <labelMapping eventId="Activity26_1" labelId="Technical setup"/>
+                <labelMapping eventId="Activity27" labelId="Register in retailer portal"/>
+                <labelMapping eventId="Activity26" labelId="Whitelist IP address"/>
+                <labelMapping eventId="Activity28" labelId="Send welcome email"/>
+                <labelMapping eventId="Activity32_1" labelId="Handle rejection"/>
+                <labelMapping eventId="Activity14" labelId="Cancel request"/>
+                <labelMapping eventId="Activity13" labelId="Refine contract"/>
+                <labelMapping eventId="Activity32" labelId="Obtain information"/>
+                <labelMapping eventId="Activity1" labelId="Request information"/>
+                <labelMapping eventId="Activity2" labelId="Provide information"/>
+                <labelMapping eventId="Activity4" labelId="Forward information to CSC"/>
+                <labelMapping eventId="Activity0" labelId="Receive retailer request"/>
+            </labelMappings>
+            <expressions/>
+            <variables/>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords/>
+                <roles>
+                    <role description="" specification="">Automatic</role>
+                    <role description="" specification="">CSC</role>
+                    <role description="" specification="">DBA</role>
+                    <role description="" specification="">Finance</role>
+                    <role description="" specification="">GRM</role>
+                    <role description="" specification="">HoD</role>
+                    <role description="" specification="">Retailer</role>
+                </roles>
+                <groups/>
+                <phases/>
+                <eventTypes/>
+                <eventParameters/>
+                <graphDetails>The process spans five departments within the company: Executives, Customer Service, Finance, IT SYSOPS (system operations) and IT DEVOPS (development operations). The roles involved in the process are the Global Relationship Manager (GRM), a Customer Service Consultant (CSC), an accountant, the DataBase Administrator (DBA) and the Head of Development (HoD): The GRM receives a request to become retailer. Afterwards the GRM must request more information from the potential retailer. The retailer can only provide the requested information after the request has been made. Once the information has been provided, the information must be forwarded to the CSC by the GRM. Only after the information has been forwarded the CSC register the information in Oracle. The information can only be registered in Oracle once during the process. Afterwards the CSC must create a Jira task for the HoD. Then the HoD knows that he must create a contract. The creation of the contract should only happen once to prevent misunderstandings within the process. Only once the contract has been created the HoD can send the contract. After sending the contract two scenarios are possible: a) the contract is reviewed by retailer, b) the request is automatically cancelled after 30 days of no response from retailer. If the request is cancelled automatically the rest of the process will be cancelled as well. If the contract is reviewed by retailer two additional options are possible: retailer signs contract or retailer rejects contract. If the retailer rejects the contract, the request will either be cancelled or the HoD will refine the contract due to errors in the contract. Rejection of the contract will disable the rest of the process from happening. If the request is cancelled by the retailer the process will be cancelled. If the contract is refined it eliminates the option to cancel the request before the contract has been sent once again. If the retailer chooses to sign the contract during contract review, it shouldn’t be possible to obtain more information, send the contract or cancel the request. After the retailer has signed the contract the GRM must receive the signed contract. After that the Finance department must create an invoice. The invoice can only be created once but can be sent multiple times after it has been created. After the invoice has been sent the retailer must pay the invoice once before the finance department will receive the payment one time. After the payment has been received the finance department must notify the GRM and the CSC. Once the GRM and CSC have been notified the following activities will happen: the GRM must upload the contract to COMA, the CSC must create a task in Jira for the HoD, register the retailer in webCRM once, and activate the retailer in Oracle once. These activities doesn’t have to happen in any specific order, they must however all be executed before the welcome email can be sent by the GRM. The DBA must addition also register the retailer in the Retailer Portal and whitelist the IP address before the welcome email should be allowed to be sent. The tasks the DBA has to perform can only be done once per new retailer. Before the DBA can do these tasks the CSC must have created the task in Jira. The final activity of the process is when the GRM sends the welcome email.</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups/>
+                    <filteredRoles/>
+                    <filteredPhases/>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"/>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">The process spans five departments within the company: Executives, Customer Service, Finance, IT SYSOPS (system operations) and IT DEVOPS (development operations). The roles involved in the process are the Global Relationship Manager (GRM), a Customer Service Consultant (CSC), an accountant, the DataBase Administrator (DBA) and the Head of Development (HoD): The GRM receives a request to become retailer. Afterwards the GRM must request more information from the potential retailer. The retailer can only provide the requested information after the request has been made. Once the information has been provided, the information must be forwarded to the CSC by the GRM. Only after the information has been forwarded the CSC register the information in Oracle. The information can only be registered in Oracle once during the process. Afterwards the CSC must create a Jira task for the HoD. Then the HoD knows that he must create a contract. The creation of the contract should only happen once to prevent misunderstandings within the process. Only once the contract has been created the HoD can send the contract. After sending the contract two scenarios are possible: a) the contract is reviewed by retailer, b) the request is automatically cancelled after 30 days of no response from retailer. If the request is cancelled automatically the rest of the process will be cancelled as well. If the contract is reviewed by retailer two additional options are possible: retailer signs contract or retailer rejects contract. If the retailer rejects the contract, the request will either be cancelled or the HoD will refine the contract due to errors in the contract. Rejection of the contract will disable the rest of the process from happening. If the request is cancelled by the retailer the process will be cancelled. If the contract is refined it eliminates the option to cancel the request before the contract has been sent once again. If the retailer chooses to sign the contract during contract review, it shouldn’t be possible to obtain more information, send the contract or cancel the request. After the retailer has signed the contract the GRM must receive the signed contract. After that the Finance department must create an invoice. The invoice can only be created once but can be sent multiple times after it has been created. After the invoice has been sent the retailer must pay the invoice once before the finance department will receive the payment one time. After the payment has been received the finance department must notify the GRM and the CSC. Once the GRM and CSC have been notified the following activities will happen: the GRM must upload the contract to COMA, the CSC must create a task in Jira for the HoD, register the retailer in webCRM once, and activate the retailer in Oracle once. These activities doesn’t have to happen in any specific order, they must however all be executed before the welcome email can be sent by the GRM. The DBA must addition also register the retailer in the Retailer Portal and whitelist the IP address before the welcome email should be allowed to be sent. The tasks the DBA has to perform can only be done once per new retailer. Before the DBA can do these tasks the CSC must have created the task in Jira. The final activity of the process is when the GRM sends the welcome email.</highlightLayer>
+                    </highlightLayers>
+                    <highlights/>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity0" targetId="Activity1" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity1" targetId="Activity2" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity2" targetId="Activity4" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity4" targetId="Activity6" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity6" targetId="Activity7" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity7" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity8" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity9" targetId="Activity25_1" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity15" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity17" targetId="Activity18" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity18" targetId="Activity19" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity19" targetId="Activity20" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity20" targetId="Activity21" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity23" targetId="Activity26_1" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity21" targetId="Activity27_1" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity26_1" targetId="Activity28" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity27_1" targetId="Activity28" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity9" targetId="Activity28_1" filterLevel="0" description="" time="30" groups=""/>
+                <condition sourceId="Activity11" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity12" targetId="Activity32_1" filterLevel="0" description="" time="" groups=""/>
+            </conditions>
+            <responses>
+                <response sourceId="Activity0" targetId="Activity1" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity1" targetId="Activity2" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity2" targetId="Activity4" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity4" targetId="Activity6" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity6" targetId="Activity7" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity7" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity8" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity11" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity13" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity9" targetId="Activity25_1" filterLevel="0" description="" time="30" groups=""/>
+                <response sourceId="Activity15" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity17" targetId="Activity18" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity18" targetId="Activity19" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity19" targetId="Activity20" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity20" targetId="Activity21" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity23" targetId="Activity26_1" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity21" targetId="Activity27_1" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity12" targetId="Activity32_1" filterLevel="0" description="" time="" groups=""/>
+            </responses>
+            <coresponses/>
+            <excludes>
+                <exclude sourceId="Activity6" targetId="Activity6" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity17" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity19" targetId="Activity19" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity20" targetId="Activity20" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity26_1" targetId="Activity26_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity14" targetId="Activity29" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity28_1" targetId="Activity29" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity11" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity25_1" targetId="Activity25_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity11" targetId="Activity28_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity11" targetId="Activity32" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity11" targetId="Activity32_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity25" targetId="Activity25" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity24" targetId="Activity24" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity8" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity12" targetId="Activity30" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity9" targetId="Activity13" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity32_1" targetId="Activity32_1" filterLevel="0" description="" time="" groups=""/>
+            </excludes>
+            <includes>
+                <include sourceId="Activity9" targetId="Activity25_1" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity11" targetId="Activity30" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity12" targetId="Activity32_1" filterLevel="0" description="" time="" groups=""/>
+            </includes>
+            <milestones/>
+            <spawns/>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking/>
+        </custom>
+        <marking>
+            <globalStore/>
+            <executed/>
+            <included>
+                <event id="Activity29"/>
+                <event id="Activity6"/>
+                <event id="Activity7"/>
+                <event id="Activity8"/>
+                <event id="Activity9"/>
+                <event id="Activity28_1"/>
+                <event id="Activity25_1"/>
+                <event id="Activity11"/>
+                <event id="Activity12"/>
+                <event id="Activity30"/>
+                <event id="Activity15"/>
+                <event id="Activity17"/>
+                <event id="Activity18"/>
+                <event id="Activity19"/>
+                <event id="Activity20"/>
+                <event id="Activity21"/>
+                <event id="Activity27_1"/>
+                <event id="Activity22"/>
+                <event id="Activity23"/>
+                <event id="Activity24"/>
+                <event id="Activity25"/>
+                <event id="Activity26_1"/>
+                <event id="Activity27"/>
+                <event id="Activity26"/>
+                <event id="Activity28"/>
+                <event id="Activity32_1"/>
+                <event id="Activity14"/>
+                <event id="Activity13"/>
+                <event id="Activity32"/>
+                <event id="Activity1"/>
+                <event id="Activity2"/>
+                <event id="Activity4"/>
+                <event id="Activity0"/>
+            </included>
+            <pendingResponses>
+                <event id="Activity22"/>
+                <event id="Activity23"/>
+                <event id="Activity24"/>
+                <event id="Activity25"/>
+                <event id="Activity27"/>
+                <event id="Activity26"/>
+                <event id="Activity28"/>
+            </pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

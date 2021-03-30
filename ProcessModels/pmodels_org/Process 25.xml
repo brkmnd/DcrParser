@@ -1,0 +1,414 @@
+<dcrgraph title="DCR - Procurement Process" dataTypesStatus="hide"  filterLevel="-1" zoomLevel="-3" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity0" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="100" yLoc="150" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>1</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity4" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="325" yLoc="425" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>5</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity15" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="675" yLoc="650" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>16</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity17" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="1100" yLoc="425" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>18</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity18" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="1100" yLoc="650" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>19</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity8_1" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="675" yLoc="425" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>20</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity8" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="925" yLoc="150" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>21</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity8_2" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="500" yLoc="150" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>22</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity8_3" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="325" yLoc="150" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>23</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses></subProcesses>
+            <distribution></distribution>
+            <labels>
+                <label id="Receive order request in ServiceNow" />
+                <label id="Place order" />
+                <label id="Contact Vendor" />
+                <label id="Deliver Item(s)" />
+                <label id="Close order in ServiceNow" />
+                <label id="Check delivery status" />
+                <label id="Registration " />
+                <label id="Check item value" />
+                <label id="Check stock" />
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity0" labelId="Receive order request in ServiceNow"/>
+                <labelMapping eventId="Activity4" labelId="Place order"/>
+                <labelMapping eventId="Activity15" labelId="Contact Vendor"/>
+                <labelMapping eventId="Activity17" labelId="Deliver Item(s)"/>
+                <labelMapping eventId="Activity18" labelId="Close order in ServiceNow"/>
+                <labelMapping eventId="Activity8_1" labelId="Check delivery status"/>
+                <labelMapping eventId="Activity8" labelId="Registration "/>
+                <labelMapping eventId="Activity8_2" labelId="Check item value"/>
+                <labelMapping eventId="Activity8_3" labelId="Check stock"/>
+            </labelMappings>
+            <expressions></expressions>
+            <variables></variables>
+            <variableAccesses>
+                <writeAccesses />
+            </variableAccesses>
+            <custom>
+                <keywords></keywords>
+                <roles>
+                    <role description="" specification="">Purchaser</role>
+                    <role description="" specification="">Vendor</role>
+                </roles>
+                <groups></groups>
+                <phases></phases>
+                <eventTypes></eventTypes>
+                <eventParameters></eventParameters>
+                <graphDetails>DCR Graph</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups></filteredGroups>
+                    <filteredRoles></filteredRoles>
+                    <filteredPhases></filteredPhases>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"></hightlighterMarkup>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">DCR Graph</highlightLayer>
+                    </highlightLayers>
+                    <highlights></highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity0" targetId="Activity8_3" filterLevel="0"  description="a"  time=""  groups=""  />
+                <condition sourceId="Activity8_3" targetId="Activity8_2" filterLevel="0"  description="a"  time=""  groups=""  />
+                <condition sourceId="Activity8_3" targetId="Activity4" filterLevel="0"  description="a"  time=""  groups=""  />
+                <condition sourceId="Activity8_2" targetId="Activity8" filterLevel="0"  description="a"  time=""  groups=""  />
+                <condition sourceId="Activity8_2" targetId="Activity17" filterLevel="0"  description="a"  time=""  groups=""  />
+                <condition sourceId="Activity8_2" targetId="Activity8_1" filterLevel="0"  description="a"  time=""  groups=""  />
+                <condition sourceId="Activity17" targetId="Activity18" filterLevel="0"  description="a"  time=""  groups=""  />
+                <condition sourceId="Activity4" targetId="Activity8_1" filterLevel="0"  description="a"  time=""  groups=""  />
+                <condition sourceId="Activity8_1" targetId="Activity15" filterLevel="0"  description="a"  time=""  groups=""  />
+                <condition sourceId="Activity8_1" targetId="Activity17" filterLevel="0"  description=""  time=""  groups=""  />
+            </conditions>
+            <responses>
+                <response sourceId="Activity0" targetId="Activity8_3" filterLevel="0"  description="a"  time=""  groups=""  />
+                <response sourceId="Activity8_3" targetId="Activity8_2" filterLevel="0"  description="a"  time=""  groups=""  />
+                <response sourceId="Activity8_2" targetId="Activity17" filterLevel="0"  description="a"  time=""  groups=""  />
+                <response sourceId="Activity8" targetId="Activity17" filterLevel="0"  description="a"  time=""  groups=""  />
+                <response sourceId="Activity17" targetId="Activity18" filterLevel="0"  description="a"  time=""  groups=""  />
+                <response sourceId="Activity4" targetId="Activity8_2" filterLevel="0"  description="a"  time=""  groups=""  />
+                <response sourceId="Activity4" targetId="Activity8_1" filterLevel="0"  description="a"  time=""  groups=""  />
+                <response sourceId="Activity8_1" targetId="Activity17" filterLevel="0"  description="a"  time=""  groups=""  />
+            </responses>
+            <coresponses></coresponses>
+            <excludes>
+                <exclude sourceId="Activity0" targetId="Activity0" filterLevel="0"  description="a"  time=""  groups=""  />
+                <exclude sourceId="Activity8_3" targetId="Activity8_3" filterLevel="0"  description="a"  time=""  groups=""  />
+                <exclude sourceId="Activity8_2" targetId="Activity8_2" filterLevel="0"  description="a"  time=""  groups=""  />
+                <exclude sourceId="Activity8" targetId="Activity8" filterLevel="0"  description="a"  time=""  groups=""  />
+                <exclude sourceId="Activity17" targetId="Activity17" filterLevel="0"  description="a"  time=""  groups=""  />
+                <exclude sourceId="Activity18" targetId="Activity18" filterLevel="0"  description="a"  time=""  groups=""  />
+                <exclude sourceId="Activity4" targetId="Activity4" filterLevel="0"  description="a"  time=""  groups=""  />
+                <exclude sourceId="Activity15" targetId="Activity15" filterLevel="0"  description="a"  time=""  groups=""  />
+                <exclude sourceId="Activity8_2" targetId="Activity17" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity8_2" targetId="Activity18" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity8_1" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity15" targetId="Activity17" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity17" targetId="Activity15" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity17" targetId="Activity8_1" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity8_1" targetId="Activity8_1" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity8_2" targetId="Activity4" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity8_2" targetId="Activity8_1" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity8_2" targetId="Activity15" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity17" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
+            </excludes>
+            <includes>
+                <include sourceId="Activity0" targetId="Activity8_3" filterLevel="0"  description="a"  time=""  groups=""  />
+                <include sourceId="Activity8_3" targetId="Activity4" filterLevel="0"  description="a"  time=""  groups=""  />
+                <include sourceId="Activity8_2" targetId="Activity8" filterLevel="0"  description="a"  time=""  groups=""  />
+                <include sourceId="Activity17" targetId="Activity18" filterLevel="0"  description="a"  time=""  groups=""  />
+                <include sourceId="Activity8_1" targetId="Activity15" filterLevel="0"  description="a"  time=""  groups=""  />
+                <include sourceId="Activity15" targetId="Activity8_1" filterLevel="0"  description=""  time=""  groups=""  />
+                <include sourceId="Activity8_1" targetId="Activity17" filterLevel="0"  description=""  time=""  groups=""  />
+                <include sourceId="Activity8_2" targetId="Activity17" filterLevel="0"  description=""  time=""  groups=""  />
+            </includes>
+            <milestones></milestones>
+            <spawns></spawns>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking></globalMarking>
+        </custom>
+        <marking>
+            <globalStore></globalStore>
+            <executed></executed>
+            <included>
+                <event id="Activity0" />
+                <event id="Activity4" />
+                <event id="Activity15" />
+                <event id="Activity17" />
+                <event id="Activity18" />
+                <event id="Activity8_1" />
+                <event id="Activity8" />
+                <event id="Activity8_2" />
+                <event id="Activity8_3" />
+            </included>
+            <pendingResponses>
+                <event id="Activity0" />
+            </pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

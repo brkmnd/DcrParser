@@ -1,4 +1,4 @@
-<dcrgraph title="BPMAI: Example 1" dataTypesStatus="hide"  filterLevel="-1" zoomLevel="-1" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB" graphType="0">
+<dcrgraph title="CASS Section 42 " dataTypesStatus="hide"  filterLevel="-1" zoomLevel="1" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#ffffff" graphType="0">
     <specification>
         <resources>
             <events>
@@ -6,11 +6,11 @@
                     <precondition message=""  />
                     <custom>
                         <visualization>
-                            <location xLoc="75" yLoc="50" />
+                            <location xLoc="650" yLoc="400" />
                             <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
                         </visualization>
                         <roles>
-                            <role>referee</role>
+                            <role>municipal council</role>
                         </roles>
                         <groups>
                             <group />
@@ -21,7 +21,7 @@
                         <eventType></eventType>
                         <eventScope>private</eventScope>
                         <eventTypeData></eventTypeData>
-                        <eventDescription>&lt;p&gt;interviewing patients&lt;/p&gt;</eventDescription>
+                        <eventDescription>&lt;p&gt;pay compensation for loss of earnings&lt;/p&gt;</eventDescription>
                         <purpose></purpose>
                         <guide></guide>
                         <insight use="false"></insight>
@@ -32,15 +32,15 @@
                         <interfaces></interfaces>
                     </custom>
                 </event>
-                <event id="Activity5" >
+                <event id="Activity1" >
                     <precondition message=""  />
                     <custom>
                         <visualization>
-                            <location xLoc="600" yLoc="50" />
+                            <location xLoc="800" yLoc="225" />
                             <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
                         </visualization>
                         <roles>
-                            <role>referee</role>
+                            <role>person</role>
                         </roles>
                         <groups>
                             <group />
@@ -51,7 +51,127 @@
                         <eventType></eventType>
                         <eventScope>private</eventScope>
                         <eventTypeData></eventTypeData>
-                        <eventDescription>&lt;p&gt;files the results containing the patient interviews as well as the expertise&lt;/p&gt;</eventDescription>
+                        <eventDescription>&lt;p&gt;physical or mental function is substantially and permanently impaired&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>2</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity2" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="800" yLoc="400" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>person</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;is suffering from serious, chronic or long-term illness&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>3</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity3" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="500" yLoc="225" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>person</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;maintaining a child under 18 in the home&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>4</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity4" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="500" yLoc="400" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>person</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;The requirement in paragraph (1) above that the child shall be cared for at home&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>5</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity5" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="650" yLoc="225" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>municipal council</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;it is most expedient for the mother or father to care for the child&lt;/p&gt;</eventDescription>
                         <purpose></purpose>
                         <guide></guide>
                         <insight use="false"></insight>
@@ -66,11 +186,11 @@
                     <precondition message=""  />
                     <custom>
                         <visualization>
-                            <location xLoc="750" yLoc="50" />
+                            <location xLoc="650" yLoc="575" />
                             <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
                         </visualization>
                         <roles>
-                            <role>referee</role>
+                            <role>person</role>
                         </roles>
                         <groups>
                             <group />
@@ -81,7 +201,7 @@
                         <eventType></eventType>
                         <eventScope>private</eventScope>
                         <eventTypeData></eventTypeData>
-                        <eventDescription>&lt;p&gt;creates a report&lt;/p&gt;</eventDescription>
+                        <eventDescription>&lt;p&gt;child mentioned in paragraph (1) who has been placed in care under section 52(3)(vii) in connection with the child&amp;rsquo;s hospital visit&lt;/p&gt;</eventDescription>
                         <purpose></purpose>
                         <guide></guide>
                         <insight use="false"></insight>
@@ -96,11 +216,11 @@
                     <precondition message=""  />
                     <custom>
                         <visualization>
-                            <location xLoc="750" yLoc="250" />
+                            <location xLoc="500" yLoc="575" />
                             <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
                         </visualization>
                         <roles>
-                            <role>managing director</role>
+                            <role>municipal council</role>
                         </roles>
                         <groups>
                             <group />
@@ -111,7 +231,7 @@
                         <eventType></eventType>
                         <eventScope>private</eventScope>
                         <eventTypeData></eventTypeData>
-                        <eventDescription>&lt;p&gt;forwarded to the referee&lt;/p&gt;</eventDescription>
+                        <eventDescription>the presence of the mother or father at the hospital is a necessary consequence of the child’s functional impairment</eventDescription>
                         <purpose></purpose>
                         <guide></guide>
                         <insight use="false"></insight>
@@ -126,11 +246,11 @@
                     <precondition message=""  />
                     <custom>
                         <visualization>
-                            <location xLoc="75" yLoc="475" />
+                            <location xLoc="800" yLoc="575" />
                             <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
                         </visualization>
                         <roles>
-                            <role>managing director</role>
+                            <role>municipal council</role>
                         </roles>
                         <groups>
                             <group />
@@ -141,7 +261,7 @@
                         <eventType></eventType>
                         <eventScope>private</eventScope>
                         <eventTypeData></eventTypeData>
-                        <eventDescription>&lt;p&gt;another expert has to be asked&lt;/p&gt;</eventDescription>
+                        <eventDescription>&lt;p&gt;such presence is most expedient for the child&lt;/p&gt;</eventDescription>
                         <purpose></purpose>
                         <guide></guide>
                         <insight use="false"></insight>
@@ -152,246 +272,30 @@
                         <interfaces></interfaces>
                     </custom>
                 </event>
-                <event id="Activity9" >
-                    <precondition message=""  />
-                    <custom>
-                        <visualization>
-                            <location xLoc="75" yLoc="250" />
-                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
-                        </visualization>
-                        <roles>
-                            <role>managing director</role>
-                        </roles>
-                        <groups>
-                            <group />
-                        </groups>
-                        <phases>
-                            <phase />
-                        </phases>
-                        <eventType></eventType>
-                        <eventScope>private</eventScope>
-                        <eventTypeData></eventTypeData>
-                        <eventDescription>&lt;p&gt;asks an external expert to review&lt;/p&gt;</eventDescription>
-                        <purpose></purpose>
-                        <guide></guide>
-                        <insight use="false"></insight>
-                        <level>1</level>
-                        <sequence>10</sequence>
-                        <costs>0</costs>
-                        <eventData></eventData>
-                        <interfaces></interfaces>
-                    </custom>
-                </event>
-                <event id="Activity10" >
-                    <precondition message=""  />
-                    <custom>
-                        <visualization>
-                            <location xLoc="250" yLoc="475" />
-                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
-                        </visualization>
-                        <roles>
-                            <role>ENGINE</role>
-                        </roles>
-                        <groups>
-                            <group />
-                        </groups>
-                        <phases>
-                            <phase />
-                        </phases>
-                        <eventType></eventType>
-                        <eventScope>private</eventScope>
-                        <eventTypeData></eventTypeData>
-                        <eventDescription>&lt;p&gt;that happens&lt;/p&gt;</eventDescription>
-                        <purpose></purpose>
-                        <guide></guide>
-                        <insight use="false"></insight>
-                        <level>1</level>
-                        <sequence>11</sequence>
-                        <costs>0</costs>
-                        <eventData></eventData>
-                        <interfaces></interfaces>
-                    </custom>
-                </event>
-                <event id="Activity11" type="subprocess" >
-                    <precondition message=""  />
-                    <custom>
-                        <visualization>
-                            <location xLoc="200" yLoc="200" />
-                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
-                        </visualization>
-                        <roles>
-                            <role />
-                        </roles>
-                        <groups>
-                            <group />
-                        </groups>
-                        <phases>
-                            <phase />
-                        </phases>
-                        <eventType></eventType>
-                        <eventScope>private</eventScope>
-                        <eventTypeData></eventTypeData>
-                        <eventDescription></eventDescription>
-                        <purpose></purpose>
-                        <guide></guide>
-                        <insight use="false"></insight>
-                        <level>1</level>
-                        <sequence>12</sequence>
-                        <costs>0</costs>
-                        <eventData></eventData>
-                        <interfaces></interfaces>
-                    </custom>
-                    <event id="Activity3" >
-                        <precondition message=""  />
-                        <custom>
-                            <visualization>
-                                <location xLoc="475" yLoc="250" />
-                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
-                            </visualization>
-                            <roles>
-                                <role>managing director</role>
-                            </roles>
-                            <groups>
-                                <group />
-                            </groups>
-                            <phases>
-                                <phase />
-                            </phases>
-                            <eventType></eventType>
-                            <eventScope>private</eventScope>
-                            <eventTypeData></eventTypeData>
-                            <eventDescription>&lt;p&gt;received&lt;/p&gt;</eventDescription>
-                            <purpose></purpose>
-                            <guide></guide>
-                            <insight use="false"></insight>
-                            <level>1</level>
-                            <sequence>4</sequence>
-                            <costs>0</costs>
-                            <eventData></eventData>
-                            <interfaces></interfaces>
-                        </custom>
-                    </event>
-                    <event id="Activity2" >
-                        <precondition message=""  />
-                        <custom>
-                            <visualization>
-                                <location xLoc="350" yLoc="250" />
-                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
-                            </visualization>
-                            <roles>
-                                <role>external expert</role>
-                            </roles>
-                            <groups>
-                                <group />
-                            </groups>
-                            <phases>
-                                <phase />
-                            </phases>
-                            <eventType></eventType>
-                            <eventScope>private</eventScope>
-                            <eventTypeData></eventTypeData>
-                            <eventDescription>&lt;p&gt;sends an expertise&lt;/p&gt;</eventDescription>
-                            <purpose></purpose>
-                            <guide></guide>
-                            <insight use="false"></insight>
-                            <level>1</level>
-                            <sequence>3</sequence>
-                            <costs>0</costs>
-                            <eventData></eventData>
-                            <interfaces></interfaces>
-                        </custom>
-                    </event>
-                    <event id="Activity1" >
-                        <precondition message=""  />
-                        <custom>
-                            <visualization>
-                                <location xLoc="225" yLoc="250" />
-                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
-                            </visualization>
-                            <roles>
-                                <role>external expert</role>
-                            </roles>
-                            <groups>
-                                <group />
-                            </groups>
-                            <phases>
-                                <phase />
-                            </phases>
-                            <eventType></eventType>
-                            <eventScope>private</eventScope>
-                            <eventTypeData></eventTypeData>
-                            <eventDescription>&lt;p&gt;review the work of the doctor under rating&lt;/p&gt;</eventDescription>
-                            <purpose></purpose>
-                            <guide></guide>
-                            <insight use="false"></insight>
-                            <level>1</level>
-                            <sequence>2</sequence>
-                            <costs>0</costs>
-                            <eventData></eventData>
-                            <interfaces></interfaces>
-                        </custom>
-                    </event>
-                    <event id="Activity4" >
-                        <precondition message=""  />
-                        <custom>
-                            <visualization>
-                                <location xLoc="600" yLoc="250" />
-                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
-                            </visualization>
-                            <roles>
-                                <role>managing director</role>
-                            </roles>
-                            <groups>
-                                <group />
-                            </groups>
-                            <phases>
-                                <phase />
-                            </phases>
-                            <eventType></eventType>
-                            <eventScope>private</eventScope>
-                            <eventTypeData></eventTypeData>
-                            <eventDescription>&lt;p&gt;forwarded to the referee&lt;/p&gt;</eventDescription>
-                            <purpose></purpose>
-                            <guide></guide>
-                            <insight use="false"></insight>
-                            <level>1</level>
-                            <sequence>5</sequence>
-                            <costs>0</costs>
-                            <eventData></eventData>
-                            <interfaces></interfaces>
-                        </custom>
-                    </event>
-                </event>
             </events>
             <subProcesses></subProcesses>
             <distribution></distribution>
             <labels>
-                <label id="interview patients" />
-                <label id=" files results of interviews" />
-                <label id="creates review report" />
-                <label id="fills a check to pay the expenses of the expert" />
-                <label id="contact additional expert for backup review" />
-                <label id="asks external expert to review the doctor" />
-                <label id="detects that expert does not respond in time" />
-                <label id="Review doctor" />
-                <label id=" receives review" />
-                <label id="sends an expertise" />
-                <label id="review the work of the doctor under rating" />
-                <label id=" forwards external review to referee" />
+                <label id="pay compensation for loss of earnings" />
+                <label id="documents that child&apos;s physical or mental function is substantially impaired" />
+                <label id="documents that child is suffering from serious, chronic or long-term illness" />
+                <label id="is maintaining a child under 18 at home " />
+                <label id="documents child is cared for at home " />
+                <label id="documents that it is most expedient for the mother or father to care for the child" />
+                <label id="shows that child is cared in hospital" />
+                <label id="documents the presence of the mother or father at the hospital" />
+                <label id="documents that parents presence is most expedient for the child" />
             </labels>
             <labelMappings>
-                <labelMapping eventId="Activity0" labelId="interview patients"/>
-                <labelMapping eventId="Activity5" labelId=" files results of interviews"/>
-                <labelMapping eventId="Activity6" labelId="creates review report"/>
-                <labelMapping eventId="Activity7" labelId="fills a check to pay the expenses of the expert"/>
-                <labelMapping eventId="Activity8" labelId="contact additional expert for backup review"/>
-                <labelMapping eventId="Activity9" labelId="asks external expert to review the doctor"/>
-                <labelMapping eventId="Activity10" labelId="detects that expert does not respond in time"/>
-                <labelMapping eventId="Activity11" labelId="Review doctor"/>
-                <labelMapping eventId="Activity3" labelId=" receives review"/>
-                <labelMapping eventId="Activity2" labelId="sends an expertise"/>
-                <labelMapping eventId="Activity1" labelId="review the work of the doctor under rating"/>
-                <labelMapping eventId="Activity4" labelId=" forwards external review to referee"/>
+                <labelMapping eventId="Activity0" labelId="pay compensation for loss of earnings"/>
+                <labelMapping eventId="Activity1" labelId="documents that child&apos;s physical or mental function is substantially impaired"/>
+                <labelMapping eventId="Activity2" labelId="documents that child is suffering from serious, chronic or long-term illness"/>
+                <labelMapping eventId="Activity3" labelId="is maintaining a child under 18 at home "/>
+                <labelMapping eventId="Activity4" labelId="documents child is cared for at home "/>
+                <labelMapping eventId="Activity5" labelId="documents that it is most expedient for the mother or father to care for the child"/>
+                <labelMapping eventId="Activity6" labelId="shows that child is cared in hospital"/>
+                <labelMapping eventId="Activity7" labelId="documents the presence of the mother or father at the hospital"/>
+                <labelMapping eventId="Activity8" labelId="documents that parents presence is most expedient for the child"/>
             </labelMappings>
             <expressions></expressions>
             <variables></variables>
@@ -399,19 +303,25 @@
                 <writeAccesses />
             </variableAccesses>
             <custom>
-                <keywords>BPMAI, Demo, Highlighter tool</keywords>
+                <keywords></keywords>
                 <roles>
-                    <role description="another expert" specification="">another expert</role>
-                    <role description="" specification="">ENGINE</role>
-                    <role description="external expert" specification="">external expert</role>
-                    <role description="managing director" specification="">managing director</role>
-                    <role description="referee" specification="">referee</role>
+                    <role description="child" specification="">child</role>
+                    <role description="municipal council" specification="">municipal council</role>
+                    <role description="person" specification="">person</role>
+                    <role description="" specification="">Role(s)</role>
                 </roles>
                 <groups></groups>
                 <phases></phases>
                 <eventTypes></eventTypes>
                 <eventParameters></eventParameters>
-                <graphDetails>Hospital Process A hospital wants to establish a rating workflow for their doctors. To make the workflow reliable two different roles are assigned. The first one is a referee from the newly created quality assurance department while the second one represents the managing director of the hospital. Both roles execute all of their tasks independently from each other.The referee starts a new case regarding a certain doctor by interviewing patients. Since a patient interview workflow is already established, it is simply integrated in the new workflow. Meanwhile, the director asks an external expert to review the work of the doctor under rating. Unfortunately, since the expert only gets a low expenses fee, it can happen that the expert is not responding in time. If that happens, another expert has to be asked (who could also not respond in time, i.e. the procedure repeats). If an expert finally sends an expertise, it is received by the director and forwarded to the referee. The referee files the results containing the patient interviews as well as the expertise and afterward creates a report. While the referee is doing this, the manager fills a check to pay the expenses of the expert.</graphDetails>
+                <graphDetails>Extracted from the Danish Service law, paragraph 42:
+
+Article (1) 
+The municipal council shall pay compensation for loss of earnings to persons maintaining a child under 18 in the home whose physical or mental function is substantially and permanently impaired, or who is suffering from serious, chronic or long-term illness. Compensation shall be subject to the condition that the child is cared for at home as a necessary consequence of the impaired function, and that it is most expedient for the mother or father to care for the child.
+
+
+Article (2) 
+The requirement in paragraph (1) above that the child shall be cared for at home shall not apply to any child mentioned in paragraph (1) who has been placed in care under section 52(3)(vii) in connection with the child’s hospital visit. It is a condition that the presence of the mother or father at the hospital is a necessary consequence of the child’s functional impairment and that such presence is most expedient for the child.</graphDetails>
                 <graphLanguage>en-US</graphLanguage>
                 <graphDomain>process</graphDomain>
                 <graphFilters>
@@ -422,46 +332,45 @@
                 <hightlighterMarkup id="HLM"></hightlighterMarkup>
                 <highlighterMarkup>
                     <highlightLayers>
-<highlightLayer default="true" name="description">Original source:
- https://bpmai.org/foswiki/pub/BPMAcademicInitiative/CreateProcessModels/ex1_hospital_process.pdf 
+                        <highlightLayer default="true" name="description">Extracted from the Danish Service law, paragraph 42:
 
-Exercise 1: Hospital Process
+Article (1) 
+The municipal council shall pay compensation for loss of earnings to persons maintaining a child under 18 in the home whose physical or mental function is substantially and permanently impaired, or who is suffering from serious, chronic or long-term illness. Compensation shall be subject to the condition that the child is cared for at home as a necessary consequence of the impaired function, and that it is most expedient for the mother or father to care for the child.
 
- ¤A hospital wants to establish a rating workflow for their doctors. To make the workflow reliable two different roles are assigned. The first one is a referee from the newly created quality assurance department while the second one represents the managing director of the hospital. Both roles execute all of their tasks independently from each other.
 
-The referee starts a new case regarding a certain doctor by interviewing patients. Since a patient interview workflow is already established, it is simply integrated in the new workflow. Meanwhile, the director asks an external expert to review the work of the doctor under rating. Unfortunately, since the expert only gets a low expenses fee, it can happen that the expert is not responding in time. If that happens, another expert has to be asked (who could also not respond in time, i.e. the procedure repeats). If an expert finally sends an expertise, it is received by the director and forwarded to the referee. The referee files the results containing the patient interviews as well as the expertise and afterward creates a report. While the referee is doing this, the manager fills a check to pay the expenses of the expert.</highlightLayer>
-                        </highlightLayer> 
+Article (2) 
+The requirement in paragraph (1) above that the child shall be cared for at home shall not apply to any child mentioned in paragraph (1) who has been placed in care under section 52(3)(vii) in connection with the child’s hospital visit. It is a condition that the presence of the mother or father at the hospital is a necessary consequence of the child’s functional impairment and that such presence is most expedient for the child.</highlightLayer>
                     </highlightLayers>
                     <highlights>
                         <highlight type="role">
                             <layers>
                                 <layer name="description">
                                     <ranges>
-                                        <range start="293" end="300">referee</range>
+                                        <range start="68" end="85">municipal council</range>
                                     </ranges>
                                 </layer>
                             </layers>
                             <items>
-                                <item id="referee" />
+                                <item id="municipal council" />
                             </items>
                         </highlight>
-                        <highlight type="role">
+                        <highlight type="relation">
                             <layers>
                                 <layer name="description">
                                     <ranges>
-                                        <range start="389" end="406">managing director</range>
+                                        <range start="86" end="91">shall</range>
                                     </ranges>
                                 </layer>
                             </layers>
                             <items>
-                                <item id="managing director" />
+                                <item id="Activity1--condition--Activity0" />
                             </items>
                         </highlight>
                         <highlight type="activity">
                             <layers>
                                 <layer name="description">
                                     <ranges>
-                                        <range start="552" end="573">interviewing patients</range>
+                                        <range start="92" end="129">pay compensation for loss of earnings</range>
                                     </ranges>
                                 </layer>
                             </layers>
@@ -469,143 +378,23 @@ The referee starts a new case regarding a certain doctor by interviewing patient
                                 <item id="Activity0" />
                             </items>
                         </highlight>
-                        <highlight type="activity">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="703" end="736">asks an external expert to review</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="Activity9" />
-                            </items>
-                        </highlight>
                         <highlight type="role">
                             <layers>
                                 <layer name="description">
                                     <ranges>
-                                        <range start="710" end="726">external expert</range>
+                                        <range start="133" end="139">person</range>
                                     </ranges>
                                 </layer>
                             </layers>
                             <items>
-                                <item id="external expert" />
+                                <item id="person" />
                             </items>
                         </highlight>
                         <highlight type="activity">
                             <layers>
                                 <layer name="description">
                                     <ranges>
-                                        <range start="730" end="736">review</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="Activity1" />
-                            </items>
-                        </highlight>
-                        <highlight type="activity">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="736" end="772">the work of the doctor under rating</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="Activity1" />
-                            </items>
-                        </highlight>
-                        <highlight type="relation">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="835" end="891">it can happen that the expert is not responding in time</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="Activity9--condition--Activity10" />
-                            </items>
-                        </highlight>
-                        <highlight type="activity">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="896" end="908">that happens</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="Activity10" />
-                            </items>
-                        </highlight>
-                        <highlight type="role">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="910" end="910"></range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="another expert" />
-                            </items>
-                        </highlight>
-                        <highlight type="activity">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="910" end="940">another expert has to be asked</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="Activity8" />
-                            </items>
-                        </highlight>
-                        <highlight type="role">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="910" end="924">another expert</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="another expert" />
-                            </items>
-                        </highlight>
-                        <highlight type="relation">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="1020" end="1027">finally</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="Activity1--response--Activity2" />
-                            </items>
-                        </highlight>
-                        <highlight type="activity">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="1028" end="1046">sends an expertise</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="Activity2" />
-                            </items>
-                        </highlight>
-                        <highlight type="activity">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="1053" end="1062">received</range>
+                                        <range start="141" end="182">maintaining a child under 18 in the home</range>
                                     </ranges>
                                 </layer>
                             </layers>
@@ -617,7 +406,31 @@ The referee starts a new case regarding a certain doctor by interviewing patient
                             <layers>
                                 <layer name="description">
                                     <ranges>
-                                        <range start="1082" end="1107">forwarded to the referee</range>
+                                        <range start="188" end="257">physical or mental function is substantially and permanently impaired</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="265" end="321">is suffering from serious, chronic or long-term illness</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="375" end="406">the child is cared for at home</range>
                                     </ranges>
                                 </layer>
                             </layers>
@@ -629,7 +442,7 @@ The referee starts a new case regarding a certain doctor by interviewing patient
                             <layers>
                                 <layer name="description">
                                     <ranges>
-                                        <range start="1120" end="1197">files the results containing the patient interviews as well as the expertise</range>
+                                        <range start="468" end="535">it is most expedient for the mother or father to care for the child</range>
                                     </ranges>
                                 </layer>
                             </layers>
@@ -637,23 +450,23 @@ The referee starts a new case regarding a certain doctor by interviewing patient
                                 <item id="Activity5" />
                             </items>
                         </highlight>
-                        <highlight type="relation">
+                        <highlight type="activity">
                             <layers>
                                 <layer name="description">
                                     <ranges>
-                                        <range start="1202" end="1211">afterward</range>
+                                        <range start="548" end="628">The requirement in paragraph (1) above that the child shall be cared for at home</range>
                                     </ranges>
                                 </layer>
                             </layers>
                             <items>
-                                <item id="Activity5--condition--Activity6" />
+                                <item id="Activity4" />
                             </items>
                         </highlight>
                         <highlight type="activity">
                             <layers>
                                 <layer name="description">
                                     <ranges>
-                                        <range start="1212" end="1228">creates a report</range>
+                                        <range start="652" end="783">child mentioned in paragraph (1) who has been placed in care under section 52(3)(vii) in connection with the child’s hospital visit</range>
                                     </ranges>
                                 </layer>
                             </layers>
@@ -665,7 +478,7 @@ The referee starts a new case regarding a certain doctor by interviewing patient
                             <layers>
                                 <layer name="description">
                                     <ranges>
-                                        <range start="1275" end="1322">fills a check to pay the expenses of the expert</range>
+                                        <range start="808" end="924">the presence of the mother or father at the hospital is a necessary consequence of the child’s functional impairment</range>
                                     </ranges>
                                 </layer>
                             </layers>
@@ -673,136 +486,280 @@ The referee starts a new case regarding a certain doctor by interviewing patient
                                 <item id="Activity7" />
                             </items>
                         </highlight>
-                        <highlight type="role">
+                        <highlight type="activity">
                             <layers>
                                 <layer name="description">
                                     <ranges>
-                                        <range start="690" end="702">the director</range>
+                                        <range start="934" end="979">such presence is most expedient for the child</range>
                                     </ranges>
                                 </layer>
                             </layers>
                             <items>
-                                <item id="managing director" />
-                            </items>
-                        </highlight>
-                        <highlight type="role">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="795" end="805">the expert</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="external expert" />
-                            </items>
-                        </highlight>
-                        <highlight type="role">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="1262" end="1274">the manager</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="managing director" />
-                            </items>
-                        </highlight>
-                        <highlight type="role">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="492" end="503">The referee</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="referee" />
-                            </items>
-                        </highlight>
-                        <highlight type="role">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="1236" end="1248">the referee</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="referee" />
-                            </items>
-                        </highlight>
-                        <highlight type="role">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="1109" end="1120">The referee</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="referee" />
-                            </items>
-                        </highlight>
-                        <highlight type="role">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="1010" end="1019">an expert</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="external expert" />
-                            </items>
-                        </highlight>
-                        <highlight type="role">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="1066" end="1078">the director</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="managing director" />
-                            </items>
-                        </highlight>
-                        <highlight type="relation">
-                            <layers>
-                                <layer name="description">
-                                    <ranges>
-                                        <range start="1079" end="1082">and</range>
-                                    </ranges>
-                                </layer>
-                            </layers>
-                            <items>
-                                <item id="Activity3--condition--Activity4" />
+                                <item id="Activity8" />
                             </items>
                         </highlight>
                         <highlight type="activity">
                             <layers>
                                 <layer name="description">
                                     <ranges>
-                                        <range start="1248" end="1261">is doing this</range>
+                                        <range start="323" end="335">Compensation</range>
                                     </ranges>
                                 </layer>
                             </layers>
                             <items>
-                                <item id="Activity6" />
+                                <item id="Activity0" />
                             </items>
                         </highlight>
                         <highlight type="relation">
                             <layers>
                                 <layer name="description">
                                     <ranges>
-                                        <range start="1230" end="1235">While</range>
+                                        <range start="336" end="369">shall be subject to the condition</range>
                                     </ranges>
                                 </layer>
                             </layers>
                             <items>
-                                <item id="Activity5--condition--Activity7" />
+                                <item id="Activity6--include--Activity7" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="459" end="462">and</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity8--condition--Activity0" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="459" end="462">and</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity8--response--Activity0" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="407" end="457">s a necessary consequence of the impaired function</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity4--condition--Activity0" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="155" end="160">child</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="379" end="384">child</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="530" end="535">child</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="596" end="601">child</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="652" end="657">child</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="974" end="979">child</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="182" end="187">whose</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="262" end="265">who</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="child" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="629" end="645">shall not apply</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1--exclude--Activity2" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="629" end="645">shall not apply</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2--exclude--Activity1" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="785" end="807">It is a condition that</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity7--condition--Activity0" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="86" end="91">shall</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity3--condition--Activity0" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="86" end="91">shall</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity5--condition--Activity0" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="259" end="261">or</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2--condition--Activity0" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="86" end="91">shall</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1--response--Activity0" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="86" end="92">shall</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2--response--Activity0" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="406" end="457">as a necessary consequence of the impaired function</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity7--response--Activity0" />
                             </items>
                         </highlight>
                     </highlights>
@@ -811,32 +768,32 @@ The referee starts a new case regarding a certain doctor by interviewing patient
         </resources>
         <constraints>
             <conditions>
-                <condition sourceId="Activity0" targetId="Activity5" filterLevel="0"  description=""  time=""  groups=""  />
-                <condition sourceId="Activity5" targetId="Activity6" filterLevel="0"  description="afterward"  time=""  groups=""  />
-                <condition sourceId="Activity2" targetId="Activity3" filterLevel="0"  description=""  time=""  groups=""  />
-                <condition sourceId="Activity9" targetId="Activity10" filterLevel="0"  description=" it can happen that the expert is not responding in time"  time="1"  groups=""  />
-                <condition sourceId="Activity3" targetId="Activity4" filterLevel="0"  description="and"  time=""  groups=""  />
-                <condition sourceId="Activity1" targetId="Activity2" filterLevel="0"  description=""  time=""  groups=""  />
-                <condition sourceId="Activity4" targetId="Activity5" filterLevel="0"  description=""  time=""  groups=""  />
-                <condition sourceId="Activity5" targetId="Activity7" filterLevel="0"  description="While"  time=""  groups=""  />
+                <condition sourceId="Activity1" targetId="Activity0" filterLevel="0"  description="shall"  time=""  groups=""  />
+                <condition sourceId="Activity4" targetId="Activity0" filterLevel="0"  description="s a necessary consequence of the impaired function"  time=""  groups=""  />
+                <condition sourceId="Activity3" targetId="Activity0" filterLevel="0"  description="shall"  time=""  groups=""  />
+                <condition sourceId="Activity5" targetId="Activity0" filterLevel="0"  description="shall"  time=""  groups=""  />
+                <condition sourceId="Activity2" targetId="Activity0" filterLevel="0"  description="or"  time=""  groups=""  />
+                <condition sourceId="Activity7" targetId="Activity0" filterLevel="0"  description="It is a condition that"  time=""  groups=""  />
+                <condition sourceId="Activity8" targetId="Activity0" filterLevel="0"  description="and"  time=""  groups=""  />
+                <condition sourceId="Activity2" targetId="Activity5" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity1" targetId="Activity5" filterLevel="0"  description=""  time=""  groups=""  />
             </conditions>
             <responses>
-                <response sourceId="Activity1" targetId="Activity2" filterLevel="0"  description="finally"  time=""  groups=""  />
-                <response sourceId="Activity8" targetId="Activity9" filterLevel="0"  description=""  time=""  groups=""  />
-                <response sourceId="Activity9" targetId="Activity10" filterLevel="0"  description=""  time=""  groups=""  />
-                <response sourceId="Activity10" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
-                <response sourceId="Activity9" targetId="Activity1" filterLevel="0"  description=""  time="1"  groups=""  />
-                <response sourceId="Activity2" targetId="Activity3" filterLevel="0"  description=""  time=""  groups=""  />
-                <response sourceId="Activity3" targetId="Activity4" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity1" targetId="Activity0" filterLevel="0"  description="shall"  time=""  groups=""  />
+                <response sourceId="Activity2" targetId="Activity0" filterLevel="0"  description="shall "  time=""  groups=""  />
+                <response sourceId="Activity7" targetId="Activity0" filterLevel="0"  description="as a necessary consequence of the impaired function"  time=""  groups=""  />
+                <response sourceId="Activity8" targetId="Activity0" filterLevel="0"  description="and"  time=""  groups=""  />
             </responses>
             <coresponses></coresponses>
             <excludes>
-                <exclude sourceId="Activity3" targetId="Activity10" filterLevel="0"  description=""  time=""  groups=""  />
-                <exclude sourceId="Activity10" targetId="Activity11" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity4" targetId="Activity6" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity6" targetId="Activity4" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity1" targetId="Activity2" filterLevel="0"  description="shall not apply "  time=""  groups=""  />
+                <exclude sourceId="Activity2" targetId="Activity1" filterLevel="0"  description="shall not apply "  time=""  groups=""  />
             </excludes>
             <includes>
-                <include sourceId="Activity10" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
-                <include sourceId="Activity9" targetId="Activity11" filterLevel="0"  description=""  time=""  groups=""  />
+                <include sourceId="Activity6" targetId="Activity7" filterLevel="0"  description="shall be subject to the condition"  time=""  groups=""  />
+                <include sourceId="Activity6" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
             </includes>
             <milestones></milestones>
             <spawns></spawns>
@@ -851,19 +808,16 @@ The referee starts a new case regarding a certain doctor by interviewing patient
             <executed></executed>
             <included>
                 <event id="Activity0" />
+                <event id="Activity1" />
+                <event id="Activity2" />
+                <event id="Activity3" />
+                <event id="Activity4" />
                 <event id="Activity5" />
                 <event id="Activity6" />
-                <event id="Activity7" />
-                <event id="Activity9" />
-                <event id="Activity10" />
-                <event id="Activity11" />
-                <event id="Activity3" />
-                <event id="Activity2" />
-                <event id="Activity1" />
-                <event id="Activity4" />
             </included>
             <pendingResponses>
-                <event id="Activity0" />
+                <event id="Activity1" />
+                <event id="Activity2" />
             </pendingResponses>
         </marking>
     </runtime>

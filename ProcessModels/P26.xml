@@ -1,0 +1,1087 @@
+<dcrgraph title="P26" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="0" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity7">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="-25" yLoc="350"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>supply manager</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>collects orders from shops</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>8</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity8">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="-25" yLoc="500"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>supply manager</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>contact</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>9</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity13_1">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="-25" yLoc="150"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>shop manager</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>starts ordering</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>16</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity14_1" type="nesting">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="100" yLoc="75"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>17</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity2">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="125" yLoc="125"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>shop manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>select an item</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>3</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity3">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="250" yLoc="125"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>shop manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>checks the stock</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>4</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity4">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="375" yLoc="125"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>shop manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>enters the amount of product</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>5</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity15">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="500" yLoc="125"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>shop manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>confirm the order</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>18</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity17" type="nesting">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="700" yLoc="50"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>21</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity15_1">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="800" yLoc="250"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>shop manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>send the order</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>19</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity5">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="725" yLoc="100"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>shop manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>edit</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>6</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity16">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="900" yLoc="100"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>shop manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>cancel</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>20</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity18" type="nesting">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="125" yLoc="425"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>22</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity9">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="150" yLoc="475"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>supply manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>prepare a list of goods</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>10</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity10">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="275" yLoc="475"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>supply manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>dispatches this list</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>11</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity19" type="nesting">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="425" yLoc="425"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>23</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity11">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="450" yLoc="475"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>supply manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>contacts suppliers</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>12</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity12">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="575" yLoc="475"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>supply manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>receives the ETA</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>13</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity13">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="700" yLoc="475"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>supply manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>finalizes the order</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>14</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity14">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="825" yLoc="475"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>supply manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>sends list of goods and ETA</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>15</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+            </events>
+            <subProcesses/>
+            <distribution/>
+            <labels>
+                <label id="collect orders from shops"/>
+                <label id="contact shop"/>
+                <label id="Create an order"/>
+                <label id="Ordering"/>
+                <label id="select an item"/>
+                <label id="check the stock"/>
+                <label id="enter the amount of product"/>
+                <label id="confirm the order"/>
+                <label id="Choice"/>
+                <label id="send the order"/>
+                <label id="edit"/>
+                <label id="cancel"/>
+                <label id="Prep. for goods already available"/>
+                <label id="prepare a list of goods"/>
+                <label id="dispatch the list "/>
+                <label id="Restock via suppliers"/>
+                <label id="contact suppliers"/>
+                <label id="receive the ETA"/>
+                <label id="finalize the order"/>
+                <label id="send list of goods and ETA"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity7" labelId="collect orders from shops"/>
+                <labelMapping eventId="Activity8" labelId="contact shop"/>
+                <labelMapping eventId="Activity13_1" labelId="Create an order"/>
+                <labelMapping eventId="Activity14_1" labelId="Ordering"/>
+                <labelMapping eventId="Activity2" labelId="select an item"/>
+                <labelMapping eventId="Activity3" labelId="check the stock"/>
+                <labelMapping eventId="Activity4" labelId="enter the amount of product"/>
+                <labelMapping eventId="Activity15" labelId="confirm the order"/>
+                <labelMapping eventId="Activity17" labelId="Choice"/>
+                <labelMapping eventId="Activity15_1" labelId="send the order"/>
+                <labelMapping eventId="Activity5" labelId="edit"/>
+                <labelMapping eventId="Activity16" labelId="cancel"/>
+                <labelMapping eventId="Activity18" labelId="Prep. for goods already available"/>
+                <labelMapping eventId="Activity9" labelId="prepare a list of goods"/>
+                <labelMapping eventId="Activity10" labelId="dispatch the list "/>
+                <labelMapping eventId="Activity19" labelId="Restock via suppliers"/>
+                <labelMapping eventId="Activity11" labelId="contact suppliers"/>
+                <labelMapping eventId="Activity12" labelId="receive the ETA"/>
+                <labelMapping eventId="Activity13" labelId="finalize the order"/>
+                <labelMapping eventId="Activity14" labelId="send list of goods and ETA"/>
+            </labelMappings>
+            <expressions/>
+            <variables/>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords/>
+                <roles>
+                    <role description="shop manager" specification="">shop manager</role>
+                    <role description="supply manager" specification="">supply manager</role>
+                </roles>
+                <groups/>
+                <phases/>
+                <eventTypes/>
+                <eventParameters/>
+                <graphDetails>When the shop manager starts ordering, he has to select an item, and then checks the stock. He then enters the amount of product that is needed for the following days. He must repeat this process for all goods which the shop sells. Once everything has been ordered, the shop manager must confirm the order. After confirming the order, he may edit, cancel, or send the order to the shop supply manager. The supply manager collects orders from shops. If the supply manager does not receive an order list from a shop by the designated deadline, the supply manager will contact the shop manager in order to obtain the order list. The supply manager must then prepare a list of goods that are already available for the warehouse to deliver to the shops. The supply manager then dispatches this list over to the warehouse manager. The supply manager also contacts suppliers and provides quantity of goods that are needed for the warehouse. The supply manager receives the ETA, finalizes the order, and then sends list of goods and ETA to the warehouse.</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups/>
+                    <filteredRoles/>
+                    <filteredPhases/>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"/>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">When the shop manager starts ordering, he has to select an item, and then checks the stock. He then enters the amount of product that is needed for the following days. He must repeat this process for all goods which the shop sells. Once everything has been ordered, the shop manager must confirm the order. After confirming the order, he may edit, cancel, or send the order to the shop supply manager. The supply manager collects orders from shops. If the supply manager does not receive an order list from a shop by the designated deadline, the supply manager will contact the shop manager in order to obtain the order list. The supply manager must then prepare a list of goods that are already available for the warehouse to deliver to the shops. The supply manager then dispatches this list over to the warehouse manager. The supply manager also contacts suppliers and provides quantity of goods that are needed for the warehouse. The supply manager receives the ETA, finalizes the order, and then sends list of goods and ETA to the warehouse.</highlightLayer>
+                    </highlightLayers>
+                    <highlights>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="9" end="21">shop manager</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="shop manager"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="270" end="282">shop manager</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="shop manager"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="578" end="590">shop manager</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="shop manager"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="386" end="400">supply manager</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="supply manager"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="406" end="420">supply manager</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="supply manager"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="456" end="470">supply manager</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="supply manager"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="546" end="560">supply manager</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="supply manager"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="630" end="644">supply manager</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="supply manager"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="753" end="767">supply manager</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="supply manager"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="829" end="843">supply manager</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="supply manager"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="938" end="952">supply manager</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="supply manager"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="49" end="63">select an item</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="74" end="90">checks the stock</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity3"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="100" end="128">enters the amount of product</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity4"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="342" end="346">edit</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity5"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="421" end="447">collects orders from shops</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity7"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="566" end="573">contact</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity8"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="655" end="678">prepare a list of goods</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity9"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="773" end="794">dispatches this list</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity10"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="849" end="867">contacts suppliers</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity11"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="953" end="969">receives the ETA</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity12"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="971" end="990">finalizes the order</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity13"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1001" end="1028">sends list of goods and ETA</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity14"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="22" end="37">starts ordering</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity13_1"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="288" end="305">confirm the order</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity15"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="359" end="373">send the order</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity15_1"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="348" end="354">cancel</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity16"/>
+                            </items>
+                        </highlight>
+                    </highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity13_1" targetId="Activity14_1" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity4" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity7" targetId="Activity18" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity11" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity9" targetId="Activity10" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity12" targetId="Activity13" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity13" targetId="Activity14" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity15_1" targetId="Activity7" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity7" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity2" targetId="Activity3" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity3" targetId="Activity4" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity15" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity10" targetId="Activity11" filterLevel="0" description="" time="" groups=""/>
+            </conditions>
+            <responses>
+                <response sourceId="Activity7" targetId="Activity18" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity18" targetId="Activity11" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity13" targetId="Activity14" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity15_1" targetId="Activity7" filterLevel="0" description="" time="" groups=""/>
+            </responses>
+            <coresponses/>
+            <excludes>
+                <exclude sourceId="Activity15" targetId="Activity14_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity13_1" targetId="Activity13_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity10" targetId="Activity18" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity7" targetId="Activity7" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity13" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity13" targetId="Activity11" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity13" targetId="Activity13" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity14" targetId="Activity14" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity3" targetId="Activity3" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity4" targetId="Activity4" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity15" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity10" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity15_1" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity16" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity5" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity2" targetId="Activity4" filterLevel="0" description="" time="" groups=""/>
+            </excludes>
+            <includes>
+                <include sourceId="Activity16" targetId="Activity13_1" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity5" targetId="Activity2" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity2" targetId="Activity3" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity3" targetId="Activity4" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity13_1" targetId="Activity2" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity4" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity15_1" targetId="Activity7" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity15" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity7" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity7" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity9" targetId="Activity10" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity10" targetId="Activity11" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity11" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity12" targetId="Activity13" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity13" targetId="Activity14" filterLevel="0" description="" time="" groups=""/>
+            </includes>
+            <milestones/>
+            <spawns/>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking/>
+        </custom>
+        <marking>
+            <globalStore/>
+            <executed/>
+            <included>
+                <event id="Activity13_1"/>
+                <event id="Activity14_1"/>
+            </included>
+            <pendingResponses>
+                <event id="Activity7"/>
+            </pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

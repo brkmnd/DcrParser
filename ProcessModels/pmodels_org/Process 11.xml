@@ -1,0 +1,631 @@
+<dcrgraph title="First interview" dataTypesStatus="hide"  filterLevel="-1" zoomLevel="-9" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity0" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="50" yLoc="125" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>1</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity1" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="225" yLoc="125" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>HR employee</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>2</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity2" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="225" yLoc="300" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>head of the department</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>3</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity3" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="400" yLoc="150" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>head of the department</role>
+                            <role>HR employee</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>4</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="PhonePickUp" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="675" yLoc="200" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>HR employee</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>5</sequence>
+                        <costs>0</costs>
+                        <eventData>
+                            <dataType sequence="5" width="small" placeholder="" hinttext="" dataSetList="" multiple="false">choice</dataType>
+                            <dictionary>
+                                <item key="Pick up phone " value="True"></item>
+                                <item key="Does not pick up phone " value="False"></item>
+                            </dictionary>
+                            <validationRules></validationRules>
+                        </eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity24" type="nesting" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="275" yLoc="1075" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>26</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                    <event id="Activity12" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="500" yLoc="1125" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>HR employee</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription></eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>13</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity15" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="700" yLoc="1125" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>Chosen employee</role>
+                                <role>head of the department</role>
+                                <role>The candidates</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription></eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>16</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity25" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="950" yLoc="1150" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>Chosen employee</role>
+                                <role>head of the department</role>
+                                <role>The candidates</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription></eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>35</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity27" >
+                        <precondition message=""  />
+                        <custom>
+                            <visualization>
+                                <location xLoc="300" yLoc="1125" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role>The candidates</role>
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription></eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <insight use="false"></insight>
+                            <level>1</level>
+                            <sequence>29</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity26" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="100" yLoc="650" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>The candidates</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>28</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Invitation" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="400" yLoc="550" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>HR employee</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>11</sequence>
+                        <costs>0</costs>
+                        <eventData>
+                            <dataType sequence="11" width="small" placeholder="" hinttext="" dataSetList="" multiple="false">choice</dataType>
+                            <dictionary>
+                                <item key="Accept " value="True"></item>
+                                <item key="Reject " value="False"></item>
+                            </dictionary>
+                            <validationRules></validationRules>
+                        </eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity19" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="625" yLoc="400" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>The candidates</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>37</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity15_1" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="650" yLoc="650" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>The candidates</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>38</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses></subProcesses>
+            <distribution></distribution>
+            <labels>
+                <label id="Deadline for applying" />
+                <label id="Screen applications" />
+                <label id="Look through application" />
+                <label id="Meeting about selection of candidates" />
+                <label id="Contact the chosen candidates over the phone" />
+                <label id="First interview" />
+                <label id="Prepare email about first interview" />
+                <label id="Look through email" />
+                <label id="Interview" />
+                <label id="Accept invitation" />
+                <label id="Reject invitation" />
+                <label id="Invite for first interview" />
+                <label id="Pick up phone" />
+                <label id="Withdraw application" />
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity0" labelId="Deadline for applying"/>
+                <labelMapping eventId="Activity1" labelId="Screen applications"/>
+                <labelMapping eventId="Activity2" labelId="Look through application"/>
+                <labelMapping eventId="Activity3" labelId="Meeting about selection of candidates"/>
+                <labelMapping eventId="PhonePickUp" labelId="Contact the chosen candidates over the phone"/>
+                <labelMapping eventId="Activity24" labelId="First interview"/>
+                <labelMapping eventId="Activity12" labelId="Prepare email about first interview"/>
+                <labelMapping eventId="Activity15" labelId="Look through email"/>
+                <labelMapping eventId="Activity25" labelId="Interview"/>
+                <labelMapping eventId="Activity27" labelId="Accept invitation"/>
+                <labelMapping eventId="Activity26" labelId="Reject invitation"/>
+                <labelMapping eventId="Invitation" labelId="Invite for first interview"/>
+                <labelMapping eventId="Activity19" labelId="Pick up phone"/>
+                <labelMapping eventId="Activity15_1" labelId="Withdraw application"/>
+            </labelMappings>
+            <expressions>
+                <expression id="Invitation-path-Activity26--response" value="Invitation=False" />
+                <expression id="Invitation-path-Activity24--response" value="Invitation=True" />
+                <expression id="PhonePickUp-path-PhonePickUp--response" value="PhonePickUp=False" />
+                <expression id="Invitation-path-Activity26--exclude" value="Invitation!=False" />
+                <expression id="Invitation-path-Activity24--exclude" value="Invitation!=True" />
+            </expressions>
+            <variables></variables>
+            <variableAccesses>
+                <writeAccesses />
+            </variableAccesses>
+            <custom>
+                <keywords></keywords>
+                <roles>
+                    <role description="" specification="">Chosen employee</role>
+                    <role description="head of the department" specification="">head of the department</role>
+                    <role description="HR employee" specification="">HR employee</role>
+                    <role description="The candidates" specification="">The candidates</role>
+                </roles>
+                <groups></groups>
+                <phases></phases>
+                <eventTypes></eventTypes>
+                <eventParameters></eventParameters>
+                <graphDetails>When the deadline for applying for a certain job is reached, the head of the department looks through the applications, while the HR screens the application for those invoking their equal rights as disabled, as well as look through the applications for internal applicants. 
+When the applications have been screened and looked through the HR and head of department meets to select the candidates invited for first interview. The HR department then calls the chosen candidates, and the candidates either pick up the phone or not. If the the candidate does not answer the phone, the HR employee leaves a message on their answering machine to call back. Then the candidate either listen to message or not. If the candidate listens to the message their either call back HR or not. If the candidate calls back the HR employee, they are invited for the first interview. If they pick up the phone the first time, they are also invited for the interview. When invited to the candidate can either decline or accept the invitation. If the invitation is accepted the HR employee will prepare an email with information regarding the first interview. The HR employee will also prepare an email for the head of the department and the chosen employee. The HR, head of department and candidate will then look through their emails. After this the chosen employee, head of department and the candidate will be present at the interview. 
+When all the interviews have been executed the HR, chosen employee and head of department will have a meeting about the selection of the candidates invited for the 2nd interview. 
+This cumulates in the HR employee preparing a rejection email for those candidates not invited for the 2nd interview and a phone to those invited to the 2nd interview</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups></filteredGroups>
+                    <filteredRoles></filteredRoles>
+                    <filteredPhases></filteredPhases>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"></hightlighterMarkup>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">The process begins when the deadline for applying for a certain job is reached. After this the HR employee screens the application for those who invoke their equal rights as disabled, as well as look through the application for internal applicants. Meanwhile the head of the department hiring looks through the applications. 
+When the applications has been screened and looked through, the HR and head of department meets to select the candidates that are being invited for the first interview. The candidates are then either receiving an email with a rejection or receiving a call where they are invited for the first interview. If the candidate does not answer the phone the HR employee leaves a message on their answering machine to call back. If the candidate does not call back the dialogue with this candidate is terminated. However, if the candidate gives a call back or pick up the phone the first time the HR employee calls a time and date for the interview is agreed upon. 
+When a time and date is agreed upon, the HR employee will prepare an email to the candidate with information regarding the interview. 
+After this the candidate, head of department and a selected employee of the department hiring is attending the interview. When all the interviews are executed the HR, head of department and employee from the respective department agrees upon the candidates invited for the second interview. This leads to the candidates invited for the second interview is receiving a phone call and the candidates not invited for the second interview is receiving a rejection email. </highlightLayer>
+                    </highlightLayers>
+                    <highlights>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="94" end="106"> HR employee</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="HR employee" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="262" end="285"> head of the department</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="head of the department" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="494" end="508">The candidates</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="The candidates" />
+                            </items>
+                        </highlight>
+                    </highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity0" targetId="Activity1" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity0" targetId="Activity2" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity1" targetId="Activity3" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity2" targetId="Activity3" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity3" targetId="PhonePickUp" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity12" targetId="Activity15" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity15" targetId="Activity25" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Invitation" targetId="Activity26" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Invitation" targetId="Activity24" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity19" targetId="Invitation" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity27" targetId="Activity12" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity3" targetId="Activity19" filterLevel="0"  description=""  time=""  groups=""  />
+            </conditions>
+            <responses>
+                <response sourceId="Activity0" targetId="Activity1" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity0" targetId="Activity2" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity1" targetId="Activity3" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity2" targetId="Activity3" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity3" targetId="PhonePickUp" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity12" targetId="Activity15" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity15" targetId="Activity25" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Invitation" targetId="Activity26" filterLevel="0"  description=""  time=""  groups=""  expressionId="Invitation-path-Activity26--response"  />
+                <response sourceId="Invitation" targetId="Activity24" filterLevel="0"  description=""  time=""  groups=""  expressionId="Invitation-path-Activity24--response"  />
+                <response sourceId="PhonePickUp" targetId="PhonePickUp" filterLevel="0"  description=""  time=""  groups=""  expressionId="PhonePickUp-path-PhonePickUp--response"  />
+                <response sourceId="Activity19" targetId="Invitation" filterLevel="0"  description=""  time=""  groups=""  />
+                <response sourceId="Activity27" targetId="Activity12" filterLevel="0"  description=""  time=""  groups=""  />
+            </responses>
+            <coresponses></coresponses>
+            <excludes>
+                <exclude sourceId="Invitation" targetId="Activity26" filterLevel="0"  description=""  time=""  groups=""  expressionId="Invitation-path-Activity26--exclude"  />
+                <exclude sourceId="Invitation" targetId="Activity24" filterLevel="0"  description=""  time=""  groups=""  expressionId="Invitation-path-Activity24--exclude"  />
+                <exclude sourceId="Activity15_1" targetId="Activity24" filterLevel="0"  description=""  time=""  groups=""  />
+            </excludes>
+            <includes>
+                <include sourceId="Activity27" targetId="Activity15_1" filterLevel="0"  description=""  time=""  groups=""  />
+            </includes>
+            <milestones>
+                <milestone sourceId="PhonePickUp" targetId="Activity19" filterLevel="0"  description=""  time=""  groups=""  />
+            </milestones>
+            <spawns></spawns>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking></globalMarking>
+        </custom>
+        <marking>
+            <globalStore></globalStore>
+            <executed></executed>
+            <included>
+                <event id="Activity0" />
+                <event id="Activity1" />
+                <event id="Activity2" />
+                <event id="Activity3" />
+                <event id="PhonePickUp" />
+                <event id="Activity24" />
+                <event id="Activity12" />
+                <event id="Activity15" />
+                <event id="Activity25" />
+                <event id="Activity27" />
+                <event id="Activity26" />
+                <event id="Invitation" />
+                <event id="Activity19" />
+            </included>
+            <pendingResponses></pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

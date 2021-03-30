@@ -1,0 +1,907 @@
+<dcrgraph title="P15" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-5" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#434343" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity10" type="subprocess">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="950" yLoc="525"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>13</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="method">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="975" yLoc="575"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Seller</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>3</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="3" width="small" placeholder="" hinttext="" dataSetList="" multiple="false" format="false">choice</dataType>
+                                <dictionary>
+                                    <item label="On website " value="1"/>
+                                    <item label="On phone " value="2"/>
+                                    <item label="In shop " value="3"/>
+                                </dictionary>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity5">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1175" yLoc="575"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Employee</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>6</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="period">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="975" yLoc="750"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Seller</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>33</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="33" width="small" min="" max="" placeholder="" hinttext="Renting period must be equal or above 98 days (14 weeks) ">duration</dataType>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity12" type="subprocess">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="950" yLoc="1025"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>18</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity9">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="975" yLoc="1275"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Management</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>15</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity9Copy">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1175" yLoc="1075"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Management</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>16</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="agree">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1175" yLoc="1275"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Management</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>17</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="17" width="small" placeholder="" hinttext="" dataSetList="" multiple="false" format="false">choice</dataType>
+                                <dictionary>
+                                    <item label="They agree to not extend the shelf  " value="1"/>
+                                    <item label="They disagree and would like to extend " value="2"/>
+                                </dictionary>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="dkk">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="975" yLoc="1075"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Management</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>14</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="14" width="small" min="NaN" max="NaN" placeholder="" hinttext="">money</dataType>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity19" type="subprocess">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="650" yLoc="500"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>26</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="con">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="675" yLoc="550"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Seller</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>25</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="25" width="small" placeholder="" hinttext="" dataSetList="" multiple="false" format="false">choice</dataType>
+                                <dictionary>
+                                    <item label="Yes " value="1"/>
+                                    <item label="No " value="2"/>
+                                </dictionary>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity17">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="675" yLoc="775"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Employee</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>24</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity24" type="nesting">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1425" yLoc="1100"/>
+                            <colors bg="#999999" textStroke="#000000" stroke="#666666"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>37</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity6" type="subprocess">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1575" yLoc="1150"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>7</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                        <event id="activty144">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1600" yLoc="1200"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Seller</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>28</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Activity19_1">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1725" yLoc="1200"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Seller</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>29</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Activity20">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1850" yLoc="1200"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Seller</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>30</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Activity21">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1975" yLoc="1200"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Seller</role>
+                                </roles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>31</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                    </event>
+                    <event id="end">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1450" yLoc="1200"/>
+                                <colors bg="#e6b8af" textStroke="#000000" stroke="#e06666"/>
+                            </visualization>
+                            <roles>
+                                <role>Seller</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>21</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity22" type="nesting">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1575" yLoc="625"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>38</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity8">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1775" yLoc="675"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Management</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>11</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="ext">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1600" yLoc="675"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Seller</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>32</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="32" width="small" placeholder="" hinttext="" dataSetList="" multiple="false" format="false">choice</dataType>
+                                <dictionary>
+                                    <item label="Wants extension " value="1"/>
+                                    <item label="Do not want extension " value="2"/>
+                                </dictionary>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+            </events>
+            <subProcesses/>
+            <distribution/>
+            <labels>
+                <label id="Payment"/>
+                <label id="Choose payment method"/>
+                <label id="Take payment"/>
+                <label id="Decide the renting period"/>
+                <label id="Extention handling"/>
+                <label id="Extension granted"/>
+                <label id="End contract"/>
+                <label id="Contacts seller if they want to reconsider"/>
+                <label id="Checks Sellers' revenue "/>
+                <label id="Find seller"/>
+                <label id="Confirm shelf"/>
+                <label id="Pick person from the waiting list"/>
+                <label id="Renting period"/>
+                <label id="Maintance"/>
+                <label id="Take items down"/>
+                <label id="Renew prices"/>
+                <label id="Provide new items"/>
+                <label id="Clean shelf"/>
+                <label id="Move out"/>
+                <label id="End of renting period"/>
+                <label id="Remind seller if they would like an extension"/>
+                <label id="Decide if extension is wanted"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity10" labelId="Payment"/>
+                <labelMapping eventId="method" labelId="Choose payment method"/>
+                <labelMapping eventId="Activity5" labelId="Take payment"/>
+                <labelMapping eventId="period" labelId="Decide the renting period"/>
+                <labelMapping eventId="Activity12" labelId="Extention handling"/>
+                <labelMapping eventId="Activity9" labelId="Extension granted"/>
+                <labelMapping eventId="Activity9Copy" labelId="End contract"/>
+                <labelMapping eventId="agree" labelId="Contacts seller if they want to reconsider"/>
+                <labelMapping eventId="dkk" labelId="Checks Sellers' revenue "/>
+                <labelMapping eventId="Activity19" labelId="Find seller"/>
+                <labelMapping eventId="con" labelId="Confirm shelf"/>
+                <labelMapping eventId="Activity17" labelId="Pick person from the waiting list"/>
+                <labelMapping eventId="Activity24" labelId="Renting period"/>
+                <labelMapping eventId="Activity6" labelId="Maintance"/>
+                <labelMapping eventId="activty144" labelId="Take items down"/>
+                <labelMapping eventId="Activity19_1" labelId="Renew prices"/>
+                <labelMapping eventId="Activity20" labelId="Provide new items"/>
+                <labelMapping eventId="Activity21" labelId="Clean shelf"/>
+                <labelMapping eventId="end" labelId="Move out"/>
+                <labelMapping eventId="Activity22" labelId="End of renting period"/>
+                <labelMapping eventId="Activity8" labelId="Remind seller if they would like an extension"/>
+                <labelMapping eventId="ext" labelId="Decide if extension is wanted"/>
+            </labelMappings>
+            <expressions>
+                <expression id="dkk-path-Activity9--response" value="dkk &gt;= 700"/>
+                <expression id="dkk-path-Activity9Copy--response" value="dkk &lt; 700"/>
+                <expression id="con-path-Activity17--response" value="con!=1"/>
+                <expression id="con-path-Activity10--response" value="con=1"/>
+                <expression id="ext-path-end--response" value="ext != 1"/>
+                <expression id="ext-path-dkk--response" value="ext = 1"/>
+                <expression id="agree-path-Activity9--response" value="agree != 1"/>
+                <expression id="agree-path-Activity9Copy--response" value="agree = 1"/>
+                <expression id="agree-path-Activity9Copy--coresponse" value="agree != 1"/>
+                <expression id="agree-path-Activity9--coresponse" value="agree = 1"/>
+                <expression id="ext-path-Activity12--include" value="ext = 1"/>
+                <expression id="method-path-Activity5--include" value="method != 1"/>
+                <expression id="dkk-path-agree--include" value="dkk &lt; 700"/>
+                <expression id="con-path-Activity19--exclude" value="con=1"/>
+                <expression id="method-path-Activity5--exclude" value="method = 1"/>
+                <expression id="dkk-path-agree--exclude" value="dkk &gt;= 700"/>
+            </expressions>
+            <variables/>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords>Kræmmergården Dragor’s shop</keywords>
+                <roles>
+                    <role description="Employee at Kræmmergården dragor" specification="">Employee</role>
+                    <role description="Management at Kræmmergården dragor" specification="">Management</role>
+                    <role description="Someone wishing to purchase a shelf for a renting period at Kræmmergården Dragor’s shop" specification="">Seller</role>
+                </roles>
+                <groups/>
+                <phases/>
+                <eventTypes/>
+                <eventParameters/>
+                <graphDetails>A description of the renting process at Kræmmergården Dragor’s shop. Our graph demonstrates the renting process and how a seller is able to extend and the decision process from management. 
+
+</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups/>
+                    <filteredRoles/>
+                    <filteredPhases/>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"/>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">A description of the renting process at Kræmmergården Dragor’s shop. Our graph demonstrates the renting process and how a seller is able to extend and the decision process from management.</highlightLayer>
+                    </highlightLayers>
+                    <highlights/>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="method" targetId="Activity5" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="period" targetId="method" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity10" targetId="Activity24" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity10" targetId="Activity22" filterLevel="0" description="" time="period - P7D" groups=""/>
+            </conditions>
+            <responses>
+                <response sourceId="dkk" targetId="Activity9" filterLevel="0" description="" time="" groups="" expressionId="dkk-path-Activity9--response"/>
+                <response sourceId="dkk" targetId="Activity9Copy" filterLevel="0" description="" time="" groups="" expressionId="dkk-path-Activity9Copy--response"/>
+                <response sourceId="method" targetId="Activity5" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity17" targetId="con" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="con" targetId="Activity17" filterLevel="0" description="" time="" groups="" expressionId="con-path-Activity17--response"/>
+                <response sourceId="con" targetId="Activity10" filterLevel="0" description="" time="" groups="" expressionId="con-path-Activity10--response"/>
+                <response sourceId="Activity8" targetId="ext" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="ext" targetId="end" filterLevel="0" description="" time="" groups="" expressionId="ext-path-end--response"/>
+                <response sourceId="ext" targetId="dkk" filterLevel="0" description="" time="" groups="" expressionId="ext-path-dkk--response"/>
+                <response sourceId="agree" targetId="Activity9" filterLevel="0" description="" time="" groups="" expressionId="agree-path-Activity9--response"/>
+                <response sourceId="period" targetId="method" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="ext" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity9Copy" targetId="end" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="agree" targetId="Activity9Copy" filterLevel="0" description="" time="" groups="" expressionId="agree-path-Activity9Copy--response"/>
+                <response sourceId="Activity9" targetId="period" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity10" targetId="Activity22" filterLevel="0" description="" time="period" groups=""/>
+            </responses>
+            <coresponses>
+                <coresponse sourceId="agree" targetId="Activity9Copy" filterLevel="0" description="" time="" groups="" expressionId="agree-path-Activity9Copy--coresponse"/>
+                <coresponse sourceId="agree" targetId="Activity9" filterLevel="0" description="" time="" groups="" expressionId="agree-path-Activity9--coresponse"/>
+                <coresponse sourceId="ext" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <coresponse sourceId="Activity9" targetId="Activity9Copy" filterLevel="0" description="" time="" groups=""/>
+            </coresponses>
+            <excludes>
+                <exclude sourceId="con" targetId="Activity19" filterLevel="0" description="" time="" groups="" expressionId="con-path-Activity19--exclude"/>
+                <exclude sourceId="Activity9" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="end" targetId="Activity24" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="method" targetId="Activity5" filterLevel="0" description="" time="" groups="" expressionId="method-path-Activity5--exclude"/>
+                <exclude sourceId="end" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity9Copy" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="dkk" targetId="agree" filterLevel="0" description="" time="" groups="" expressionId="dkk-path-agree--exclude"/>
+                <exclude sourceId="end" targetId="Activity10" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="end" targetId="Activity22" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="ext" targetId="Activity22" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="method" targetId="period" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="method" targetId="method" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity5" targetId="Activity5" filterLevel="0" description="" time="" groups=""/>
+            </excludes>
+            <includes>
+                <include sourceId="ext" targetId="Activity12" filterLevel="0" description="" time="" groups="" expressionId="ext-path-Activity12--include"/>
+                <include sourceId="method" targetId="Activity5" filterLevel="0" description="" time="" groups="" expressionId="method-path-Activity5--include"/>
+                <include sourceId="dkk" targetId="agree" filterLevel="0" description="" time="" groups="" expressionId="dkk-path-agree--include"/>
+                <include sourceId="Activity10" targetId="Activity22" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity9" targetId="period" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="period" targetId="method" filterLevel="0" description="" time="" groups=""/>
+            </includes>
+            <milestones>
+                <milestone sourceId="Activity17" targetId="con" filterLevel="0" description="" time="" groups=""/>
+                <milestone sourceId="Activity19" targetId="Activity10" filterLevel="0" description="" time="" groups=""/>
+                <milestone sourceId="dkk" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <milestone sourceId="dkk" targetId="Activity9Copy" filterLevel="0" description="" time="" groups=""/>
+                <milestone sourceId="end" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <milestone sourceId="Activity12" targetId="Activity10" filterLevel="0" description="" time="" groups=""/>
+                <milestone sourceId="Activity10" targetId="Activity24" filterLevel="0" description="" time="" groups=""/>
+                <milestone sourceId="dkk" targetId="agree" filterLevel="0" description="" time="" groups=""/>
+                <milestone sourceId="Activity22" targetId="Activity10" filterLevel="0" description="" time="" groups=""/>
+                <milestone sourceId="end" targetId="Activity10" filterLevel="0" description="" time="" groups=""/>
+            </milestones>
+            <spawns/>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking/>
+        </custom>
+        <marking>
+            <globalStore/>
+            <executed/>
+            <included>
+                <event id="Activity10"/>
+                <event id="method"/>
+                <event id="Activity5"/>
+                <event id="period"/>
+                <event id="Activity9"/>
+                <event id="Activity9Copy"/>
+                <event id="dkk"/>
+                <event id="Activity19"/>
+                <event id="con"/>
+                <event id="Activity17"/>
+                <event id="Activity24"/>
+                <event id="Activity6"/>
+                <event id="activty144"/>
+                <event id="Activity19_1"/>
+                <event id="Activity20"/>
+                <event id="Activity21"/>
+                <event id="end"/>
+                <event id="Activity22"/>
+                <event id="Activity8"/>
+                <event id="ext"/>
+            </included>
+            <pendingResponses>
+                <event id="Activity19"/>
+                <event id="Activity17"/>
+            </pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

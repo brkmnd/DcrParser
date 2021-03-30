@@ -1,0 +1,598 @@
+<dcrgraph title="P20" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-2" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity7_1" type="subprocess">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="750" yLoc="250"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>11</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity6_1">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="775" yLoc="450"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Customer</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>10</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity5_1">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="775" yLoc="600"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Customer</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>9</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity8">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="775" yLoc="300"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Customer</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>12</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity9">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="575" yLoc="450"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Service Sales department</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>13</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity10">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="975" yLoc="300"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Customer</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>14</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity11">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1150" yLoc="525"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Professional Services department</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>15</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity11_2" type="nesting">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="150" yLoc="275"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Service Sales department</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>17</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity11_1">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="175" yLoc="325"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Service Sales department</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>16</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Resourcehours">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="175" yLoc="475"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Service Sales department</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>7</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity7">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="175" yLoc="625"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Service Sales department</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>8</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity12">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="975" yLoc="575"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Service Sales department</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>18</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity15" type="subprocess">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="375" yLoc="325"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>21</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity13">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="400" yLoc="525"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Service Sales department</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>19</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity14">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="400" yLoc="375"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Service Sales department</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>20</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+            </events>
+            <subProcesses/>
+            <distribution/>
+            <labels>
+                <label id="Customer choice"/>
+                <label id="reject SoW"/>
+                <label id="accept SoW "/>
+                <label id="rework SoW"/>
+                <label id="send SoW to customer"/>
+                <label id="decline project"/>
+                <label id="handover from Service Sales"/>
+                <label id="SoW creation workshop"/>
+                <label id="estimate project length"/>
+                <label id="estimate resource hours"/>
+                <label id="estimate project cost"/>
+                <label id="close deal"/>
+                <label id="SoW evaluation"/>
+                <label id="internal SoW acceptance"/>
+                <label id="internal SoW rejection"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity7_1" labelId="Customer choice"/>
+                <labelMapping eventId="Activity6_1" labelId="reject SoW"/>
+                <labelMapping eventId="Activity5_1" labelId="accept SoW "/>
+                <labelMapping eventId="Activity8" labelId="rework SoW"/>
+                <labelMapping eventId="Activity9" labelId="send SoW to customer"/>
+                <labelMapping eventId="Activity10" labelId="decline project"/>
+                <labelMapping eventId="Activity11" labelId="handover from Service Sales"/>
+                <labelMapping eventId="Activity11_2" labelId="SoW creation workshop"/>
+                <labelMapping eventId="Activity11_1" labelId="estimate project length"/>
+                <labelMapping eventId="Resourcehours" labelId="estimate resource hours"/>
+                <labelMapping eventId="Activity7" labelId="estimate project cost"/>
+                <labelMapping eventId="Activity12" labelId="close deal"/>
+                <labelMapping eventId="Activity15" labelId="SoW evaluation"/>
+                <labelMapping eventId="Activity13" labelId="internal SoW acceptance"/>
+                <labelMapping eventId="Activity14" labelId="internal SoW rejection"/>
+            </labelMappings>
+            <expressions/>
+            <variables/>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords/>
+                <roles>
+                    <role description="" specification="">Customer</role>
+                    <role description="" specification="">Professional Services department</role>
+                    <role description="" specification="">Service Sales department</role>
+                </roles>
+                <groups>
+                    <group sequence="8" description="">sdw</group>
+                </groups>
+                <phases/>
+                <eventTypes/>
+                <eventParameters/>
+                <graphDetails>There are three actors, or roles, involved in the Statement of Work (SoW) creation process consisting of two departments, the Service Sales department and the Professional Services department, and the Customer. The SoW creation process is initiated by a workshop in which the Statement of Work is developed by the Service Sales department. The SoW creation workshop contains three events: “estimate project length”, “estimate resource hours” and “estimate project cost”. All the activities in the SoW creation workshop are nested as the Statement of Work can only be finished if all activities are executed, hence project length, hours and cost should be estimated in order for the SoW to be completed. The SoW is then evaluated before sending it to the customer. It can either be rejected or accepted internally by the Service Sales department. If the SoW is being rejected it is not required that all estimations have to be redone. The flexibility needs to be given in order for the Service Sales department to adjust only one or two estimations or even small formalities that do not require a new SoW creation workshop. Once the adjustment is done, the SoW can be sent for internal evaluation again. This process can be repeated as many times as needed until the SoW is accepted and finally sent to the customer. Once the SoW is sent to the customer, it cannot be modified and sent to the customer again. This ensures alignment between the two parties, Tradeshift and the Customer. The Customer is then responsible for reviewing the SoW and choosing one of the three following options: “Rework SoW”, “Reject SoW” and “Accept SoW”. Since these activities belong to a second subprocess (“Customer choice”), not all activities have to be executed before moving on to an activity outside of the subprocess. If the customer accepts the SoW, it is automatically handed over to the Professional Services department. Since the “accept SoW” activity excludes itself, as well as “decline project” and “reject SoW”, the only possibility is to close the deal with the Service Sales department and to hand the SoW over to Professional Services, or, in case a problem arises after accepting the SoW, the model provides the needed flexibility to rework the SoW in case ad hoc changes come up.If the Customer rejects the SoW, both accept - and rework SoW are excluded activities and the “project declined” activity gets into a pending state, meaning it must be executed. This ends the process and Tradeshift’s collaboration with the Customer until Tradeshift is potentially chosen as a vendor of choice again. If a Customer decides that rework needs to be done on the suggested SoW, the green include relation from “rework SoW” to the “SoW creation workshop”-nest indicates that any number of activities nested in the “SoW creation workshop” can be executed again to modify the SoW according to the Customer’s preference. Every time an estimation is modified, the SoW needs to be internally accepted or rejected again. This is shown by the combination of the include, condition and response relation pointing from the “SoW creation workshop”-nest to the “SoW evaluation” subprocess. Once the SoW is modified, accepted and sent to the Customer, the Customer needs to choose between the three activities in the “Customer choice” subprocess again.The SoW can be reworked as many times as needed, but it can only be rejected and accepted once. This is a requirement the model needs to comply with, since the rejection of a SoW indicates the end of a collaboration between Tradeshift and its customer and the acceptance of the SoW leads to the closure of the deal and a handover to Professional Services. The SoW should not be modified anymore once it is used as a project baseline in another department.</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups/>
+                    <filteredRoles/>
+                    <filteredPhases/>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"/>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">There are three actors, or roles, involved in the Statement of Work (SoW) creation process consisting of two departments, the Service Sales department and the Professional Services department, and the Customer. The SoW creation process is initiated by a workshop in which the Statement of Work is developed by the Service Sales department. The SoW creation workshop contains three events: “estimate project length”, “estimate resource hours” and “estimate project cost”. All the activities in the SoW creation workshop are nested as the Statement of Work can only be finished if all activities are executed, hence project length, hours and cost should be estimated in order for the SoW to be completed. The SoW is then evaluated before sending it to the customer. It can either be rejected or accepted internally by the Service Sales department. If the SoW is being rejected it is not required that all estimations have to be redone. The flexibility needs to be given in order for the Service Sales department to adjust only one or two estimations or even small formalities that do not require a new SoW creation workshop. Once the adjustment is done, the SoW can be sent for internal evaluation again. This process can be repeated as many times as needed until the SoW is accepted and finally sent to the customer. Once the SoW is sent to the customer, it cannot be modified and sent to the customer again. This ensures alignment between the two parties, Tradeshift and the Customer. The Customer is then responsible for reviewing the SoW and choosing one of the three following options: “Rework SoW”, “Reject SoW” and “Accept SoW”. Since these activities belong to a second subprocess (“Customer choice”), not all activities have to be executed before moving on to an activity outside of the subprocess. If the customer accepts the SoW, it is automatically handed over to the Professional Services department. Since the “accept SoW” activity excludes itself, as well as “decline project” and “reject SoW”, the only possibility is to close the deal with the Service Sales department and to hand the SoW over to Professional Services, or, in case a problem arises after accepting the SoW, the model provides the needed flexibility to rework the SoW in case ad hoc changes come up.
+If the Customer rejects the SoW, both accept - and rework SoW are excluded activities and the “project declined” activity gets into a pending state, meaning it must be executed. This ends the process and Tradeshift’s collaboration with the Customer until Tradeshift is potentially chosen as a vendor of choice again. If a Customer decides that rework needs to be done on the suggested SoW, the green include relation from “rework SoW” to the “SoW creation workshop”-nest indicates that any number of activities nested in the “SoW creation workshop” can be executed again to modify the SoW according to the Customer’s preference. Every time an estimation is modified, the SoW needs to be internally accepted or rejected again. This is shown by the combination of the include, condition and response relation pointing from the “SoW creation workshop”-nest to the “SoW evaluation” subprocess. Once the SoW is modified, accepted and sent to the Customer, the Customer needs to choose between the three activities in the “Customer choice” subprocess again.
+The SoW can be reworked as many times as needed, but it can only be rejected and accepted once. This is a requirement the model needs to comply with, since the rejection of a SoW indicates the end of a collaboration between Tradeshift and its customer and the acceptance of the SoW leads to the closure of the deal and a handover to Professional Services. The SoW should not be modified anymore once it is used as a project baseline in another department.</highlightLayer>
+                    </highlightLayers>
+                    <highlights/>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity9" targetId="Activity7_1" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity5_1" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity12" targetId="Activity11" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity13" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity11_2" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+            </conditions>
+            <responses>
+                <response sourceId="Activity9" targetId="Activity7_1" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity12" targetId="Activity11" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity5_1" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity13" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity11_2" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity6_1" targetId="Activity10" filterLevel="0" description="" time="" groups=""/>
+            </responses>
+            <coresponses/>
+            <excludes>
+                <exclude sourceId="Activity6_1" targetId="Activity6_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity5_1" targetId="Activity5_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity6_1" targetId="Activity5_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity5_1" targetId="Activity6_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity13" targetId="Activity11_2" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity9" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity15" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity6_1" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity6_1" targetId="Activity11" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity10" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity10" targetId="Activity11" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity12" targetId="Activity10" filterLevel="0" description="" time="" groups=""/>
+            </excludes>
+            <includes>
+                <include sourceId="Activity8" targetId="Activity11_2" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity11_2" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity13" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity5_1" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity12" targetId="Activity11" filterLevel="0" description="" time="" groups=""/>
+            </includes>
+            <milestones/>
+            <spawns/>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking/>
+        </custom>
+        <marking>
+            <globalStore/>
+            <executed/>
+            <included>
+                <event id="Activity7_1"/>
+                <event id="Activity6_1"/>
+                <event id="Activity5_1"/>
+                <event id="Activity8"/>
+                <event id="Activity9"/>
+                <event id="Activity10"/>
+                <event id="Activity11"/>
+                <event id="Activity11_2"/>
+                <event id="Activity11_1"/>
+                <event id="Resourcehours"/>
+                <event id="Activity7"/>
+                <event id="Activity12"/>
+                <event id="Activity15"/>
+                <event id="Activity13"/>
+                <event id="Activity14"/>
+            </included>
+            <pendingResponses/>
+        </marking>
+    </runtime>
+</dcrgraph>

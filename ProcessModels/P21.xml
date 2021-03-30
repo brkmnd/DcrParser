@@ -1,0 +1,1353 @@
+<dcrgraph title="P21" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-3" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity2">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="200" yLoc="75"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>DPL</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>must initialise the ORR process</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>0</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity5">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="675" yLoc="75"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>DPL</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>DPL must create the documentation tasks for the different stakeholders</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>2</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity8">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="825" yLoc="75"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>DPL</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;DPL also sends documentation tasks to the Project Manager&lt;/p&gt;</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>4</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity12">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1450" yLoc="475"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>DPL</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;compiles the documentation&lt;/p&gt;</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>6</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity13">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1300" yLoc="475"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>DPL</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>sends an invitation</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>7</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity21">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="700" yLoc="375"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>DPL</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;sends it to approval with the customer&lt;/p&gt;</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>10</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity28">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="50" yLoc="225"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>DPL</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>the document is sent to the DPL</eventDescription>
+                        <purpose>highlighter</purpose>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>14</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity28_1" type="nesting">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="350" yLoc="50"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>DPL</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>15</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity3">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="500" yLoc="100"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>DPL</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>&lt;p&gt;contract requirements&lt;/p&gt;</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>1</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity32_3">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="375" yLoc="100"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>DPL</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>26</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="26" width="small" default="false" placeholder="All documents included" hinttext="">bool</dataType>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity30_1">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="50" yLoc="75"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Project Manager</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>20</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity34_1" type="subprocess">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="25" yLoc="350"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>22</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity24">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="275" yLoc="400"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Customer</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>customer receives and reads the documentation</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>11</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="decision3">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="275" yLoc="600"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Customer</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>approves</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>12</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="12" width="small" placeholder="Customer response to documentation" hinttext="" dataSetList="" multiple="false" format="false">choice</dataType>
+                                <dictionary>
+                                    <item label="Approve documentation " value="1"/>
+                                    <item label="Reject documentation " value="2"/>
+                                </dictionary>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity27">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="50" yLoc="600"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Customer</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>the customer must send the documentation back to the DPL</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>13</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity35_1" type="subprocess">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="475" yLoc="550"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>23</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity18">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="500" yLoc="600"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>DPL</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>&lt;p&gt;documentation has to be reworked&lt;/p&gt;</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>8</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity20">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="900" yLoc="600"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>DPL</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>&lt;p&gt;DPL compiles the documentation&lt;/p&gt;</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>9</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="decision2">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="700" yLoc="600"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>DPL</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>28</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="28" width="small" placeholder="Response to rework" hinttext="" dataSetList="" multiple="false" format="false">choice</dataType>
+                                <dictionary>
+                                    <item label="Approve reworked documentation " value="1"/>
+                                    <item label="Reject reworked documentation " value="2"/>
+                                </dictionary>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity32_2" type="nesting">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="975" yLoc="25"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Operations Team</role>
+                            <role>Project Manager</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>25</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity10">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1450" yLoc="75"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Project Manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>sends the documentation to the DPL</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>5</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity28_2">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1000" yLoc="75"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Project Manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>16</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity29_1">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1000" yLoc="250"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Operations Team</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>17</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity31">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1150" yLoc="250"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Operations Team</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>18</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity32">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1300" yLoc="250"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Operations Team</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>19</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity37">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1450" yLoc="250"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Operations Team</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>21</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity38_2">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1150" yLoc="75"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Project Manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>24</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity7">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1300" yLoc="75"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Project Manager</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>creates the documentation</eventDescription>
+                            <purpose>highlighter</purpose>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>3</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="decision1">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1125" yLoc="475"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>DPL</role>
+                            <role>Operations Team</role>
+                            <role>Project Manager</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>27</sequence>
+                        <costs>0</costs>
+                        <eventData>
+                            <dataType sequence="27" width="small" placeholder="Meeting outcome" hinttext="" dataSetList="" multiple="false" format="false">choice</dataType>
+                            <dictionary>
+                                <item label="Approve documentation " value="1"/>
+                                <item label="Reject documentation " value="2"/>
+                            </dictionary>
+                            <validationRules/>
+                        </eventData>
+                        <interfaces/>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses/>
+            <distribution/>
+            <labels>
+                <label id="Initialise the ORR process"/>
+                <label id="Create the documentation tasks"/>
+                <label id="Send documentation tasks"/>
+                <label id="Compiles the documentation"/>
+                <label id="Send an invitation"/>
+                <label id="Send documentation for approval"/>
+                <label id="Receives approved documentation"/>
+                <label id="Check formalities"/>
+                <label id="Contract requirements"/>
+                <label id="ORR checklist"/>
+                <label id="Hands over documentation task"/>
+                <label id="Customer approval subprocess"/>
+                <label id="Evaluate the documentation"/>
+                <label id="Customer approval"/>
+                <label id="Send documentation to DPL"/>
+                <label id="Rework subprocess"/>
+                <label id="Facilitates rework tasks"/>
+                <label id="Compiles the documentation"/>
+                <label id="Get written approval"/>
+                <label id="Create documentation"/>
+                <label id="Send documentation"/>
+                <label id="Receive tasks"/>
+                <label id="Receive tasks"/>
+                <label id="Delegate tasks"/>
+                <label id="Compiles documentation from his department"/>
+                <label id="Send documentation"/>
+                <label id="Delegate tasks"/>
+                <label id="Compiles documentation from his department"/>
+                <label id="Internal approval meeting"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity2" labelId="Initialise the ORR process"/>
+                <labelMapping eventId="Activity5" labelId="Create the documentation tasks"/>
+                <labelMapping eventId="Activity8" labelId="Send documentation tasks"/>
+                <labelMapping eventId="Activity12" labelId="Compiles the documentation"/>
+                <labelMapping eventId="Activity13" labelId="Send an invitation"/>
+                <labelMapping eventId="Activity21" labelId="Send documentation for approval"/>
+                <labelMapping eventId="Activity28" labelId="Receives approved documentation"/>
+                <labelMapping eventId="Activity28_1" labelId="Check formalities"/>
+                <labelMapping eventId="Activity3" labelId="Contract requirements"/>
+                <labelMapping eventId="Activity32_3" labelId="ORR checklist"/>
+                <labelMapping eventId="Activity30_1" labelId="Hands over documentation task"/>
+                <labelMapping eventId="Activity34_1" labelId="Customer approval subprocess"/>
+                <labelMapping eventId="Activity24" labelId="Evaluate the documentation"/>
+                <labelMapping eventId="decision3" labelId="Customer approval"/>
+                <labelMapping eventId="Activity27" labelId="Send documentation to DPL"/>
+                <labelMapping eventId="Activity35_1" labelId="Rework subprocess"/>
+                <labelMapping eventId="Activity18" labelId="Facilitates rework tasks"/>
+                <labelMapping eventId="Activity20" labelId="Compiles the documentation"/>
+                <labelMapping eventId="decision2" labelId="Get written approval"/>
+                <labelMapping eventId="Activity32_2" labelId="Create documentation"/>
+                <labelMapping eventId="Activity10" labelId="Send documentation"/>
+                <labelMapping eventId="Activity28_2" labelId="Receive tasks"/>
+                <labelMapping eventId="Activity29_1" labelId="Receive tasks"/>
+                <labelMapping eventId="Activity31" labelId="Delegate tasks"/>
+                <labelMapping eventId="Activity32" labelId="Compiles documentation from his department"/>
+                <labelMapping eventId="Activity37" labelId="Send documentation"/>
+                <labelMapping eventId="Activity38_2" labelId="Delegate tasks"/>
+                <labelMapping eventId="Activity7" labelId="Compiles documentation from his department"/>
+                <labelMapping eventId="decision1" labelId="Internal approval meeting"/>
+            </labelMappings>
+            <expressions>
+                <expression id="decision3-path-Activity27--response" value="decision3=1"/>
+                <expression id="decision1-path-Activity21--response" value="decision1=1"/>
+                <expression id="decision1-path-Activity35_1--response" value="decision1=2"/>
+                <expression id="decision2-path-Activity20--response" value="decision2=1"/>
+                <expression id="decision2-path-Activity18--response" value="decision2=2"/>
+                <expression id="decision3-path-Activity18--response" value="decision3!=1"/>
+                <expression id="decision3-path-Activity27--include" value="decision3=1"/>
+                <expression id="decision1-path-Activity35_1--include" value="decision1=2"/>
+                <expression id="decision3-path-Activity18--include" value="decision3!=1"/>
+                <expression id="decision3-path-Activity35_1--include" value="decision3!=1"/>
+                <expression id="decision2-path-Activity20--include" value="decision2=1"/>
+                <expression id="decision1-path-Activity21--include" value="decision1=1"/>
+            </expressions>
+            <variables/>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords/>
+                <roles>
+                    <role description="customer" specification="">Customer</role>
+                    <role description="Delivery Project Lead (DPL)" specification="">DPL</role>
+                    <role description="Operations Team" specification="">Operations Team</role>
+                    <role description="Project Manager" specification="">Project Manager</role>
+                </roles>
+                <groups/>
+                <phases/>
+                <eventTypes/>
+                <eventParameters/>
+                <graphDetails>The process begins when the Project Manager must hand over the Operational Readiness Review (ORR) documentation task to the Delivery Project Lead (DPL). The DPL must initialise the ORR process once, thereafter the contract requirements and the ORR checklist must be checked. Then the DPL must create the documentation tasks for the different stakeholders. He sends these tasks to the Operations Team who creates the documentation required. The DPL also sends documentation tasks to the Project Manager, who then delegates the tasks in the project team. The Operations Team and the Project Manager sends the documentation to the DPL once the tasks are completed. The DPL receives the documentation from the Project Manager and the Operation Team Manager and compiles the documentation. Then the DPL sends an invitation to the Project Manager and the Operations Team Manager for an approval meeting. At the meeting they either reject or approve the documentation. If it gets rejected, the documentation has to be reworked. If there is rework, the approval will be in written format without a new meeting. After the approval, the DPL compiles the documentation and sends it to approval with the customer. If the documentation is approved at the meeting, the DPL must send the documentation to approval with the customer. The customer receives and reads the documentation, and either rejects or approves it. If rejected, the customer must send the documentation back to the DPL, who then facilitates the rework. If approved, the document is sent to the DPL and the ORR process is complete.</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups/>
+                    <filteredRoles/>
+                    <filteredPhases/>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"/>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">The process begins when the Project Manager must hand over the Operational Readiness Review (ORR) documentation task to the Delivery Project Lead (DPL). The DPL must initialise the ORR process once, thereafter the contract requirements and the ORR checklist must be checked. Then the DPL must create the documentation tasks for the different stakeholders. He sends these tasks to the Operations Team who creates the documentation required. The DPL also sends documentation tasks to the Project Manager, who then delegates the tasks in the project team. The Operations Team and the Project Manager sends the documentation to the DPL once the tasks are completed. The DPL receives the documentation from the Project Manager and the Operation Team Manager and compiles the documentation. Then the DPL sends an invitation to the Project Manager and the Operations Team Manager for an approval meeting. At the meeting they either reject or approve the documentation. If it gets rejected, the documentation has to be reworked. If there is rework, the approval will be in written format without a new meeting. After the approval, the DPL compiles the documentation and sends it to approval with the customer. If the documentation is approved at the meeting, the DPL must send the documentation to approval with the customer. The customer receives and reads the documentation, and either rejects or approves it. If rejected, the customer must send the documentation back to the DPL, who then facilitates the rework. If approved, the document is sent to the DPL and the ORR process is complete.</highlightLayer>
+                    </highlightLayers>
+                    <highlights>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="28" end="43">Project Manager</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Project Manager"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="124" end="151">Delivery Project Lead (DPL)</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="DPL"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="161" end="192">must initialise the ORR process</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="214" end="235">contract requirements</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity3"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="284" end="354">DPL must create the documentation tasks for the different stakeholders</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity5"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="384" end="400">Operations Team</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Operations Team"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="404" end="429">creates the documentation</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity7"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="444" end="501">DPL also sends documentation tasks to the Project Manager</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity8"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="597" end="631">sends the documentation to the DPL</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity10"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="757" end="783">compiles the documentation</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity12"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="798" end="817">sends an invitation</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity13"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="987" end="1019">documentation has to be reworked</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity18"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1127" end="1157">DPL compiles the documentation</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity20"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1162" end="1200">sends it to approval with the customer</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity21"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1192" end="1200">customer</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Customer"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1322" end="1367">customer receives and reads the documentation</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity24"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1391" end="1399">approves</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="decision3"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1417" end="1473">the customer must send the documentation back to the DPL</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity27"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1521" end="1552">the document is sent to the DPL</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity28"/>
+                            </items>
+                        </highlight>
+                    </highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity28_1" targetId="Activity5" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity5" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity12" targetId="Activity13" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity31" targetId="Activity32" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity24" targetId="decision3" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity30_1" targetId="Activity2" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity7" targetId="Activity10" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity32" targetId="Activity37" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity29_1" targetId="Activity31" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity28_2" targetId="Activity38_2" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity38_2" targetId="Activity7" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity27" targetId="Activity28" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity21" targetId="Activity24" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="decision3" targetId="Activity27" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity8" targetId="Activity32_2" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity32_2" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity2" targetId="Activity28_1" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity13" targetId="decision1" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="decision1" targetId="Activity21" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="decision1" targetId="Activity35_1" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity18" targetId="decision2" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="decision2" targetId="Activity20" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="decision3" targetId="Activity18" filterLevel="0" description="" time="" groups=""/>
+            </conditions>
+            <responses>
+                <response sourceId="Activity28_1" targetId="Activity5" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity5" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity12" targetId="Activity13" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity31" targetId="Activity32" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="decision3" targetId="Activity27" filterLevel="0" description="" time="" groups="" expressionId="decision3-path-Activity27--response"/>
+                <response sourceId="Activity30_1" targetId="Activity2" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity7" targetId="Activity10" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity32" targetId="Activity37" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity24" targetId="decision3" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity29_1" targetId="Activity31" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity28_2" targetId="Activity38_2" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity38_2" targetId="Activity7" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity27" targetId="Activity28" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity35_1" targetId="Activity21" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity21" targetId="Activity24" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity8" targetId="Activity32_2" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity32_2" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity2" targetId="Activity28_1" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity13" targetId="decision1" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="decision1" targetId="Activity21" filterLevel="0" description="" time="" groups="" expressionId="decision1-path-Activity21--response"/>
+                <response sourceId="decision1" targetId="Activity35_1" filterLevel="0" description="" time="" groups="" expressionId="decision1-path-Activity35_1--response"/>
+                <response sourceId="Activity18" targetId="decision2" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="decision2" targetId="Activity20" filterLevel="0" description="" time="" groups="" expressionId="decision2-path-Activity20--response"/>
+                <response sourceId="decision2" targetId="Activity18" filterLevel="0" description="" time="" groups="" expressionId="decision2-path-Activity18--response"/>
+                <response sourceId="decision3" targetId="Activity18" filterLevel="0" description="" time="" groups="" expressionId="decision3-path-Activity18--response"/>
+            </responses>
+            <coresponses/>
+            <excludes/>
+            <includes>
+                <include sourceId="Activity35_1" targetId="Activity21" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="decision3" targetId="Activity27" filterLevel="0" description="" time="" groups="" expressionId="decision3-path-Activity27--include"/>
+                <include sourceId="Activity24" targetId="decision3" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity21" targetId="Activity34_1" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity27" targetId="Activity28" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity21" targetId="Activity24" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="decision1" targetId="Activity35_1" filterLevel="0" description="" time="" groups="" expressionId="decision1-path-Activity35_1--include"/>
+                <include sourceId="decision3" targetId="Activity18" filterLevel="0" description="" time="" groups="" expressionId="decision3-path-Activity18--include"/>
+                <include sourceId="decision3" targetId="Activity35_1" filterLevel="0" description="" time="" groups="" expressionId="decision3-path-Activity35_1--include"/>
+                <include sourceId="decision2" targetId="Activity20" filterLevel="0" description="" time="" groups="" expressionId="decision2-path-Activity20--include"/>
+                <include sourceId="decision1" targetId="Activity21" filterLevel="0" description="" time="" groups="" expressionId="decision1-path-Activity21--include"/>
+            </includes>
+            <milestones/>
+            <spawns/>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking/>
+        </custom>
+        <marking>
+            <globalStore/>
+            <executed/>
+            <included>
+                <event id="Activity2"/>
+                <event id="Activity5"/>
+                <event id="Activity8"/>
+                <event id="Activity12"/>
+                <event id="Activity13"/>
+                <event id="Activity28_1"/>
+                <event id="Activity3"/>
+                <event id="Activity32_3"/>
+                <event id="Activity30_1"/>
+                <event id="Activity24"/>
+                <event id="decision3"/>
+                <event id="Activity18"/>
+                <event id="decision2"/>
+                <event id="Activity32_2"/>
+                <event id="Activity10"/>
+                <event id="Activity28_2"/>
+                <event id="Activity29_1"/>
+                <event id="Activity31"/>
+                <event id="Activity32"/>
+                <event id="Activity37"/>
+                <event id="Activity38_2"/>
+                <event id="Activity7"/>
+                <event id="decision1"/>
+            </included>
+            <pendingResponses>
+                <event id="Activity30_1"/>
+                <event id="Activity18"/>
+            </pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

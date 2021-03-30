@@ -1,0 +1,931 @@
+<dcrgraph title="BPMAI Example 3" dataTypesStatus="hide"  filterLevel="-1" zoomLevel="-2" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity1" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="350" yLoc="75" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>customer</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;brings in a defective compute&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>2</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity1_1" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="775" yLoc="75" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>computer repair service (CRS)</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;checks the defect&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>3</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity2" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="775" yLoc="225" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>computer repair service (CRS)</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;hands out a repair cost calculation&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>4</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity3" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="350" yLoc="225" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>customer</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;hands out a repair cost calculation back&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>5</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity4" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="450" yLoc="375" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>customer</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;the costs are acceptable&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>6</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity5" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="250" yLoc="375" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>customer</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;otherwise&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>7</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity6" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="250" yLoc="525" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>customer</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;takes her computer home unrepaired&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>8</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity7" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="675" yLoc="375" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>computer repair service (CRS)</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;check and repair the hardware&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>9</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity8" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="850" yLoc="375" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>computer repair service (CRS)</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;checks and configures the software&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>10</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity9" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="775" yLoc="525" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>computer repair service (CRS)</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;proper system functionality is tested&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>11</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity10" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="650" yLoc="675" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>computer repair service (CRS)</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;an error is detected&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>12</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity11" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="650" yLoc="825" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>computer repair service (CRS)</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;another arbitrary repair activity is executed&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>13</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity12" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="900" yLoc="825" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>computer repair service (CRS)</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;the repair is finished&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>14</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity13" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="900" yLoc="675" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>computer repair service (CRS)</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;otherwise&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>15</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses></subProcesses>
+            <distribution></distribution>
+            <labels>
+                <label id="brings in a defective computer" />
+                <label id="checks the defect " />
+                <label id="hands out a repair cost calculation" />
+                <label id="receives cost calculation" />
+                <label id=" the costs are acceptable" />
+                <label id="the costs are not acceptable" />
+                <label id="takes her computer home unrepaired" />
+                <label id="check and repair the hardware" />
+                <label id="checks and configures  the software" />
+                <label id="proper system functionality is tested" />
+                <label id="an error is detected" />
+                <label id="another arbitrary repair activity is executed" />
+                <label id=" the repair is finished" />
+                <label id="no errors are detected" />
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity1" labelId="brings in a defective computer"/>
+                <labelMapping eventId="Activity1_1" labelId="checks the defect "/>
+                <labelMapping eventId="Activity2" labelId="hands out a repair cost calculation"/>
+                <labelMapping eventId="Activity3" labelId="receives cost calculation"/>
+                <labelMapping eventId="Activity4" labelId=" the costs are acceptable"/>
+                <labelMapping eventId="Activity5" labelId="the costs are not acceptable"/>
+                <labelMapping eventId="Activity6" labelId="takes her computer home unrepaired"/>
+                <labelMapping eventId="Activity7" labelId="check and repair the hardware"/>
+                <labelMapping eventId="Activity8" labelId="checks and configures  the software"/>
+                <labelMapping eventId="Activity9" labelId="proper system functionality is tested"/>
+                <labelMapping eventId="Activity10" labelId="an error is detected"/>
+                <labelMapping eventId="Activity11" labelId="another arbitrary repair activity is executed"/>
+                <labelMapping eventId="Activity12" labelId=" the repair is finished"/>
+                <labelMapping eventId="Activity13" labelId="no errors are detected"/>
+            </labelMappings>
+            <expressions></expressions>
+            <variables></variables>
+            <variableAccesses>
+                <writeAccesses />
+            </variableAccesses>
+            <custom>
+                <keywords></keywords>
+                <roles>
+                    <role description="computer repair service (CRS)" specification="">computer repair service (CRS)</role>
+                    <role description="customer" specification="">customer</role>
+                </roles>
+                <groups></groups>
+                <phases></phases>
+                <eventTypes></eventTypes>
+                <eventParameters></eventParameters>
+                <graphDetails>COMPUTER REPAIRThe workflow of a computer repair service (CRS) can be described as follows. A customer brings in a defective computer and the CRS checks the defect and hands out a repair cost calculation back. If the customer decides that the costs are acceptable, the process continues, otherwise she takes her computer home unrepaired. The ongoing repair consists of two activities, which are executed, in an arbitrary order. The first activity is to check and repair the hardware, whereas the second activity checks and configures the software. After each of these activities, the proper system functionality is tested. If an error is detected another arbitrary repair activity is executed, otherwise the repair is finished.</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups></filteredGroups>
+                    <filteredRoles></filteredRoles>
+                    <filteredPhases></filteredPhases>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"></hightlighterMarkup>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">COMPUTER REPAIR
+
+
+The workflow of a computer repair service (CRS) can be described as follows. A customer brings in a defective computer and the CRS checks the defect and hands out a repair cost calculation back. If the customer decides that the costs are acceptable, the process continues, otherwise she takes her computer home unrepaired. The ongoing repair consists of two activities, which are executed, in an arbitrary order. The first activity is to check and repair the hardware, whereas the second activity checks and configures 
+the software. After each of these activities, the proper system functionality is tested. If an error is detected another arbitrary repair activity is executed, otherwise the repair is finished.</highlightLayer>
+                    </highlightLayers>
+                    <highlights>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="33" end="62">computer repair service (CRS)</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="computer repair service (CRS)" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="94" end="102">customer</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="customer" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="103" end="132">brings in a defectivecompute</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="134" end="163">and the CRS checks the defect</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1--condition--Activity1_1" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="146" end="163">checks the defect</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1_1" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="163" end="164"></range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1_1" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="164" end="167">and</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1_1--condition--Activity2" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="168" end="168"></range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="168" end="203">hands out a repair cost calculation back</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity3" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="168" end="203">hands out a repair cost calculation</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="204" end="208">back</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2--condition--Activity3" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="210" end="233">If the customerdecides</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity3--condition--Activity4" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="211" end="233">f the customerdecides</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity3--condition--Activity5" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="238" end="263">the costs are acceptable</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity4" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="286" end="288">,</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity5--condition--Activity6" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="288" end="297">otherwise</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity5" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="302" end="336">takes her computerhome unrepaired</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity6" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="453" end="482">check and repair the hardware</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity7" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="512" end="546">checks and configures the software</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity8" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="584" end="621">proper system functionality is tested</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity9" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="622" end="626">If</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity9--condition--Activity10" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="626" end="646">an error isdetected</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity10" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="647" end="692">another arbitrary repair activity is executed</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity11" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="692" end="693">,</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity9--condition--Activity13" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="694" end="703">otherwise</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity13" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="703" end="726">the repair is finished</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity12" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="298" end="301">she</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="customer" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="405" end="426">in an arbitrary order</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2--condition--Activity7" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="405" end="426">in an arbitrary order</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2--condition--Activity8" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="548" end="578">After each of these activities</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity7--condition--Activity9" />
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="548" end="578">After each of these activities</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity8--condition--Activity9" />
+                            </items>
+                        </highlight>
+                    </highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity1" targetId="Activity1_1" filterLevel="0"  description="and the CRS checks the defect"  time=""  groups=""  />
+                <condition sourceId="Activity1_1" targetId="Activity2" filterLevel="0"  description="and"  time=""  groups=""  />
+                <condition sourceId="Activity2" targetId="Activity3" filterLevel="0"  description="back"  time=""  groups=""  />
+                <condition sourceId="Activity3" targetId="Activity4" filterLevel="0"  description="If the customer decides"  time=""  groups=""  />
+                <condition sourceId="Activity3" targetId="Activity5" filterLevel="0"  description="f the customer decides"  time=""  groups=""  />
+                <condition sourceId="Activity1" targetId="Activity3" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity5" targetId="Activity6" filterLevel="0"  description=", "  time=""  groups=""  />
+                <condition sourceId="Activity2" targetId="Activity7" filterLevel="0"  description="in an arbitrary order"  time=""  groups=""  />
+                <condition sourceId="Activity2" targetId="Activity8" filterLevel="0"  description="in an arbitrary order"  time=""  groups=""  />
+                <condition sourceId="Activity7" targetId="Activity9" filterLevel="0"  description="After each of these activities"  time=""  groups=""  />
+                <condition sourceId="Activity8" targetId="Activity9" filterLevel="0"  description="After each of these activities"  time=""  groups=""  />
+                <condition sourceId="Activity9" targetId="Activity10" filterLevel="0"  description=" If "  time=""  groups=""  />
+                <condition sourceId="Activity9" targetId="Activity13" filterLevel="0"  description=", "  time=""  groups=""  />
+                <condition sourceId="Activity10" targetId="Activity11" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity11" targetId="Activity12" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity13" targetId="Activity12" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity4" targetId="Activity7" filterLevel="0"  description=""  time=""  groups=""  />
+                <condition sourceId="Activity4" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
+            </conditions>
+            <responses></responses>
+            <coresponses></coresponses>
+            <excludes>
+                <exclude sourceId="Activity5" targetId="Activity4" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity4" targetId="Activity5" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity7" targetId="Activity7" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity8" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity10" targetId="Activity13" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity13" targetId="Activity10" filterLevel="0"  description=""  time=""  groups=""  />
+            </excludes>
+            <includes></includes>
+            <milestones></milestones>
+            <spawns></spawns>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking></globalMarking>
+        </custom>
+        <marking>
+            <globalStore></globalStore>
+            <executed></executed>
+            <included>
+                <event id="Activity1" />
+                <event id="Activity1_1" />
+                <event id="Activity2" />
+                <event id="Activity3" />
+                <event id="Activity4" />
+                <event id="Activity5" />
+                <event id="Activity6" />
+                <event id="Activity7" />
+                <event id="Activity8" />
+                <event id="Activity9" />
+                <event id="Activity10" />
+                <event id="Activity11" />
+                <event id="Activity12" />
+                <event id="Activity13" />
+            </included>
+            <pendingResponses></pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

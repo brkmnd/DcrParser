@@ -1,0 +1,2451 @@
+<dcrgraph title="Coca Cola DCR" dataTypesStatus="hide"  filterLevel="-1" zoomLevel="1" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity30" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="-25" yLoc="625" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>the company</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription>&lt;p&gt;warehouse&lt;/p&gt;</eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>31</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity34" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="0" yLoc="75" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>warehouse</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>35</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+                <event id="Activity32_1" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="75" yLoc="400" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role>warehouse</role>
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>36</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses>
+                <subProcess id="Process0" isRefer="false" referId="undefined" multiInstance="true" name="Production Process" instanceId=""  template="" >
+                    <precondition message=""  />
+                    <custom>
+                        <visualization>
+                            <location xLoc="350" yLoc="100" />
+                            <colors bg="#83c5ff" textStroke="#000000" stroke="#4da1e8" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <insight use="false"></insight>
+                        <level>1</level>
+                        <sequence>39</sequence>
+                        <costs>0</costs>
+                        <label>Production Process</label>
+                    </custom>
+                    <dcrgraph title="Coca Cola DCR" dataTypesStatus="hide"  filterLevel="-1" zoomLevel="1" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB" graphType="0">
+                        <specification>
+                            <resources>
+                                <events>
+                                    <event id="Activity31" type="nesting" >
+                                        <precondition message=""  />
+                                        <custom>
+                                            <visualization>
+                                                <location xLoc="375" yLoc="150" />
+                                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                            </visualization>
+                                            <roles>
+                                                <role>the HQ</role>
+                                            </roles>
+                                            <groups>
+                                                <group />
+                                            </groups>
+                                            <phases>
+                                                <phase />
+                                            </phases>
+                                            <eventType></eventType>
+                                            <eventScope>private</eventScope>
+                                            <eventTypeData></eventTypeData>
+                                            <eventDescription></eventDescription>
+                                            <purpose></purpose>
+                                            <guide></guide>
+                                            <insight use="false"></insight>
+                                            <level>1</level>
+                                            <sequence>32</sequence>
+                                            <costs>0</costs>
+                                            <eventData></eventData>
+                                            <interfaces></interfaces>
+                                        </custom>
+                                        <event id="Activity0" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="400" yLoc="200" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>the HQ</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;make sure that their standards follow the ISO 9001&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>1</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity1" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="525" yLoc="200" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>the HQ</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;ISO 22000&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>2</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity2" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="675" yLoc="200" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>the HQ</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;the company&apos;s own Quality and Food Safety policy&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>3</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity3" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="525" yLoc="350" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role />
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;the global standards of the Coca Cola company&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>4</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity5" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="400" yLoc="350" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role />
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;not violate any legislation&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>6</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                    </event>
+                                    <event id="Activity32" type="nesting" >
+                                        <precondition message=""  />
+                                        <custom>
+                                            <visualization>
+                                                <location xLoc="900" yLoc="150" />
+                                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                            </visualization>
+                                            <roles>
+                                                <role>the production team</role>
+                                            </roles>
+                                            <groups>
+                                                <group />
+                                            </groups>
+                                            <phases>
+                                                <phase />
+                                            </phases>
+                                            <eventType></eventType>
+                                            <eventScope>private</eventScope>
+                                            <eventTypeData></eventTypeData>
+                                            <eventDescription></eventDescription>
+                                            <purpose></purpose>
+                                            <guide></guide>
+                                            <insight use="false"></insight>
+                                            <level>1</level>
+                                            <sequence>33</sequence>
+                                            <costs>0</costs>
+                                            <eventData></eventData>
+                                            <interfaces></interfaces>
+                                        </custom>
+                                        <event id="Activity6" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="925" yLoc="200" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>the production team</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;making sure all ingredients are available&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>7</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity8" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="1050" yLoc="200" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>the production team</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;ingredients must also inspected before production&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>9</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity9" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="1050" yLoc="375" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>the production team</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;if an irregularity presents itself, this batch of ingredients is declined&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>10</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity10" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="1175" yLoc="200" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>the production team</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;water used in the production goes through special treatments&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>11</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity11" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="1300" yLoc="200" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>the production team</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;water must have the correct concentration of naturally dissolved salts&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>12</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity12" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="1425" yLoc="200" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>the production team</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;dissolving the right amount of sugar in the treated water&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>13</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity14" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="1675" yLoc="200" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>the production team</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;the simple syrup is mixed with the Coca Cola concentrate&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>15</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity15" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="1800" yLoc="200" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>the production team</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;flash pasteurisation thermal process&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>16</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity13" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="1550" yLoc="200" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>the production team</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;filtering this water&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>14</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity7" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="1175" yLoc="375" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>the production team</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;machinery must maintained&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>8</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                    </event>
+                                    <event id="Activity33" type="nesting" >
+                                        <precondition message=""  />
+                                        <custom>
+                                            <visualization>
+                                                <location xLoc="375" yLoc="575" />
+                                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                            </visualization>
+                                            <roles>
+                                                <role>machines</role>
+                                            </roles>
+                                            <groups>
+                                                <group />
+                                            </groups>
+                                            <phases>
+                                                <phase />
+                                            </phases>
+                                            <eventType></eventType>
+                                            <eventScope>private</eventScope>
+                                            <eventTypeData></eventTypeData>
+                                            <eventDescription></eventDescription>
+                                            <purpose></purpose>
+                                            <guide></guide>
+                                            <insight use="false"></insight>
+                                            <level>1</level>
+                                            <sequence>34</sequence>
+                                            <costs>0</costs>
+                                            <eventData></eventData>
+                                            <interfaces></interfaces>
+                                        </custom>
+                                        <event id="Activity19" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="400" yLoc="625" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>machines</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;treated and cooled water being mixed with the final syrup&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>20</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity20" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="525" yLoc="625" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>machines</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;carbon dioxide is added&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>21</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity21" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="650" yLoc="625" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>machines</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;drink is the filled into the bottles&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>22</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity22" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="950" yLoc="625" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>machines</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;ready to be packaged&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>23</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity23" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="650" yLoc="775" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>machines</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>bottles must be perfectly clean</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>24</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity24" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="1075" yLoc="775" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>machines</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;hermetically sealed&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>25</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity25" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="825" yLoc="775" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>machines</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;labeled&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>26</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity26" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="950" yLoc="775" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>machines</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>coded</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>27</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity27" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="525" yLoc="775" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>machines</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;tested&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>28</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity28" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="1200" yLoc="625" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>machines</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>&lt;p&gt;glass bottles are then placed in boxes&lt;/p&gt;</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>29</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity4" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="950" yLoc="950" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>machines</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription>identify and reject even the tiniest irregularity</eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>5</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                        <event id="Activity33_2" >
+                                            <precondition message=""  />
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="1350" yLoc="625" />
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                                </visualization>
+                                                <roles>
+                                                    <role>machines</role>
+                                                </roles>
+                                                <groups>
+                                                    <group />
+                                                </groups>
+                                                <phases>
+                                                    <phase />
+                                                </phases>
+                                                <eventType></eventType>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData></eventTypeData>
+                                                <eventDescription></eventDescription>
+                                                <purpose></purpose>
+                                                <guide></guide>
+                                                <insight use="false"></insight>
+                                                <level>1</level>
+                                                <sequence>38</sequence>
+                                                <costs>0</costs>
+                                                <eventData></eventData>
+                                                <interfaces></interfaces>
+                                            </custom>
+                                        </event>
+                                    </event>
+                                    <event id="Activity33_1" >
+                                        <precondition message=""  />
+                                        <custom>
+                                            <visualization>
+                                                <location xLoc="1700" yLoc="775" />
+                                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                            </visualization>
+                                            <roles>
+                                                <role>Cleaning team</role>
+                                            </roles>
+                                            <groups>
+                                                <group />
+                                            </groups>
+                                            <phases>
+                                                <phase />
+                                            </phases>
+                                            <eventType></eventType>
+                                            <eventScope>private</eventScope>
+                                            <eventTypeData></eventTypeData>
+                                            <eventDescription></eventDescription>
+                                            <purpose></purpose>
+                                            <guide></guide>
+                                            <insight use="false"></insight>
+                                            <level>1</level>
+                                            <sequence>37</sequence>
+                                            <costs>0</costs>
+                                            <eventData></eventData>
+                                            <interfaces></interfaces>
+                                        </custom>
+                                    </event>
+                                </events>
+                                <subProcesses></subProcesses>
+                                <distribution></distribution>
+                                <labels>
+                                    <label id=" Follows the ISO 9001" />
+                                    <label id="Follows the ISO 22000" />
+                                    <label id="Water Going through special Treatment" />
+                                    <label id="Make sure water has the correct amount of dissolved salts" />
+                                    <label id="Dissolve correct amount of sugar in the water" />
+                                    <label id="Filtering of water" />
+                                    <label id="Simple Syrup mixed with Special Concentrate" />
+                                    <label id="flash pasteurisation thermal process" />
+                                    <label id="Treated water mixed with final concentrate" />
+                                    <label id=" Follows the Quality and Food Safety policy" />
+                                    <label id="carbon dioxide is added" />
+                                    <label id="drink is the filled into the bottles" />
+                                    <label id="ready to be packaged" />
+                                    <label id="bottles must be perfectly clean" />
+                                    <label id="hermetically sealing of bottles" />
+                                    <label id="labeling of bottles" />
+                                    <label id="coding of bottles" />
+                                    <label id="test sturdiness of bottles" />
+                                    <label id="Apropriate packaging for shipping selected" />
+                                    <label id="Follows the global standards of the Coca Cola company" />
+                                    <label id="Legislation" />
+                                    <label id="Liquid Production" />
+                                    <label id="Packaging" />
+                                    <label id="Cleaning of tools and machines" />
+                                    <label id="Product packaged in containers" />
+                                    <label id="Reject even the tiniest irregularity" />
+                                    <label id="not violating any external legislation" />
+                                    <label id="make sure all ingredients are available" />
+                                    <label id="Make sure machine is clean" />
+                                    <label id="ingredients inspected before production" />
+                                    <label id="Iregularity = Decline Ingredients" />
+                                </labels>
+                                <labelMappings>
+                                    <labelMapping eventId="Activity0" labelId=" Follows the ISO 9001"/>
+                                    <labelMapping eventId="Activity1" labelId="Follows the ISO 22000"/>
+                                    <labelMapping eventId="Activity10" labelId="Water Going through special Treatment"/>
+                                    <labelMapping eventId="Activity11" labelId="Make sure water has the correct amount of dissolved salts"/>
+                                    <labelMapping eventId="Activity12" labelId="Dissolve correct amount of sugar in the water"/>
+                                    <labelMapping eventId="Activity13" labelId="Filtering of water"/>
+                                    <labelMapping eventId="Activity14" labelId="Simple Syrup mixed with Special Concentrate"/>
+                                    <labelMapping eventId="Activity15" labelId="flash pasteurisation thermal process"/>
+                                    <labelMapping eventId="Activity19" labelId="Treated water mixed with final concentrate"/>
+                                    <labelMapping eventId="Activity2" labelId=" Follows the Quality and Food Safety policy"/>
+                                    <labelMapping eventId="Activity20" labelId="carbon dioxide is added"/>
+                                    <labelMapping eventId="Activity21" labelId="drink is the filled into the bottles"/>
+                                    <labelMapping eventId="Activity22" labelId="ready to be packaged"/>
+                                    <labelMapping eventId="Activity23" labelId="bottles must be perfectly clean"/>
+                                    <labelMapping eventId="Activity24" labelId="hermetically sealing of bottles"/>
+                                    <labelMapping eventId="Activity25" labelId="labeling of bottles"/>
+                                    <labelMapping eventId="Activity26" labelId="coding of bottles"/>
+                                    <labelMapping eventId="Activity27" labelId="test sturdiness of bottles"/>
+                                    <labelMapping eventId="Activity28" labelId="Apropriate packaging for shipping selected"/>
+                                    <labelMapping eventId="Activity3" labelId="Follows the global standards of the Coca Cola company"/>
+                                    <labelMapping eventId="Activity31" labelId="Legislation"/>
+                                    <labelMapping eventId="Activity32" labelId="Liquid Production"/>
+                                    <labelMapping eventId="Activity33" labelId="Packaging"/>
+                                    <labelMapping eventId="Activity33_1" labelId="Cleaning of tools and machines"/>
+                                    <labelMapping eventId="Activity33_2" labelId="Product packaged in containers"/>
+                                    <labelMapping eventId="Activity4" labelId="Reject even the tiniest irregularity"/>
+                                    <labelMapping eventId="Activity5" labelId="not violating any external legislation"/>
+                                    <labelMapping eventId="Activity6" labelId="make sure all ingredients are available"/>
+                                    <labelMapping eventId="Activity7" labelId="Make sure machine is clean"/>
+                                    <labelMapping eventId="Activity8" labelId="ingredients inspected before production"/>
+                                    <labelMapping eventId="Activity9" labelId="Iregularity = Decline Ingredients"/>
+                                </labelMappings>
+                                <expressions></expressions>
+                                <variables></variables>
+                                <variableAccesses>
+                                    <writeAccesses />
+                                </variableAccesses>
+                                <custom>
+                                    <keywords>DCR Hand-in, Coca-Cola,DCR</keywords>
+                                    <roles>
+                                        <role description="" specification="">Cleaning team</role>
+                                        <role description="electronic bottle inspection equipment" specification="">electronic bottle inspection equipment</role>
+                                        <role description="machines" specification="">machines</role>
+                                        <role description="the company" specification="">the company</role>
+                                        <role description="the HQ" specification="">the HQ</role>
+                                        <role description="the production team" specification="">the production team</role>
+                                        <role description="warehouse" specification="">warehouse</role>
+                                    </roles>
+                                    <groups></groups>
+                                    <phases></phases>
+                                    <eventTypes></eventTypes>
+                                    <eventParameters></eventParameters>
+                                    <graphDetails>The production starts of with a warehouse sending an inquiry for more product. This then
+starts the production.
+The production has three phases, the preproduction, the production itself and the control of
+the product. The pre production mainly concerns following the required legislation in order to
+be allowed to produce the beverage as well as making sure all the machinery is fully
+functioning and that all the ingredients are available. This is mainly done by the HQ.The second step is the actual
+production of the Syrup/Liquid, Bottles,the bottling of the liquid and finally the packaging.
+The last step is the shipping process in which the warehouse will receive the shipment they
+need (this part also have ties to the beginning of the process as the warehouse sends an
+inquiry for more product).
+In the first phase the company must make sure that their standards follow the ISO 9001 and
+the ISO 22000, the company&apos;s own Quality and Food Safety policy and lastly the global standards of the Coca Cola company. This involves electronic bottle inspection equipment
+on all refillable bottling production lines to identify and reject even the tiniest irregularity in
+their beverages. Furthermore, the process must not violate any legislation when it comes to
+production of food or beverages
+In the 2nd phase the production process starts with the production team making sure all ingredients are available,
+then the machinery must maintained to reduce the risk of contamination or breakdowns.
+The ingredients must also inspected before production to make sure that there are no
+irregularities, if an irregularity presents itself, this batch of ingredients is declined and not
+used. The water used in the production goes through special treatments to ensure the
+microbiological safety. The water must have the correct concentration of naturally dissolved
+salts. The syrup is prepared in special tanks by first firstly dissolving the right amount of
+sugar in the treated water, and then afterwards filtering this water to remove any possible
+impurities. Only after this the simple syrup is mixed with the Coca Cola concentrate to make
+up the liquid in its final form. After this a flash pasteurisation thermal process will then ensure
+that even the most sensitive products will not alter in their sensory characteristic during their
+shelf life.
+The bottle production goes through the same basic pre steps as the liquid, however in this
+process it is paramount that the company follows legislation regarding usage of plastic and
+cleanliness of the product as it would otherwise be illegal to use.
+The filling and packaging process starts with the treated and cooled water being mixed with
+the final syrup and then the carbon dioxide is added. The drink is the filled into the bottles
+and ready to be packaged. The bottles must be perfectly clean, hermetically sealed, labeled,
+coded and tested. This is done by machines in a modern automatic plant. The glass bottles
+are then placed in boxes while the plastic bottles and canned products go into various
+multipacks. The Product is then shipped to the warehouse where it was intended to go from
+the start.</graphDetails>
+                                    <graphLanguage>en-US</graphLanguage>
+                                    <graphDomain>process</graphDomain>
+                                    <graphFilters>
+                                        <filteredGroups></filteredGroups>
+                                        <filteredRoles></filteredRoles>
+                                        <filteredPhases></filteredPhases>
+                                    </graphFilters>
+                                    <hightlighterMarkup id="HLM"></hightlighterMarkup>
+                                    <highlighterMarkup>
+                                        <highlightLayers>
+                                            <highlightLayer default="true" name="description">The production starts of with a warehouse sending an inquiry for more product. This then
+starts the production.
+The production has three phases, the preproduction, the production itself and the control of
+the product. The pre production mainly concerns following the required legislation in order to
+be allowed to produce the beverage as well as making sure all the machinery is fully
+functioning and that all the ingredients are available. This is mainly done by the HQ.The second step is the actual
+production of the Syrup/Liquid, Bottles,the bottling of the liquid and finally the packaging.
+The last step is the shipping process in which the warehouse will receive the shipment they
+need (this part also have ties to the beginning of the process as the warehouse sends an
+inquiry for more product).
+In the first phase the company must make sure that their standards follow the ISO 9001 and
+the ISO 22000, the company&apos;s own Quality and Food Safety policy and lastly the global standards of the Coca Cola company. This involves electronic bottle inspection equipment
+on all refillable bottling production lines to identify and reject even the tiniest irregularity in
+their beverages. Furthermore, the process must not violate any legislation when it comes to
+production of food or beverages
+In the 2nd phase the production process starts with the production team making sure all ingredients are available,
+then the machinery must maintained to reduce the risk of contamination or breakdowns.
+The ingredients must also inspected before production to make sure that there are no
+irregularities, if an irregularity presents itself, this batch of ingredients is declined and not
+used. The water used in the production goes through special treatments to ensure the
+microbiological safety. The water must have the correct concentration of naturally dissolved
+salts. The syrup is prepared in special tanks by first firstly dissolving the right amount of
+sugar in the treated water, and then afterwards filtering this water to remove any possible
+impurities. Only after this the simple syrup is mixed with the Coca Cola concentrate to make
+up the liquid in its final form. After this a flash pasteurisation thermal process will then ensure
+that even the most sensitive products will not alter in their sensory characteristic during their
+shelf life.
+The bottle production goes through the same basic pre steps as the liquid, however in this
+process it is paramount that the company follows legislation regarding usage of plastic and
+cleanliness of the product as it would otherwise be illegal to use.
+The filling and packaging process starts with the treated and cooled water being mixed with
+the final syrup and then the carbon dioxide is added. The drink is the filled into the bottles
+and ready to be packaged. The bottles must be perfectly clean, hermetically sealed, labeled,
+coded and tested. This is done by machines in a modern automatic plant. The glass bottles
+are then placed in boxes while the plastic bottles and canned products go into various
+multipacks. The Product is then shipped to the warehouse where it was intended to go from
+the start.</highlightLayer>
+                                        </highlightLayers>
+                                        <highlights>
+                                            <highlight type="role">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="32" end="41">warehouse</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="warehouse" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="role">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="459" end="465">the HQ</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="the HQ" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="role">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="639" end="648">warehouse</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="warehouse" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="role">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="812" end="823">the company</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="the company" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="829" end="879">make sure that their standards follow the ISO 9001</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity0" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="887" end="896">ISO 22000</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity1" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="897" end="946">the company&apos;s own Quality and Food Safety policy</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity2" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="958" end="1003">the global standards of the Coca Cola company</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity3" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="role">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="1019" end="1057">electronic bottle inspection equipment</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="electronic bottle inspection equipment" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="1104" end="1153">identify and reject even the tiniest irregularity</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity4" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="1203" end="1230">not violate any legislation</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity5" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="role">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="1330" end="1349">the production team</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="the production team" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="1350" end="1391">making sure all ingredients are available</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity6" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="1401" end="1426">machinery must maintained</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity7" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="1481" end="1530">ingredients must also inspected before production</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity8" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="1577" end="1650">if an irregularity presents itself, this batch of ingredients is declined</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity9" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="1668" end="1728">water used in the production goes through special treatments</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity10" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="1770" end="1839">water must have the correct concentration of naturally dissolvedsalts</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity11" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="1897" end="1953">dissolving the right amount ofsugar in the treated water</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity12" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="1975" end="1995">filtering this water</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity13" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2046" end="2102">the simple syrup is mixed with the Coca Cola concentrate</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity14" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2156" end="2192">flash pasteurisation thermal process</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity15" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2321" end="2338">bottle production</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items></items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2436" end="2494">the company follows legislation regarding usage of plastic</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items></items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2498" end="2524">cleanliness of the product</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items></items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2615" end="2671">treated and cooled water being mixed withthe final syrup</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity19" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2685" end="2708">carbon dioxide is added</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity20" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2714" end="2750">drink is the filled into the bottles</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity21" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2754" end="2774">ready to be packaged</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity22" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2780" end="2811">bottles must be perfectly clean</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity23" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2813" end="2832">hermetically sealed</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity24" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2834" end="2841">labeled</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity25" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2842" end="2847">coded</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity26" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2852" end="2858">tested</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity27" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="role">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2876" end="2884">machines</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="machines" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2918" end="2955">glass bottlesare then placed in boxes</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity28" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="2961" end="3027">the plastic bottles and canned products go into variousmultipacks</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items></items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="3033" end="3056">Product is then shipped</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity30" />
+                                                </items>
+                                            </highlight>
+                                            <highlight type="activity">
+                                                <layers>
+                                                    <layer name="description">
+                                                        <ranges>
+                                                            <range start="3064" end="3073">warehouse</range>
+                                                        </ranges>
+                                                    </layer>
+                                                </layers>
+                                                <items>
+                                                    <item id="Activity30" />
+                                                </items>
+                                            </highlight>
+                                        </highlights>
+                                    </highlighterMarkup>
+                                </custom>
+                            </resources>
+                            <constraints>
+                                <conditions>
+                                    <condition sourceId="Activity34" targetId="Activity31" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity31" targetId="Activity32" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity32" targetId="Activity33" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity6" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity8" targetId="Activity10" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity7" targetId="Activity10" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity10" targetId="Activity11" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity11" targetId="Activity12" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity12" targetId="Activity13" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity13" targetId="Activity14" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity14" targetId="Activity15" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity19" targetId="Activity20" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity20" targetId="Activity21" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity23" targetId="Activity21" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity27" targetId="Activity21" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity25" targetId="Activity22" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity26" targetId="Activity22" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity24" targetId="Activity22" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity21" targetId="Activity22" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity22" targetId="Activity28" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity28" targetId="Activity33_2" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <condition sourceId="Activity33" targetId="Activity30" filterLevel="0"  description=""  time=""  groups=""  />
+                                </conditions>
+                                <responses>
+                                    <response sourceId="Activity31" targetId="Activity32" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <response sourceId="Activity6" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <response sourceId="Activity8" targetId="Activity10" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <response sourceId="Activity10" targetId="Activity11" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <response sourceId="Activity11" targetId="Activity12" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <response sourceId="Activity12" targetId="Activity13" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <response sourceId="Activity13" targetId="Activity14" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <response sourceId="Activity14" targetId="Activity15" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <response sourceId="Activity32" targetId="Activity33" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <response sourceId="Activity32" targetId="Activity33_1" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <response sourceId="Activity19" targetId="Activity20" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <response sourceId="Activity20" targetId="Activity21" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <response sourceId="Activity21" targetId="Activity22" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <response sourceId="Activity22" targetId="Activity28" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <response sourceId="Activity28" targetId="Activity33_2" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <response sourceId="Activity33" targetId="Activity30" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <response sourceId="Activity34" targetId="Activity31" filterLevel="0"  description=""  time=""  groups=""  />
+                                </responses>
+                                <coresponses></coresponses>
+                                <excludes>
+                                    <exclude sourceId="Activity6" targetId="Activity6" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity8" targetId="Activity8" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity10" targetId="Activity10" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity11" targetId="Activity11" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity12" targetId="Activity12" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity13" targetId="Activity13" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity14" targetId="Activity14" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity15" targetId="Activity15" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity10" targetId="Activity9" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity9" targetId="Activity9" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity7" targetId="Activity7" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity0" targetId="Activity0" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity1" targetId="Activity1" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity2" targetId="Activity2" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity5" targetId="Activity5" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity3" targetId="Activity3" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity19" targetId="Activity19" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity20" targetId="Activity20" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity21" targetId="Activity21" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity27" targetId="Activity27" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity23" targetId="Activity23" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity22" targetId="Activity22" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity25" targetId="Activity25" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity26" targetId="Activity26" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity24" targetId="Activity24" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity4" targetId="Activity4" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity28" targetId="Activity28" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity33_2" targetId="Activity33_2" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity33_1" targetId="Activity33_1" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity32_1" targetId="Activity31" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity32_1" targetId="Activity32" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <exclude sourceId="Activity32_1" targetId="Activity33" filterLevel="0"  description=""  time=""  groups=""  />
+                                </excludes>
+                                <includes>
+                                    <include sourceId="Activity8" targetId="Activity9" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <include sourceId="Activity25" targetId="Activity4" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <include sourceId="Activity26" targetId="Activity4" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <include sourceId="Activity24" targetId="Activity4" filterLevel="0"  description=""  time=""  groups=""  />
+                                    <include sourceId="Activity33" targetId="Activity30" filterLevel="0"  description=""  time=""  groups=""  />
+                                </includes>
+                                <milestones></milestones>
+                                <spawns></spawns>
+                            </constraints>
+                        </specification>
+                        <runtime>
+                            <custom>
+                                <globalMarking></globalMarking>
+                            </custom>
+                            <marking>
+                                <globalStore></globalStore>
+                                <executed></executed>
+                                <included>
+                                    <event id="Activity0" />
+                                    <event id="Activity1" />
+                                    <event id="Activity10" />
+                                    <event id="Activity11" />
+                                    <event id="Activity12" />
+                                    <event id="Activity13" />
+                                    <event id="Activity14" />
+                                    <event id="Activity15" />
+                                    <event id="Activity19" />
+                                    <event id="Activity2" />
+                                    <event id="Activity20" />
+                                    <event id="Activity21" />
+                                    <event id="Activity22" />
+                                    <event id="Activity23" />
+                                    <event id="Activity24" />
+                                    <event id="Activity25" />
+                                    <event id="Activity26" />
+                                    <event id="Activity27" />
+                                    <event id="Activity28" />
+                                    <event id="Activity3" />
+                                    <event id="Activity31" />
+                                    <event id="Activity32" />
+                                    <event id="Activity33" />
+                                    <event id="Activity33_1" />
+                                    <event id="Activity33_2" />
+                                    <event id="Activity4" />
+                                    <event id="Activity5" />
+                                    <event id="Activity6" />
+                                    <event id="Activity7" />
+                                    <event id="Activity8" />
+                                    <event id="Activity9" />
+                                </included>
+                                <pendingResponses>
+                                    <event id="Activity6" />
+                                </pendingResponses>
+                            </marking>
+                        </runtime>
+                    </dcrgraph>
+                </subProcess>
+            </subProcesses>
+            <distribution></distribution>
+            <labels>
+                <label id="Product Shipped" />
+                <label id="Warehouse Request more Product" />
+                <label id="Cacellation of inqury" />
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity30" labelId="Product Shipped"/>
+                <labelMapping eventId="Activity34" labelId="Warehouse Request more Product"/>
+                <labelMapping eventId="Activity32_1" labelId="Cacellation of inqury"/>
+            </labelMappings>
+            <expressions></expressions>
+            <variables></variables>
+            <variableAccesses>
+                <writeAccesses />
+            </variableAccesses>
+            <custom>
+                <keywords>DCR Hand-in, Coca-Cola,DCR</keywords>
+                <roles>
+                    <role description="" specification="">Cleaning team</role>
+                    <role description="electronic bottle inspection equipment" specification="">electronic bottle inspection equipment</role>
+                    <role description="machines" specification="">machines</role>
+                    <role description="the company" specification="">the company</role>
+                    <role description="the HQ" specification="">the HQ</role>
+                    <role description="the production team" specification="">the production team</role>
+                    <role description="warehouse" specification="">warehouse</role>
+                </roles>
+                <groups></groups>
+                <phases></phases>
+                <eventTypes></eventTypes>
+                <eventParameters></eventParameters>
+                <graphDetails>The production starts of with a warehouse sending an inquiry for more product. This then
+starts the production.
+The production has three phases, the preproduction, the production itself and the control of
+the product. The pre production mainly concerns following the required legislation in order to
+be allowed to produce the beverage as well as making sure all the machinery is fully
+functioning and that all the ingredients are available. This is mainly done by the HQ.The second step is the actual
+production of the Syrup/Liquid, Bottles,the bottling of the liquid and finally the packaging.
+The last step is the shipping process in which the warehouse will receive the shipment they
+need (this part also have ties to the beginning of the process as the warehouse sends an
+inquiry for more product).
+In the first phase the company must make sure that their standards follow the ISO 9001 and
+the ISO 22000, the company&apos;s own Quality and Food Safety policy and lastly the global standards of the Coca Cola company. This involves electronic bottle inspection equipment
+on all refillable bottling production lines to identify and reject even the tiniest irregularity in
+their beverages. Furthermore, the process must not violate any legislation when it comes to
+production of food or beverages
+In the 2nd phase the production process starts with the production team making sure all ingredients are available,
+then the machinery must maintained to reduce the risk of contamination or breakdowns.
+The ingredients must also inspected before production to make sure that there are no
+irregularities, if an irregularity presents itself, this batch of ingredients is declined and not
+used. The water used in the production goes through special treatments to ensure the
+microbiological safety. The water must have the correct concentration of naturally dissolved
+salts. The syrup is prepared in special tanks by first firstly dissolving the right amount of
+sugar in the treated water, and then afterwards filtering this water to remove any possible
+impurities. Only after this the simple syrup is mixed with the Coca Cola concentrate to make
+up the liquid in its final form. After this a flash pasteurisation thermal process will then ensure
+that even the most sensitive products will not alter in their sensory characteristic during their
+shelf life.
+The bottle production goes through the same basic pre steps as the liquid, however in this
+process it is paramount that the company follows legislation regarding usage of plastic and
+cleanliness of the product as it would otherwise be illegal to use.
+The filling and packaging process starts with the treated and cooled water being mixed with
+the final syrup and then the carbon dioxide is added. The drink is the filled into the bottles
+and ready to be packaged. The bottles must be perfectly clean, hermetically sealed, labeled,
+coded and tested. This is done by machines in a modern automatic plant. The glass bottles
+are then placed in boxes while the plastic bottles and canned products go into various
+multipacks. The Product is then shipped to the warehouse where it was intended to go from
+the start.</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups></filteredGroups>
+                    <filteredRoles></filteredRoles>
+                    <filteredPhases></filteredPhases>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"></hightlighterMarkup>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">The production starts of with a warehouse sending an inquiry for more product. This then
+starts the production.
+The production has three phases, the preproduction, the production itself and the control of
+the product. The pre production mainly concerns following the required legislation in order to
+be allowed to produce the beverage as well as making sure all the machinery is fully
+functioning and that all the ingredients are available. This is mainly done by the HQ.The second step is the actual
+production of the Syrup/Liquid, Bottles,the bottling of the liquid and finally the packaging.
+The last step is the shipping process in which the warehouse will receive the shipment they
+need (this part also have ties to the beginning of the process as the warehouse sends an
+inquiry for more product).
+In the first phase the company must make sure that their standards follow the ISO 9001 and
+the ISO 22000, the company&apos;s own Quality and Food Safety policy and lastly the global standards of the Coca Cola company. This involves electronic bottle inspection equipment
+on all refillable bottling production lines to identify and reject even the tiniest irregularity in
+their beverages. Furthermore, the process must not violate any legislation when it comes to
+production of food or beverages
+In the 2nd phase the production process starts with the production team making sure all ingredients are available,
+then the machinery must maintained to reduce the risk of contamination or breakdowns.
+The ingredients must also inspected before production to make sure that there are no
+irregularities, if an irregularity presents itself, this batch of ingredients is declined and not
+used. The water used in the production goes through special treatments to ensure the
+microbiological safety. The water must have the correct concentration of naturally dissolved
+salts. The syrup is prepared in special tanks by first firstly dissolving the right amount of
+sugar in the treated water, and then afterwards filtering this water to remove any possible
+impurities. Only after this the simple syrup is mixed with the Coca Cola concentrate to make
+up the liquid in its final form. After this a flash pasteurisation thermal process will then ensure
+that even the most sensitive products will not alter in their sensory characteristic during their
+shelf life.
+The bottle production goes through the same basic pre steps as the liquid, however in this
+process it is paramount that the company follows legislation regarding usage of plastic and
+cleanliness of the product as it would otherwise be illegal to use.
+The filling and packaging process starts with the treated and cooled water being mixed with
+the final syrup and then the carbon dioxide is added. The drink is the filled into the bottles
+and ready to be packaged. The bottles must be perfectly clean, hermetically sealed, labeled,
+coded and tested. This is done by machines in a modern automatic plant. The glass bottles
+are then placed in boxes while the plastic bottles and canned products go into various
+multipacks. The Product is then shipped to the warehouse where it was intended to go from
+the start.</highlightLayer>
+                    </highlightLayers>
+                    <highlights>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="32" end="41">warehouse</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="warehouse" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="459" end="465">the HQ</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="the HQ" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="639" end="648">warehouse</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="warehouse" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="812" end="823">the company</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="the company" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="829" end="879">make sure that their standards follow the ISO 9001</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity0" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="887" end="896">ISO 22000</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="897" end="946">the company&apos;s own Quality and Food Safety policy</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="958" end="1003">the global standards of the Coca Cola company</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity3" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1019" end="1057">electronic bottle inspection equipment</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="electronic bottle inspection equipment" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1104" end="1153">identify and reject even the tiniest irregularity</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity4" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1203" end="1230">not violate any legislation</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity5" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1330" end="1349">the production team</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="the production team" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1350" end="1391">making sure all ingredients are available</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity6" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1401" end="1426">machinery must maintained</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity7" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1481" end="1530">ingredients must also inspected before production</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity8" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1577" end="1650">if an irregularity presents itself, this batch of ingredients is declined</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity9" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1668" end="1728">water used in the production goes through special treatments</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity10" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1770" end="1839">water must have the correct concentration of naturally dissolvedsalts</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity11" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1897" end="1953">dissolving the right amount ofsugar in the treated water</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity12" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="1975" end="1995">filtering this water</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity13" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2046" end="2102">the simple syrup is mixed with the Coca Cola concentrate</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity14" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2156" end="2192">flash pasteurisation thermal process</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity15" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2321" end="2338">bottle production</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2436" end="2494">the company follows legislation regarding usage of plastic</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2498" end="2524">cleanliness of the product</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2615" end="2671">treated and cooled water being mixed withthe final syrup</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity19" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2685" end="2708">carbon dioxide is added</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity20" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2714" end="2750">drink is the filled into the bottles</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity21" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2754" end="2774">ready to be packaged</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity22" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2780" end="2811">bottles must be perfectly clean</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity23" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2813" end="2832">hermetically sealed</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity24" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2834" end="2841">labeled</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity25" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2842" end="2847">coded</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity26" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2852" end="2858">tested</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity27" />
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2876" end="2884">machines</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="machines" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2918" end="2955">glass bottlesare then placed in boxes</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity28" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="2961" end="3027">the plastic bottles and canned products go into variousmultipacks</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items></items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="3033" end="3056">Product is then shipped</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity30" />
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="3064" end="3073">warehouse</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity30" />
+                            </items>
+                        </highlight>
+                    </highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions></conditions>
+            <responses></responses>
+            <coresponses></coresponses>
+            <excludes>
+                <exclude sourceId="Activity30" targetId="Activity32_1" filterLevel="0"  description=""  time=""  groups=""  />
+                <exclude sourceId="Activity30" targetId="Activity30" filterLevel="0"  description=""  time=""  groups=""  />
+            </excludes>
+            <includes>
+                <include sourceId="Activity30" targetId="Activity34" filterLevel="0"  description=""  time=""  groups=""  />
+            </includes>
+            <milestones></milestones>
+            <spawns>
+                <spawn sourceId="Activity34" targetId="Process0" filterLevel="0"  description=""  time=""  groups=""  />
+            </spawns>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking></globalMarking>
+        </custom>
+        <marking>
+            <globalStore></globalStore>
+            <executed></executed>
+            <included>
+                <event id="Activity30" />
+                <event id="Activity34" />
+                <event id="Activity32_1" />
+            </included>
+            <pendingResponses>
+                <event id="Activity34" />
+            </pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>
