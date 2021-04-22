@@ -1,0 +1,1196 @@
+<dcrgraph title="P07r4" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-6" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#b7b7b7" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity0">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="150" yLoc="50"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>customer</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;makes an order on&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>1</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity1">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="150" yLoc="275"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Wolt</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;receives the order&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>2</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity15" type="nesting">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="900" yLoc="200"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>restaurant</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>16</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity14">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1050" yLoc="250"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>restaurant</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>15</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity18">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="925" yLoc="250"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>restaurant</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>19</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity16" type="nesting">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="150" yLoc="500"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>courier</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>17</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity12">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="175" yLoc="550"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>courier</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>&lt;p&gt;accept the order&lt;/p&gt;</eventDescription>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>13</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity13">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="325" yLoc="550"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>courier</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>14</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity17">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="800" yLoc="575"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>courier</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>18</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity17_1">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="800" yLoc="400"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>restaurant</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>20</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity17_2">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1250" yLoc="575"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>customer</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>21</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity17_3">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1050" yLoc="50"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Wolt</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>22</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity2">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="300" yLoc="175"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Wolt</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;it is then registered&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>3</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity5">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="650" yLoc="400"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>restaurant</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;preparing the food&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>6</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity6">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="350" yLoc="325"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Wolt</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;starts allocating a vacant courier&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>7</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity8">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="650" yLoc="575"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>courier</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;hey head towards the restaurant to pick up the order&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>9</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity9">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="950" yLoc="575"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>courier</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;travels towards the customer&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>10</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="ReceiveOrder">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="450" yLoc="175"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Wolt</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;order is then distributed to the restaurant&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>12</sequence>
+                        <costs>0</costs>
+                        <eventData>
+                            <dataType sequence="12" width="small" placeholder="" hinttext="" dataSetList="" multiple="false" format="false">choice</dataType>
+                            <dictionary>
+                                <item label="Accept " value="True"/>
+                                <item label="Decline " value="False"/>
+                            </dictionary>
+                            <validationRules/>
+                        </eventData>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity18_1">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="500" yLoc="400"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Wolt</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>23</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity19">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1100" yLoc="575"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Wolt</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>24</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses/>
+            <distribution/>
+            <labels>
+                <label id="Make order"/>
+                <label id="Receives the order"/>
+                <label id="Receives order "/>
+                <label id="Decline"/>
+                <label id="Accept"/>
+                <label id="Courier receives order"/>
+                <label id="Accept"/>
+                <label id="Decline"/>
+                <label id="Pick up the order"/>
+                <label id="Order ready for pick up"/>
+                <label id="Customer receives order "/>
+                <label id="Notify customer of declined order"/>
+                <label id="Register order"/>
+                <label id="Starts preparing the food"/>
+                <label id="Starts allocating a vacant courier"/>
+                <label id="Head towards the restaurant"/>
+                <label id="Travels towards the customer"/>
+                <label id="Distribute to restaurant"/>
+                <label id="Notifies customer of acceptance"/>
+                <label id="Notifies customer of arrival"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity0" labelId="Make order"/>
+                <labelMapping eventId="Activity1" labelId="Receives the order"/>
+                <labelMapping eventId="Activity15" labelId="Receives order "/>
+                <labelMapping eventId="Activity14" labelId="Decline"/>
+                <labelMapping eventId="Activity18" labelId="Accept"/>
+                <labelMapping eventId="Activity16" labelId="Courier receives order"/>
+                <labelMapping eventId="Activity12" labelId="Accept"/>
+                <labelMapping eventId="Activity13" labelId="Decline"/>
+                <labelMapping eventId="Activity17" labelId="Pick up the order"/>
+                <labelMapping eventId="Activity17_1" labelId="Order ready for pick up"/>
+                <labelMapping eventId="Activity17_2" labelId="Customer receives order "/>
+                <labelMapping eventId="Activity17_3" labelId="Notify customer of declined order"/>
+                <labelMapping eventId="Activity2" labelId="Register order"/>
+                <labelMapping eventId="Activity5" labelId="Starts preparing the food"/>
+                <labelMapping eventId="Activity6" labelId="Starts allocating a vacant courier"/>
+                <labelMapping eventId="Activity8" labelId="Head towards the restaurant"/>
+                <labelMapping eventId="Activity9" labelId="Travels towards the customer"/>
+                <labelMapping eventId="ReceiveOrder" labelId="Distribute to restaurant"/>
+                <labelMapping eventId="Activity18_1" labelId="Notifies customer of acceptance"/>
+                <labelMapping eventId="Activity19" labelId="Notifies customer of arrival"/>
+            </labelMappings>
+            <expressions>
+                <expression id="ReceiveOrder-path-Activity18--include" value="(ReceiveOrder = true)"/>
+                <expression id="ReceiveOrder-path-Activity14--include" value="(ReceiveOrder = false)"/>
+                <expression id="ReceiveOrder-path-Activity18--exclude" value="(ReceiveOrder != true)"/>
+                <expression id="ReceiveOrder-path-Activity14--exclude" value="(ReceiveOrder != false)"/>
+            </expressions>
+            <variables/>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords/>
+                <roles>
+                    <role description="courier" specification="">courier</role>
+                    <role description="customer" specification="">customer</role>
+                    <role description="restaurant" specification="">restaurant</role>
+                    <role description="Wolt" specification="">Wolt</role>
+                </roles>
+                <groups/>
+                <phases/>
+                <eventTypes/>
+                <eventParameters/>
+                <graphDetails>The customer makes an order on Wolt’s website or mobile application. When Wolt receives the order, it is then registered. Wolt then has the order distributed to the restaurant where it can be either accepted or rejected. If the order is accepted, the restaurant begins preparing the food. Additionally, if delivery option is chosen and the order is accepted, Wolt’s system immediately starts allocating a vacant courier that can pick up the food and deliver it to the customer. If they are in range and vacant they are prompted if they want to accept the order. If not, the allocating process restarts. If the courier accepts, they head towards the restaurant to pick up the order. When it is picked up, the courier travels towards the customer to deliver the order.</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups/>
+                    <filteredRoles/>
+                    <filteredPhases/>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"/>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">The customer makes an order on Wolt’s website or mobile application. When Wolt receives the order, it is then registered. Wolt then has the order distributed to the restaurant where it can be either accepted or rejected. If the order is accepted, the restaurant begins preparing the food. Additionally, if delivery option is chosen and the order is accepted, Wolt’s system immediately starts allocating a vacant courier that can pick up the food and deliver it to the customer. If they are in range and vacant they are prompted if they want to accept the order. If not, the allocating process restarts. If the courier accepts, they head towards the restaurant to pick up the order. When it is picked up, the courier travels towards the customer to deliver the order.</highlightLayer>
+                    </highlightLayers>
+                    <highlights>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="4" end="12">customer</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="customer"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="13" end="31">makes an order on</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity0"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="74" end="78">Wolt</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Wolt"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="79" end="97">receives the order</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="99" end="120">it is then registered</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="269" end="287">preparing the food</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity5"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="385" end="419">starts allocating a vacant courier</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity6"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="544" end="560">accept the order</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity12"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="627" end="680">hey head towards the restaurant to pick up the order</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity8"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="708" end="715">courier</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="courier"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="716" end="744">travels towards the customer</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity9"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="748" end="765">deliver the order</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items/>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="157" end="157">Wolt</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Wolt"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="122" end="126">Wolt</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Wolt"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="146" end="175">distributed to the restaurant</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="ReceiveOrder"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="176" end="181">where</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="restaurant"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="199" end="207">accepted</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity18"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="211" end="219">rejected</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity14"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="247" end="261">the restaurant</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="restaurant"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="237" end="245">accepted</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity18"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="359" end="372">Wolt’s system</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Wolt"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="349" end="357">accepted</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity12"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="481" end="485">they</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="courier"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="510" end="514">they</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="courier"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="531" end="535">they</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="courier"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="565" end="568">not</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity13"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="570" end="601">the allocating process restarts</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity6"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="606" end="617">the courier</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="courier"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="618" end="625">accepts</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity12"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="428" end="445"> pick up the food</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity17"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="450" end="476">deliver it to the customer</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity9"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="419" end="424"> that</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="courier"/>
+                            </items>
+                        </highlight>
+                    </highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity0" targetId="Activity1" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity1" targetId="Activity2" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity2" targetId="ReceiveOrder" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="ReceiveOrder" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity6" targetId="Activity16" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity17" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity17_1" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity18" targetId="Activity6" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity5" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity14" targetId="Activity17_3" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity8" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity5" targetId="Activity17_1" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity12" targetId="Activity18_1" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity18_1" targetId="Activity5" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity18_1" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity18" targetId="Activity18_1" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity9" targetId="Activity19" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity19" targetId="Activity17_2" filterLevel="0" description="" time="" groups=""/>
+            </conditions>
+            <responses>
+                <response sourceId="Activity1" targetId="Activity2" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity0" targetId="Activity1" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity2" targetId="ReceiveOrder" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity8" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity17" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity5" targetId="Activity17_1" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity5" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity14" targetId="Activity17_3" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity18" targetId="Activity6" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="ReceiveOrder" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity13" targetId="Activity6" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity12" targetId="Activity18_1" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity18_1" targetId="Activity5" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity18_1" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity18" targetId="Activity18_1" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity9" targetId="Activity19" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity19" targetId="Activity17_2" filterLevel="0" description="" time="" groups=""/>
+            </responses>
+            <coresponses/>
+            <excludes>
+                <exclude sourceId="Activity17_2" targetId="Activity17_2" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity6" targetId="Activity6" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="ReceiveOrder" targetId="ReceiveOrder" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity17_1" targetId="Activity17_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity17" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity5" targetId="Activity5" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity12" targetId="Activity16" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity8" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity17_3" targetId="Activity17_3" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="ReceiveOrder" targetId="Activity18" filterLevel="0" description="" time="" groups="" expressionId="ReceiveOrder-path-Activity18--exclude"/>
+                <exclude sourceId="ReceiveOrder" targetId="Activity14" filterLevel="0" description="" time="" groups="" expressionId="ReceiveOrder-path-Activity14--exclude"/>
+                <exclude sourceId="Activity15" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity2" targetId="Activity2" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity1" targetId="Activity1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity9" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity18_1" targetId="Activity18_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity19" targetId="Activity19" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity0" targetId="Activity0" filterLevel="0" description="" time="" groups=""/>
+            </excludes>
+            <includes>
+                <include sourceId="Activity13" targetId="Activity6" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity14" targetId="Activity17_3" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="ReceiveOrder" targetId="Activity18" filterLevel="0" description="" time="" groups="" expressionId="ReceiveOrder-path-Activity18--include"/>
+                <include sourceId="ReceiveOrder" targetId="Activity14" filterLevel="0" description="" time="" groups="" expressionId="ReceiveOrder-path-Activity14--include"/>
+                <include sourceId="Activity18" targetId="Activity6" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity5" targetId="Activity17_1" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity5" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity17_1" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity6" targetId="Activity16" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity2" targetId="ReceiveOrder" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity1" targetId="Activity2" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity0" targetId="Activity1" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity17" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity12" targetId="Activity18_1" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity18_1" targetId="Activity5" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity9" targetId="Activity19" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity19" targetId="Activity17_2" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity17_3" targetId="Activity0" filterLevel="0" description="" time="" groups=""/>
+            </includes>
+            <milestones>
+                <milestone sourceId="Activity6" targetId="Activity16" filterLevel="0" description="" time="" groups=""/>
+            </milestones>
+            <spawns/>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking/>
+        </custom>
+        <marking>
+            <globalStore/>
+            <executed>
+                <event id="Activity15"/>
+            </executed>
+            <included>
+                <event id="Activity0"/>
+                <event id="Activity1"/>
+                <event id="Activity15"/>
+                <event id="Activity2"/>
+            </included>
+            <pendingResponses>
+                <event id="Activity17"/>
+                <event id="Activity17_1"/>
+                <event id="Activity17_2"/>
+                <event id="Activity5"/>
+                <event id="Activity6"/>
+                <event id="Activity8"/>
+                <event id="Activity9"/>
+                <event id="Activity18_1"/>
+                <event id="Activity19"/>
+            </pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

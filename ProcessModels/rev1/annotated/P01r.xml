@@ -1,0 +1,850 @@
+<dcrgraph title="P01r" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-1" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity0">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="75" yLoc="50"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>referee</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;interviewing patients&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>1</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity5">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="600" yLoc="50"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>referee</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;files the results containing the patient interviews as well as the expertise&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>6</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity6">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="750" yLoc="50"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>referee</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;creates a report&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>7</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity7">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="750" yLoc="250"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>managing director</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;forwarded to the referee&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>8</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity8">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="75" yLoc="475"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>managing director</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;another expert has to be asked&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>9</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity9">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="75" yLoc="250"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>managing director</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;asks an external expert to review&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>10</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity10">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="250" yLoc="475"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>ENGINE</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;that happens&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>11</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity11" type="subprocess">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="200" yLoc="200"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>12</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity3">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="475" yLoc="250"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>managing director</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>&lt;p&gt;received&lt;/p&gt;</eventDescription>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>4</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity2">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="350" yLoc="250"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>external expert</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>&lt;p&gt;sends an expertise&lt;/p&gt;</eventDescription>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>3</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity1">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="225" yLoc="250"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>external expert</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>&lt;p&gt;review the work of the doctor under rating&lt;/p&gt;</eventDescription>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>2</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity4">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="600" yLoc="250"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>managing director</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription>&lt;p&gt;forwarded to the referee&lt;/p&gt;</eventDescription>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>5</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+            </events>
+            <subProcesses/>
+            <distribution/>
+            <labels>
+                <label id="interview patients"/>
+                <label id=" files results of interviews"/>
+                <label id="creates review report"/>
+                <label id="fills a check to pay the expenses of the expert"/>
+                <label id="contact additional expert for backup review"/>
+                <label id="asks external expert to review the doctor"/>
+                <label id="detects that expert does not respond in time"/>
+                <label id="Review doctor"/>
+                <label id=" receives review"/>
+                <label id="sends an expertise"/>
+                <label id="review the work of the doctor under rating"/>
+                <label id=" forwards external review to referee"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity0" labelId="interview patients"/>
+                <labelMapping eventId="Activity5" labelId=" files results of interviews"/>
+                <labelMapping eventId="Activity6" labelId="creates review report"/>
+                <labelMapping eventId="Activity7" labelId="fills a check to pay the expenses of the expert"/>
+                <labelMapping eventId="Activity8" labelId="contact additional expert for backup review"/>
+                <labelMapping eventId="Activity9" labelId="asks external expert to review the doctor"/>
+                <labelMapping eventId="Activity10" labelId="detects that expert does not respond in time"/>
+                <labelMapping eventId="Activity11" labelId="Review doctor"/>
+                <labelMapping eventId="Activity3" labelId=" receives review"/>
+                <labelMapping eventId="Activity2" labelId="sends an expertise"/>
+                <labelMapping eventId="Activity1" labelId="review the work of the doctor under rating"/>
+                <labelMapping eventId="Activity4" labelId=" forwards external review to referee"/>
+            </labelMappings>
+            <expressions/>
+            <variables/>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords>BPMAI, Demo, Highlighter tool</keywords>
+                <roles>
+                    <role description="another expert" specification="">another expert</role>
+                    <role description="" specification="">ENGINE</role>
+                    <role description="external expert" specification="">external expert</role>
+                    <role description="managing director" specification="">managing director</role>
+                    <role description="referee" specification="">referee</role>
+                </roles>
+                <groups/>
+                <phases/>
+                <eventTypes/>
+                <eventParameters/>
+                <graphDetails>The referee starts a new case regarding a certain doctor by interviewing patients. Meanwhile, the director asks an external expert to review the work of the doctor under rating. Unfortunately, since the expert only gets a low expenses fee, it can happen that the expert is not responding in time. If that happens, another expert has to be asked (who could also not respond in time, i.e. the procedure repeats). If an expert finally sends an expertise, it is received by the director and forwarded to the referee. The referee files the results containing the patient interviews as well as the expertise and afterward creates a report. While the referee is doing this, the manager fills a check to pay the expenses of the expert.</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups/>
+                    <filteredRoles/>
+                    <filteredPhases/>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"/>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">The referee starts a new case regarding a certain doctor by interviewing patients. Meanwhile, the director asks an external expert to review the work of the doctor under rating. Unfortunately, since the expert only gets a low expenses fee, it can happen that the expert is not responding in time. If that happens, another expert has to be asked (who could also not respond in time, i.e. the procedure repeats). If an expert finally sends an expertise, it is received by the director and forwarded to the referee. The referee files the results containing the patient interviews as well as the expertise and afterward creates a report. While the referee is doing this, the manager fills a check to pay the expenses of the expert.</highlightLayer>
+                    </highlightLayers>
+                    <highlights>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="0" end="0">referee</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="referee"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="0" end="0">managing director</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="managing director"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="60" end="81">interviewing patients</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity0"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="107" end="133">asks an external expert to review</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity9"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="114" end="130">external expert</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="external expert"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="240" end="295">it can happen that the expert is not responding in time</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity9--condition--Activity10"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="300" end="312">that happens</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity10"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="314" end="314"/>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="another expert"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="314" end="328">another expert has to be asked</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity8"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="314" end="328">another expert</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="another expert"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="424" end="431">finally</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1--response--Activity2"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="432" end="450">sends an expertise</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="457" end="466">received</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity3"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="486" end="511">forwarded to the referee</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity4"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="524" end="601">files the results containing the patient interviews as well as the expertise</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity5"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="606" end="615">afterward</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity5--condition--Activity6"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="616" end="632">creates a report</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity6"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="679" end="726">fills a check to pay the expenses of the expert</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity7"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="94" end="106">the director</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="managing director"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="199" end="209">the expert</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="external expert"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="667" end="678">the manager</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="managing director"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="0" end="11">The referee</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="referee"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="640" end="652">the referee</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="referee"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="513" end="524">The referee</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="referee"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="414" end="423">an expert</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="external expert"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="470" end="482">the director</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="managing director"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="483" end="486">and</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity3--condition--Activity4"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="652" end="665">is doing this</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity6"/>
+                            </items>
+                        </highlight>
+                        <highlight type="relation">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="634" end="639">While</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity5--condition--Activity7"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="133" end="176"> review the work of the doctor under rating</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1"/>
+                            </items>
+                        </highlight>
+                    </highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity0" targetId="Activity5" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity5" targetId="Activity6" filterLevel="0" description="afterward" time="" groups=""/>
+                <condition sourceId="Activity2" targetId="Activity3" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity9" targetId="Activity10" filterLevel="0" description=" it can happen that the expert is not responding in time" time="1" groups=""/>
+                <condition sourceId="Activity3" targetId="Activity4" filterLevel="0" description="and" time="" groups=""/>
+                <condition sourceId="Activity1" targetId="Activity2" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity4" targetId="Activity5" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity5" targetId="Activity7" filterLevel="0" description="While" time="" groups=""/>
+            </conditions>
+            <responses>
+                <response sourceId="Activity1" targetId="Activity2" filterLevel="0" description="finally" time="" groups=""/>
+                <response sourceId="Activity8" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity9" targetId="Activity10" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity10" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity9" targetId="Activity1" filterLevel="0" description="" time="1" groups=""/>
+                <response sourceId="Activity2" targetId="Activity3" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity3" targetId="Activity4" filterLevel="0" description="" time="" groups=""/>
+            </responses>
+            <coresponses/>
+            <excludes>
+                <exclude sourceId="Activity3" targetId="Activity10" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity10" targetId="Activity11" filterLevel="0" description="" time="" groups=""/>
+            </excludes>
+            <includes>
+                <include sourceId="Activity10" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity9" targetId="Activity11" filterLevel="0" description="" time="" groups=""/>
+            </includes>
+            <milestones/>
+            <spawns/>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking/>
+        </custom>
+        <marking>
+            <globalStore/>
+            <executed/>
+            <included>
+                <event id="Activity0"/>
+                <event id="Activity5"/>
+                <event id="Activity6"/>
+                <event id="Activity7"/>
+                <event id="Activity9"/>
+                <event id="Activity10"/>
+                <event id="Activity11"/>
+                <event id="Activity3"/>
+                <event id="Activity2"/>
+                <event id="Activity1"/>
+                <event id="Activity4"/>
+            </included>
+            <pendingResponses>
+                <event id="Activity0"/>
+            </pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

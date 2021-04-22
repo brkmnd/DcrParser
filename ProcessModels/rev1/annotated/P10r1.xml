@@ -1,4 +1,4 @@
-<dcrgraph title="P10-highlighted" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-2" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#d9ead3" graphType="0">
+<dcrgraph title="P10r1" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-2" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#d9ead3" graphType="0">
     <specification>
         <resources>
             <events>
@@ -272,7 +272,7 @@
                         <costs>0</costs>
                         <label>Process0</label>
                     </custom>
-                    <dcrgraph title="P10-highlighted" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-2" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#d9ead3" graphType="0">
+                    <dcrgraph title="P10r1" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-2" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#d9ead3" graphType="0">
                         <specification>
                             <resources>
                                 <events>
@@ -383,9 +383,8 @@
                                     <hightlighterMarkup id="HLM"/>
                                     <highlighterMarkup>
                                         <highlightLayers>
-                                            <highlightLayer default="true" name="description">When P&amp;R puts in a request for a label design, Marketing must create a label design and submit it for approval to the product owner. After the design is approved by the product owner, Marketing may send the design to test groups for feedback. If changes are made based on the feedback Marketing must submit the design for approval to the product owner. After the design is approved, if the design is not sent to test groups, Marketing must send the design to P&amp;R.
-</highlightLayer>
-                                            </highlightLayers>
+                                            <highlightLayer default="true" name="description"/>
+                                        </highlightLayers>
                                         <highlights>
                                             <highlight type="role">
                                                 <layers>
@@ -636,7 +635,7 @@
                 <hightlighterMarkup id="HLM"/>
                 <highlighterMarkup>
                     <highlightLayers>
-                        <highlightLayer default="true" name="description"/>
+                        <highlightLayer default="true" name="description">When P&R puts in a request for a label design, Marketing must create a label design and submit it for approval to the product owner. After the design is approved by the product owner, Marketing may send the design to test groups for feedback. If changes are made based on the feedback Marketing must submit the design for approval to the product owner. After the design is approved, if the design is not sent to test groups, Marketing must send the design to P&R.</highlightLayer>
                     </highlightLayers>
                     <highlights>
                         <highlight type="role">

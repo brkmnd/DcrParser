@@ -1,0 +1,414 @@
+<dcrgraph title="P25" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-3" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity0">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="100" yLoc="150"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>1</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity4">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="325" yLoc="425"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>5</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity15">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="675" yLoc="650"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>16</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity17">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1100" yLoc="425"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>18</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity18">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1100" yLoc="650"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>19</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity8_1">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="675" yLoc="425"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>20</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity8">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="925" yLoc="150"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>21</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity8_2">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="500" yLoc="150"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>22</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity8_3">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="325" yLoc="150"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Purchaser</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>23</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses/>
+            <distribution/>
+            <labels>
+                <label id="Receive order request in ServiceNow"/>
+                <label id="Place order"/>
+                <label id="Contact Vendor"/>
+                <label id="Deliver Item(s)"/>
+                <label id="Close order in ServiceNow"/>
+                <label id="Check delivery status"/>
+                <label id="Registration "/>
+                <label id="Check item value"/>
+                <label id="Check stock"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity0" labelId="Receive order request in ServiceNow"/>
+                <labelMapping eventId="Activity4" labelId="Place order"/>
+                <labelMapping eventId="Activity15" labelId="Contact Vendor"/>
+                <labelMapping eventId="Activity17" labelId="Deliver Item(s)"/>
+                <labelMapping eventId="Activity18" labelId="Close order in ServiceNow"/>
+                <labelMapping eventId="Activity8_1" labelId="Check delivery status"/>
+                <labelMapping eventId="Activity8" labelId="Registration "/>
+                <labelMapping eventId="Activity8_2" labelId="Check item value"/>
+                <labelMapping eventId="Activity8_3" labelId="Check stock"/>
+            </labelMappings>
+            <expressions/>
+            <variables/>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords/>
+                <roles>
+                    <role description="" specification="">Purchaser</role>
+                    <role description="" specification="">Vendor</role>
+                </roles>
+                <groups/>
+                <phases/>
+                <eventTypes/>
+                <eventParameters/>
+                <graphDetails>The process is always initiated when the purchaser receives an order request in their portal ServiceNow, which is modelled in the graph as an activity called Receive order in ServiceNow. Followed by this is the activity Check stock, which means that the purchaser must check whether or not the product is on stock, before he knows where to go next. There are now six paths the purchaser can execute which are based on the six different required scenarios and the two forbidden scenarios. The scenarios are described in detail later on in this section. The first thing the Purchaser does is checking if the item is on stock. From here he will move on directly to Check item value so that he knows if the product should be registered in the system for the individual user. This is a necessary step which needs to be done and is a result of checking the stock. Now if the item has a low value, it is ready for delivery, but if it has a high value the Check item value activity, makes Registration available for execution. After this has been done, the delivery of the item is now a mandatory part of the process. This will end with the purchaser always closing the order in ServiceNow. If the item is not on stock, the purchaser must first place the order from an external vendor. From here, the purchaser must again go to the activity of Check item value, so that he will know if the item should be registered or not. After this, the purchaser must ensure whether the item has been received, and if not, the purchaser contacts the vendor which is shown in the activities Check delivery status followed by Contact vendor. Lastly the order can be closed in ServiceNow, which is shown with the activity Close order in ServiceNow.</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups/>
+                    <filteredRoles/>
+                    <filteredPhases/>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"/>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">The process is always initiated when the purchaser receives an order request in their portal ServiceNow, which is modelled in the graph as an activity called Receive order in ServiceNow. Followed by this is the activity Check stock, which means that the purchaser must check whether or not the product is on stock, before he knows where to go next. There are now six paths the purchaser can execute which are based on the six different required scenarios and the two forbidden scenarios. The scenarios are described in detail later on in this section. The first thing the Purchaser does is checking if the item is on stock. From here he will move on directly to Check item value so that he knows if the product should be registered in the system for the individual user. This is a necessary step which needs to be done and is a result of checking the stock. Now if the item has a low value, it is ready for delivery, but if it has a high value the Check item value activity, makes Registration available for execution. After this has been done, the delivery of the item is now a mandatory part of the process. This will end with the purchaser always closing the order in ServiceNow. If the item is not on stock, the purchaser must first place the order from an external vendor. From here, the purchaser must again go to the activity of Check item value, so that he will know if the item should be registered or not. After this, the purchaser must ensure whether the item has been received, and if not, the purchaser contacts the vendor which is shown in the activities Check delivery status followed by Contact vendor. Lastly the order can be closed in ServiceNow, which is shown with the activity Close order in ServiceNow.</highlightLayer>
+                    </highlightLayers>
+                    <highlights/>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity0" targetId="Activity8_3" filterLevel="0" description="a" time="" groups=""/>
+                <condition sourceId="Activity8_3" targetId="Activity8_2" filterLevel="0" description="a" time="" groups=""/>
+                <condition sourceId="Activity8_3" targetId="Activity4" filterLevel="0" description="a" time="" groups=""/>
+                <condition sourceId="Activity8_2" targetId="Activity8" filterLevel="0" description="a" time="" groups=""/>
+                <condition sourceId="Activity8_2" targetId="Activity17" filterLevel="0" description="a" time="" groups=""/>
+                <condition sourceId="Activity8_2" targetId="Activity8_1" filterLevel="0" description="a" time="" groups=""/>
+                <condition sourceId="Activity17" targetId="Activity18" filterLevel="0" description="a" time="" groups=""/>
+                <condition sourceId="Activity4" targetId="Activity8_1" filterLevel="0" description="a" time="" groups=""/>
+                <condition sourceId="Activity8_1" targetId="Activity15" filterLevel="0" description="a" time="" groups=""/>
+                <condition sourceId="Activity8_1" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+            </conditions>
+            <responses>
+                <response sourceId="Activity0" targetId="Activity8_3" filterLevel="0" description="a" time="" groups=""/>
+                <response sourceId="Activity8_3" targetId="Activity8_2" filterLevel="0" description="a" time="" groups=""/>
+                <response sourceId="Activity8_2" targetId="Activity17" filterLevel="0" description="a" time="" groups=""/>
+                <response sourceId="Activity8" targetId="Activity17" filterLevel="0" description="a" time="" groups=""/>
+                <response sourceId="Activity17" targetId="Activity18" filterLevel="0" description="a" time="" groups=""/>
+                <response sourceId="Activity4" targetId="Activity8_2" filterLevel="0" description="a" time="" groups=""/>
+                <response sourceId="Activity4" targetId="Activity8_1" filterLevel="0" description="a" time="" groups=""/>
+                <response sourceId="Activity8_1" targetId="Activity17" filterLevel="0" description="a" time="" groups=""/>
+            </responses>
+            <coresponses/>
+            <excludes>
+                <exclude sourceId="Activity0" targetId="Activity0" filterLevel="0" description="a" time="" groups=""/>
+                <exclude sourceId="Activity8_3" targetId="Activity8_3" filterLevel="0" description="a" time="" groups=""/>
+                <exclude sourceId="Activity8_2" targetId="Activity8_2" filterLevel="0" description="a" time="" groups=""/>
+                <exclude sourceId="Activity8" targetId="Activity8" filterLevel="0" description="a" time="" groups=""/>
+                <exclude sourceId="Activity17" targetId="Activity17" filterLevel="0" description="a" time="" groups=""/>
+                <exclude sourceId="Activity18" targetId="Activity18" filterLevel="0" description="a" time="" groups=""/>
+                <exclude sourceId="Activity4" targetId="Activity4" filterLevel="0" description="a" time="" groups=""/>
+                <exclude sourceId="Activity15" targetId="Activity15" filterLevel="0" description="a" time="" groups=""/>
+                <exclude sourceId="Activity8_2" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity8_2" targetId="Activity18" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity8_1" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity15" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity17" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity17" targetId="Activity8_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity8_1" targetId="Activity8_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity8_2" targetId="Activity4" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity8_2" targetId="Activity8_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity8_2" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity17" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+            </excludes>
+            <includes>
+                <include sourceId="Activity0" targetId="Activity8_3" filterLevel="0" description="a" time="" groups=""/>
+                <include sourceId="Activity8_3" targetId="Activity4" filterLevel="0" description="a" time="" groups=""/>
+                <include sourceId="Activity8_2" targetId="Activity8" filterLevel="0" description="a" time="" groups=""/>
+                <include sourceId="Activity17" targetId="Activity18" filterLevel="0" description="a" time="" groups=""/>
+                <include sourceId="Activity8_1" targetId="Activity15" filterLevel="0" description="a" time="" groups=""/>
+                <include sourceId="Activity15" targetId="Activity8_1" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity8_1" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity8_2" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+            </includes>
+            <milestones/>
+            <spawns/>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking/>
+        </custom>
+        <marking>
+            <globalStore/>
+            <executed/>
+            <included>
+                <event id="Activity0"/>
+                <event id="Activity4"/>
+                <event id="Activity15"/>
+                <event id="Activity17"/>
+                <event id="Activity18"/>
+                <event id="Activity8_1"/>
+                <event id="Activity8"/>
+                <event id="Activity8_2"/>
+                <event id="Activity8_3"/>
+            </included>
+            <pendingResponses>
+                <event id="Activity0"/>
+            </pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

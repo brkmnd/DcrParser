@@ -1,0 +1,916 @@
+<dcrgraph title="P06" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-9" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity0">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="450" yLoc="75"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Customer</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>1</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity1" type="subprocess">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="200" yLoc="375"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>2</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity2">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="225" yLoc="425"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Customer</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>3</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity3">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="475" yLoc="425"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Customer</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>4</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity4">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="650" yLoc="425"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Customer</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>5</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="StockAvailability">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="800" yLoc="425"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Webshop</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>7</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="7" width="small" placeholder="" hinttext="" dataSetList="" multiple="false" format="false">choice</dataType>
+                                <dictionary>
+                                    <item label="Available " value="1"/>
+                                    <item label="Not available " value="2"/>
+                                </dictionary>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity7">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="800" yLoc="650"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Webshop</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>8</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity8">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1000" yLoc="425"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Webshop</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>9</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="DecisionCompletion">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1425" yLoc="425"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Customer</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>22</sequence>
+                        <costs>0</costs>
+                        <eventData>
+                            <dataType sequence="22" width="small" placeholder="" hinttext="" dataSetList="" multiple="false" format="false">choice</dataType>
+                            <dictionary>
+                                <item label="Yes " value="1"/>
+                                <item label="No " value="2"/>
+                            </dictionary>
+                            <validationRules/>
+                        </eventData>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity5">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="800" yLoc="75"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Customer</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>6</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity19">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1425" yLoc="1400"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Customer</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>21</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity21">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1425" yLoc="850"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Customer</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>23</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity22" type="nesting">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="200" yLoc="925"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>24</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Activity9">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="975" yLoc="975"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Customer</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>10</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="PaymentCredentials">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1000" yLoc="1250"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Webshop</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>11</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="11" width="small" placeholder="" hinttext="" dataSetList="" multiple="false" format="false">choice</dataType>
+                                <dictionary>
+                                    <item label="PaymentCredentials ok " value="1"/>
+                                    <item label="PaymentCredentials declined " value="2"/>
+                                </dictionary>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity12">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="750" yLoc="1250"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Webshop</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>13</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity13">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="600" yLoc="1250"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Webshop</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>14</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity14">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="400" yLoc="1050"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Customer</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>15</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity14_1">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="225" yLoc="1050"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Customer</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>16</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity15">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="225" yLoc="1275"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Webshop</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>17</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity16">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="225" yLoc="1500"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Warehouse</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>18</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity17">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="475" yLoc="1500"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Warehouse</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>19</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity18">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="675" yLoc="1500"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Warehouse</role>
+                            </roles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>20</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+            </events>
+            <subProcesses/>
+            <distribution/>
+            <labels>
+                <label id="Enters Webshop"/>
+                <label id="Create Order"/>
+                <label id="Choose product"/>
+                <label id="decide the quantity of the product"/>
+                <label id="Add product to basket"/>
+                <label id="Check stock availability"/>
+                <label id="Display maximum amount available"/>
+                <label id="Add to basket"/>
+                <label id="Decide if the order is complete"/>
+                <label id="Leave Webshop"/>
+                <label id="Receive products"/>
+                <label id="begin check out process"/>
+                <label id="Check out"/>
+                <label id="Fill out billing information"/>
+                <label id="Check payment credentials"/>
+                <label id="Confirm Order"/>
+                <label id="Send confirmation email"/>
+                <label id="Receive confirmation email"/>
+                <label id="Cancel the order"/>
+                <label id="Send purchase order"/>
+                <label id="Receive purchase order"/>
+                <label id="Collect and pack recuested products"/>
+                <label id="Send packed products"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity0" labelId="Enters Webshop"/>
+                <labelMapping eventId="Activity1" labelId="Create Order"/>
+                <labelMapping eventId="Activity2" labelId="Choose product"/>
+                <labelMapping eventId="Activity3" labelId="decide the quantity of the product"/>
+                <labelMapping eventId="Activity4" labelId="Add product to basket"/>
+                <labelMapping eventId="StockAvailability" labelId="Check stock availability"/>
+                <labelMapping eventId="Activity7" labelId="Display maximum amount available"/>
+                <labelMapping eventId="Activity8" labelId="Add to basket"/>
+                <labelMapping eventId="DecisionCompletion" labelId="Decide if the order is complete"/>
+                <labelMapping eventId="Activity5" labelId="Leave Webshop"/>
+                <labelMapping eventId="Activity19" labelId="Receive products"/>
+                <labelMapping eventId="Activity21" labelId="begin check out process"/>
+                <labelMapping eventId="Activity22" labelId="Check out"/>
+                <labelMapping eventId="Activity9" labelId="Fill out billing information"/>
+                <labelMapping eventId="PaymentCredentials" labelId="Check payment credentials"/>
+                <labelMapping eventId="Activity12" labelId="Confirm Order"/>
+                <labelMapping eventId="Activity13" labelId="Send confirmation email"/>
+                <labelMapping eventId="Activity14" labelId="Receive confirmation email"/>
+                <labelMapping eventId="Activity14_1" labelId="Cancel the order"/>
+                <labelMapping eventId="Activity15" labelId="Send purchase order"/>
+                <labelMapping eventId="Activity16" labelId="Receive purchase order"/>
+                <labelMapping eventId="Activity17" labelId="Collect and pack recuested products"/>
+                <labelMapping eventId="Activity18" labelId="Send packed products"/>
+            </labelMappings>
+            <expressions>
+                <expression id="PaymentCredentials-path-Activity9--response" value="PaymentCredentials = 2"/>
+                <expression id="PaymentCredentials-path-Activity12--response" value="PaymentCredentials = 1"/>
+                <expression id="StockAvailability-path-Activity7--include" value="StockAvailability = 2"/>
+                <expression id="StockAvailability-path-Activity8--include" value="StockAvailability = 1"/>
+                <expression id="DecisionCompletion-path-Activity1--include" value="DecisionCompletion = 2"/>
+                <expression id="DecisionCompletion-path-Activity21--include" value="DecisionCompletion = 1"/>
+                <expression id="StockAvailability-path-Activity7--exclude" value="StockAvailability = 1"/>
+                <expression id="StockAvailability-path-Activity8--exclude" value="StockAvailability = 2"/>
+                <expression id="DecisionCompletion-path-Activity21--exclude" value="DecisionCompletion = 2"/>
+            </expressions>
+            <variables/>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords/>
+                <roles>
+                    <role description="" specification="">Customer</role>
+                    <role description="" specification="">Warehouse</role>
+                    <role description="" specification="">Webshop</role>
+                </roles>
+                <groups/>
+                <phases/>
+                <eventTypes/>
+                <eventParameters/>
+                <graphDetails>Mikkeller has created a webshop to sell their products to customers that are not able to buy them in physical stores or prefers to buy them online. The webshop ordering includes 3 roles: webshop, customer and warehouse. The process starts when the customer enters Mikkeller.dk. Before the customer adds an item to his basket, he must decide the quantity of the product that he wishes to purchase. Once he has done so he adds the product to his basket. The webshop registers that a customer has sent the above request, and the webshop will then have to 'check stock availability'. Should the items be available, the webshop will proceed by adding the items to the basket. Unfortunately, it can happen that the chosen items are not available, if that happens the webshop will display the maximum amount available of the chosen product to the customer. The customer now has to choose the product again (and add an amount within the limit) or choose another product. If the customer has successfully added items to the basket, he or she have to decide to either keep shopping, thereby following the above process again or “create order”. When the order has been created the customer will fill out the billing information. The webshop must then check that everything is fine if not, the customer will have to fill out the form again, otherwise the webshop will have to confirm the order by sending a confirmation order to the customer. If the customer regrets, the cancelation must be done within 30 minutes. If not cancelled within 30 minutes the webshop shall send a purchase order to the warehouse. After the warehouse has received the purchase order, they collect the requested products, pack them and send them to the customer. The customer then receives the ordered products. The customer can always leave the webshop.</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups/>
+                    <filteredRoles/>
+                    <filteredPhases/>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"/>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">Mikkeller has created a webshop to sell their products to customers that are not able to buy them in physical stores or prefers to buy them online. The webshop ordering includes 3 roles: webshop, customer and warehouse. The process starts when the customer enters Mikkeller.dk. Before the customer adds an item to his basket, he must decide the quantity of the product that he wishes to purchase. Once he has done so he adds the product to his basket. The webshop registers that a customer has sent the above request, and the webshop will then have to &amp;apos;check stock availability&amp;apos;. Should the items be available, the webshop will proceed by adding the items to the basket. Unfortunately, it can happen that the chosen items are not available, if that happens the webshop will display the maximum amount available of the chosen product to the customer. The customer now has to choose the product again (and add an amount within the limit) or choose another product. If the customer has successfully added items to the basket, he or she have to decide to either keep shopping, thereby following the above process again or “create order”. When the order has been created the customer will fill out the billing information. The webshop must then check that everything is fine if not, the customer will have to fill out the form again, otherwise the webshop will have to confirm the order by sending a confirmation order to the customer. If the customer regrets, the cancelation must be done within 30 minutes. If not cancelled within 30 minutes the webshop shall send a purchase order to the warehouse. After the warehouse has received the purchase order, they collect the requested products, pack them and send them to the customer. The customer then receives the ordered products. The customer can always leave the webshop.</highlightLayer>
+                    </highlightLayers>
+                    <highlights/>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity0" targetId="Activity5" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity2" targetId="Activity3" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity3" targetId="Activity4" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity4" targetId="StockAvailability" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity9" targetId="PaymentCredentials" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="PaymentCredentials" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity12" targetId="Activity13" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity13" targetId="Activity14" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity14" targetId="Activity15" filterLevel="0" description="" time="0.0:31" groups=""/>
+                <condition sourceId="Activity16" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity17" targetId="Activity18" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity15" targetId="Activity16" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity14" targetId="Activity14_1" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity1" targetId="DecisionCompletion" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity0" targetId="Activity1" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity7" targetId="Activity2" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="DecisionCompletion" targetId="Activity21" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="DecisionCompletion" targetId="Activity1" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity21" targetId="Activity22" filterLevel="0" description="" time="" groups=""/>
+                <condition sourceId="Activity22" targetId="Activity19" filterLevel="0" description="" time="" groups=""/>
+            </conditions>
+            <responses>
+                <response sourceId="Activity2" targetId="Activity3" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity4" targetId="StockAvailability" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity9" targetId="PaymentCredentials" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="PaymentCredentials" targetId="Activity9" filterLevel="0" description="" time="" groups="" expressionId="PaymentCredentials-path-Activity9--response"/>
+                <response sourceId="PaymentCredentials" targetId="Activity12" filterLevel="0" description="" time="" groups="" expressionId="PaymentCredentials-path-Activity12--response"/>
+                <response sourceId="Activity12" targetId="Activity13" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity14" targetId="Activity14_1" filterLevel="0" description="" time="0.0:30" groups=""/>
+                <response sourceId="Activity16" targetId="Activity17" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity17" targetId="Activity18" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity15" targetId="Activity16" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity3" targetId="Activity4" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="StockAvailability" targetId="Activity7" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="StockAvailability" targetId="Activity8" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity14" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity1" targetId="DecisionCompletion" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity22" targetId="Activity19" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity13" targetId="Activity14" filterLevel="0" description="" time="" groups=""/>
+                <response sourceId="Activity7" targetId="Activity2" filterLevel="0" description="" time="" groups=""/>
+            </responses>
+            <coresponses/>
+            <excludes>
+                <exclude sourceId="Activity5" targetId="Activity1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="StockAvailability" targetId="Activity7" filterLevel="0" description="" time="" groups="" expressionId="StockAvailability-path-Activity7--exclude"/>
+                <exclude sourceId="StockAvailability" targetId="Activity8" filterLevel="0" description="" time="" groups="" expressionId="StockAvailability-path-Activity8--exclude"/>
+                <exclude sourceId="Activity14_1" targetId="Activity15" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity15" targetId="Activity14_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity5" targetId="DecisionCompletion" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="DecisionCompletion" targetId="Activity21" filterLevel="0" description="" time="" groups="" expressionId="DecisionCompletion-path-Activity21--exclude"/>
+                <exclude sourceId="Activity14_1" targetId="Activity14_1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity19" targetId="Activity19" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity14_1" targetId="Activity22" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity0" targetId="Activity0" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity12" targetId="Activity12" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity19" targetId="Activity22" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity12" targetId="Activity1" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity22" targetId="Activity21" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity22" targetId="DecisionCompletion" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity5" targetId="Activity21" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity5" targetId="Activity9" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity3" targetId="Activity3" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="Activity4" targetId="Activity4" filterLevel="0" description="" time="" groups=""/>
+                <exclude sourceId="StockAvailability" targetId="StockAvailability" filterLevel="0" description="" time="" groups=""/>
+            </excludes>
+            <includes>
+                <include sourceId="StockAvailability" targetId="Activity7" filterLevel="0" description="" time="" groups="" expressionId="StockAvailability-path-Activity7--include"/>
+                <include sourceId="StockAvailability" targetId="Activity8" filterLevel="0" description="" time="" groups="" expressionId="StockAvailability-path-Activity8--include"/>
+                <include sourceId="DecisionCompletion" targetId="Activity1" filterLevel="0" description="" time="" groups="" expressionId="DecisionCompletion-path-Activity1--include"/>
+                <include sourceId="DecisionCompletion" targetId="Activity21" filterLevel="0" description="" time="" groups="" expressionId="DecisionCompletion-path-Activity21--include"/>
+                <include sourceId="Activity21" targetId="Activity22" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity0" targetId="Activity1" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity18" targetId="Activity19" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity5" targetId="Activity0" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity1" targetId="DecisionCompletion" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity2" targetId="Activity3" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity3" targetId="Activity4" filterLevel="0" description="" time="" groups=""/>
+                <include sourceId="Activity4" targetId="StockAvailability" filterLevel="0" description="" time="" groups=""/>
+            </includes>
+            <milestones/>
+            <spawns/>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking/>
+        </custom>
+        <marking>
+            <globalStore/>
+            <executed/>
+            <included>
+                <event id="Activity0"/>
+                <event id="Activity1"/>
+                <event id="Activity2"/>
+                <event id="Activity3"/>
+                <event id="Activity4"/>
+                <event id="StockAvailability"/>
+                <event id="Activity5"/>
+            </included>
+            <pendingResponses/>
+        </marking>
+    </runtime>
+</dcrgraph>

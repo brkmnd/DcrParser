@@ -17,6 +17,12 @@ def get_attr(attrs,attr_name):
     assert (res != None),"could not find attribute '" + attr_name + "' in " + str(attrs)
     return res
 
+def has_node_with_label(nodes,label):
+    for n in nodes:
+        if n["label"] == label:
+            return True
+    return False
+
 class XmlParser(HTMLParser):
 
     edgelabels = ["condition","response","exclude","include","coresponse","milestone"] 
@@ -51,9 +57,10 @@ class XmlParser(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         if tag == "labelmapping":
+            label = get_attr(attrs,"labelid")
             lm = {    "eid":get_attr(attrs,"eventid").strip()
                     , "nid":self.nid
-                    , "label":get_attr(attrs,"labelid")
+                    , "label":label
                     }
             self.map_eid[lm["eid"]] = self.nid
             self.nodes.append(lm)
@@ -110,9 +117,11 @@ class XmlParser(HTMLParser):
             lm = {    "nid":self.nid
                     , "label":data
                     }
-            self.nodes.append(lm)
-            self.map_rid[lm["label"]] = self.nid
-            self.nid += 1
+            # some roles might be defined twice
+            if not has_node_with_label(self.nodes,data):
+                self.nodes.append(lm)
+                self.map_rid[lm["label"]] = self.nid
+                self.nid += 1
         elif self.tag == "event2role":
             data = data.strip()
             if self.role_eventid == "" or data == "":
@@ -148,7 +157,7 @@ def create_desc3(desc):
     return desc
 
 class Mrp:
-    def __init__(self,xml_parser,fname,id0):
+    def __init__(self,xml_parser,fname,id0,do_cutoff=True):
         self.xml_parser = xml_parser
         self.nodes = xml_parser.nodes
         self.edges = xml_parser.edges
@@ -160,42 +169,133 @@ class Mrp:
         self.time = get_time()
         self.flavor = 2
         self.include_anchs = False
+        self.testing_mode = False
+        self.do_cutoff = do_cutoff
 
         max_tokens_desc = 350
         desc = xml_parser.desc
         self.desc = create_desc2(desc,fname)
-        self.cutoff_desc(self.desc,max_tokens_desc)
+        self.full_desc = self.desc
+        if do_cutoff:
+            self.cutoff_desc(self.desc,max_tokens_desc)
 
         if self.desc == "":
-            print("warning, empty description for" + fname)
+            print("warning, empty description for " + fname)
 
     def cutoff_desc(self,desc,max_ts):
-        c0 = len(desc)
         if max_ts > 0:
             desc_ts = list_tokens_desc(desc)
             if len(desc_ts) > max_ts:
                 print("--cutoff " + str(len(desc_ts) - max_ts) + " tokens from '" + self.fname + "'")
                 last_t = desc_ts[max_ts]
                 c0 = last_t[2]
-        self.cutoff_anchs(c0)
-        self.desc = desc[:c0]
+
+                #cut off what else needs
+                anch_cutoffs = self.cutoff_anchs(c0)
+                node_cutoffs = self.cutoff_nodes(anch_cutoffs)
+                self.cutoff_edges(node_cutoffs)
+
+                self.desc = desc[:c0]
+
+                return True
+        
+        return False
 
     def cutoff_anchs(self,i):
         res = {}
+        cutoffs = {}
         nr_cutoffs = 0
         for a in self.anchors.keys():
-            ares = []
+            if a not in res:
+                res[a] = []
+            if a not in cutoffs:
+                cutoffs[a] = []
             for atup in self.anchors[a]:
                 if atup[0] > i or atup[1] > i:
                     nr_cutoffs += 1
-                    continue
-                ares.append(atup)
-            res[a] = ares
-        if nr_cutoffs > 0:
+                    cutoffs[a].append(atup)
+                else:
+                    res[a].append(atup)
+
+        #refine results
+        del_from_res = []
+        del_from_cutoffs = []
+        for a in res.keys():
+            if len(res[a]) == 0:
+                del_from_res.append(a)
+        for a in cutoffs.keys():
+            if len(cutoffs[a]) == 0:
+                del_from_cutoffs.append(a)
+        for a in del_from_res:
+            del res[a]
+        for a in del_from_cutoffs:
+            del cutoffs[a]
+        for a in cutoffs.keys():
+            # Íf some nodes are present where some anchors are cut off, some are not
+            # then remove this node from res. We do not want it at all
+            if a in res:
+                del res[a]
+
+        if len(cutoffs) == 0:
+            return None
+        else:
             print("--cutoff " + str(nr_cutoffs) + " anchors from '" + self.fname + "'")
-            self.anchors = res
+            self.anchs = res
+            return cutoffs
+
+    def cutoff_nodes(self,anch_cutoffs):
+        if anch_cutoffs is None:
+            return None
+
+        res = []
+        res_tops = []
+        cutoffs = []
+
+        for node in self.nodes:
+            did_cutoff = False
+            for a in anch_cutoffs.keys():
+                if ("eid" in node and node["eid"] == a) or ("eid" not in node and node["label"] == a):
+                    cutoffs.append(node)
+                    did_cutoff = True
+                    break
+            if not did_cutoff:
+                res.append(node)
+                if "eid" in node:
+                    res_tops.append(node)
+
+        if len(cutoffs) == 0:
+            return None
+        else:
+            self.nodes = res
+            self.top_nodes = res_tops
+            print("--cutoff " + str(len(cutoffs)) + " nodes from '" + self.fname + "'")
+            return cutoffs
+
+    def cutoff_edges(self,node_cutoffs):
+        if node_cutoffs is None:
+            return None
+
+        res = []
+        cutoffs = []
+        for e in self.edges:
+            did_cutoff = False
+            for n in node_cutoffs:
+                if n["nid"] == e["source"] or n["nid"] == e["target"]:
+                    cutoffs.append(e)
+                    did_cutoff = True
+                    break
+            if not did_cutoff:
+                res.append(e)
+
+        if len(cutoffs) > 0:
+            self.edges = res
+            print("--cutoff " + str(len(cutoffs)) + " edges from '" + self.fname + "'")
+            return cutoffs
+        else:
+            return None
 
     def test_anchors(self):
+        retval = ""
         for x in self.nodes:
             l = x["label"]
             eid = l
@@ -204,35 +304,52 @@ class Mrp:
             if eid in self.anchors:
                 for a in self.anchors[eid]:
                     s0 = self.desc[a[0]:a[1]]
-                    print("")
-                    print("-label: '" + l + "'")
-                    print("-res  : '" + s0 + "'")
-                    print("*pos-org: " + str(a))
+                    retval += "\n"
+                    retval += "-label: '" + l + "'\n"
+                    retval += "-res  : '" + s0 + "'\n"
+                    retval += "*pos-org: " + str(a) + "\n"
+        return retval
 
     def con_indent(self,n):
-        return " " * n
+        if self.testing_mode:
+            return " " * n
+        else:
+            return ""
+    def con_newline(self,n=1):
+        if self.testing_mode:
+            return "\n" * n
+        else:
+            return ""
 
     def con_header(self,framework):
-        retval  = "\"id\":\"" + self.id + "\","
-        retval += "\"flavor\":" + str(self.flavor) + " ,"
-        retval += "\"language\":\"eng\" ,"
-        retval += "\"framework\":\"" + framework + "\","
-        retval += "\"version\":1.1,"
+        nl = self.con_newline()
+        ind = self.con_indent(2)
+        retval  = ind + "\"id\":\"" + self.id + "\"," + nl
+        retval += ind + "\"flavor\":" + str(self.flavor) + " ," + nl
+        retval += ind + "\"language\":\"eng\" ," + nl
+        retval += ind + "\"framework\":\"" + framework + "\"," + nl
+        retval += ind + "\"version\":1.1," + nl
         #retval += "\"time\":\"" + self.time + "\"," # time for convertion
-        retval += "\"time\": \"2021-02-09\", "
-        retval += "\"source\":\""+self.fname+"\","
-        retval += "\"input\":\"" + self.desc + "\","
+        retval += ind + "\"time\": \"2021-02-09\", " + nl
+        retval += ind + "\"source\":\""+self.fname+"\"," + nl
+        retval += ind + "\"input\":\"" + self.desc + "\"," + nl
 
         return retval
 
     def con_tops(self):
-        retval  = "\"tops\":["
+        retval  = self.con_indent(2) 
+        retval += "\"tops\":["
         retval += ",".join([str(x["nid"]) for x in self.top_nodes])
         retval += "],"
+        retval += self.con_newline()
         return retval
 
     def con_nodes(self):
         nr_anchors = 0
+        nl = self.con_newline()
+        ind1 = self.con_indent(2)
+        ind2 = self.con_indent(4)
+        ind3 = self.con_indent(6)
 
         def create_anchors(x):
             nonlocal nr_anchors
@@ -249,22 +366,24 @@ class Mrp:
                 anchors = ["{\"from\":" + str(a[0]) + ",\"to\":" + str(a[1]) + "}" for a in self.anchors[eid]]
 
             if anchors is None or len(anchors) <= 0:
+                anchors = []
                 return ""
+            else:
+                nr_anchors += 1
 
-            nr_anchors += 1
-            retval  = ",\"anchors\":["
+            retval  = ind3 + ",\"anchors\":["
             retval += ",".join(anchors)
-            retval += "]"
+            retval += "]" + nl
             return retval
 
         def create_node(x):
             nid = x["nid"]
             l = x["label"]
-            retval  = "{"
-            retval += "\"id\":" + str(nid) + ","
-            retval += "\"label\":\"" + l + "\""
+            retval  = "{" + nl
+            retval += ind3 + "\"id\":" + str(nid) + "," + nl
+            retval += ind3 + "\"label\":\"" + l + "\"" + nl
             retval += create_anchors(x)
-            retval += "}"
+            retval += ind2 + "}" + nl
             #print(retval)
             return retval
     
@@ -275,25 +394,29 @@ class Mrp:
 
         #self.test_anchors()
 
-        retval  = "\"nodes\":["
-        retval += ",".join(ns)
-        retval += "],"
+        retval  = ind1 + "\"nodes\":[" + nl
+        retval += ind2 + (ind2 + ",").join(ns)
+        retval += ind1 + "]," + nl
         return retval
 
     def con_edges(self):
+        nl = self.con_newline()
+        ind1 = self.con_indent(2)
+        ind2 = self.con_indent(4)
+        ind3 = self.con_indent(6)
         def create_edge(x):
-            retval  = "{"
-            retval += "\"source\":" + str(x["source"]) + ","
-            retval += "\"target\":" + str(x["target"]) + ","
-            retval += "\"label\":\"" + x["label"] + "\""
-            retval += "}"
+            retval  = "{" + nl
+            retval += ind3 + "\"source\":" + str(x["source"]) + ","  + nl
+            retval += ind3 + "\"target\":" + str(x["target"]) + "," + nl
+            retval += ind3 + "\"label\":\"" + x["label"] + "\"" + nl
+            retval += ind2 + "}" + nl
             #print(x["source_name"] + " -[" + x["label"] + "]> " + x["target_name"])
             return retval
 
         edges = [create_edge(x) for x in self.edges]
-        retval  = "\"edges\":["
-        retval += ",".join(edges)
-        retval += "]"
+        retval  = ind1 + "\"edges\":[" + nl
+        retval += ind2 + (ind2 + ",").join(edges)
+        retval += ind1 + "]" + nl
         return retval
 
     def create_input(self):
@@ -310,15 +433,17 @@ class Mrp:
         retval += "}"
         return retval
 
-    def toString(self,framework,flavor=2,include_anchs=True):
+    def toString(self,framework,flavor=2,include_anchs=True,testing_mode=False):
         self.flavor = flavor
         self.include_anchs = include_anchs
-        retval = "{"
+        self.testing_mode = testing_mode
+        nl = self.con_newline()
+        retval = "{" + nl
         retval += self.con_header(framework)
         retval += self.con_tops()
         retval += self.con_nodes()
         retval += self.con_edges()
-        retval += "}"
+        retval += "}" + nl
         return retval
 
 def xml2mrp(fname,id0):
@@ -338,17 +463,32 @@ def xml2mrp(fname,id0):
     mrp = Mrp(parser,fname,id0)
     return mrp
 
-
 def save_data(txt,fname):
-    #fname = "models/2020/cf/" + fname + ".mrp"
     fname = "mrp_data/2020/cf/" + fname
     with open(fname,"w") as f:
         f.write(txt)
     print("saved '" + fname + "'")
 
+
+
+
+
+
+
+
+"""
+MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN
+MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN
+MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN
+MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN
+MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN
+MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN
+MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN
+"""
+
 def sort_files(fs,stype_fun):
-    no_anchs = ['P05.xml', 'P06.xml', 'P10.xml', 'P15.xml', 'P16.xml', 'P18.xml', 'P19.xml', 'P20.xml', 'P22.xml', 'P23.xml', 'P25.xml']
-    stypes = {"normal":1,"by-anchs":2,"none":3}
+    no_anchs = ['P05.xml', 'P06.xml', 'P15.xml', 'P16.xml', 'P18.xml', 'P19.xml', 'P20.xml', 'P23.xml', 'P25.xml' 'P30.xml']
+    stypes = {"normal":1,"anchs-first":2,"none":3}
     stype = stype_fun(stypes)
     is_not_xml = lambda x: x[-4:] == ".swp" or ".xml" not in x
     if stype == stypes["normal"]:
@@ -360,7 +500,7 @@ def sort_files(fs,stype_fun):
                 continue
             res.append(fname)
         return res
-    elif stype == stypes["by-anchs"]:
+    elif stype == stypes["anchs-first"]:
         fss = fs
         fss.sort()
         res_h = []
@@ -378,16 +518,19 @@ def sort_files(fs,stype_fun):
 
 def main():
     fs = os.listdir("ProcessModels")
-    fs = sort_files(fs,lambda t: t["normal"])
+    fs = sort_files(fs,lambda t: t["anchs-first"])
     res = []
     descs = []
     id0 = 1
     flavor = 1
 
-    is_testing = False
-    if is_testing:
-        m0 = xml2mrp("P01.xml",1)
-        m0.toString("dcr",flavor,True)
+    testing_mode = False
+    if testing_mode:
+        m0 = xml2mrp("P34.xml",1)
+        r0 = m0.toString("dcr",flavor,True,testing_mode=False)
+        a0 = m0.test_anchors()
+        print(r0)
+        print(a0)
         return True
 
     for fname in fs:
@@ -407,8 +550,6 @@ def main():
     res_val_dcr = [x.toString("dcr",flavor,True) for x in res[-10:-5]]
 
     res_eval = [x.create_input() for x in res[-5:]]
-
-    return True
     
     save_data("\n".join(res_train_ucca),"training/ucca.mrp")
     save_data("\n".join(res_val_ucca),"validation/ucca.mrp")
