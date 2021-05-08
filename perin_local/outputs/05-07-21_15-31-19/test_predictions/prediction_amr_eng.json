@@ -1,0 +1,1 @@
+{"id": "1", "version": 1.1, "time": "2021-02-09", "language": "eng", "source": "lpps", "provenance": "MRP 2020", "targets": ["eds", "amr", "ucca", "ptg", "dcr"], "input": "Has history given us too many lessons?, 530, 412, 64", "nodes": [], "edges": [], "tops": [], "framework": "amr"}

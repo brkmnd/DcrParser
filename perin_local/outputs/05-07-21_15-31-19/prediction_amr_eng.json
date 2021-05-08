@@ -1,0 +1,1 @@
+{"id": "bolt12_64545_0526.2", "flavor": 2, "framework": "amr", "version": 1.1, "time": "2020-06-22", "input": "Has history given us too many lessons?, 530, 412, 64", "tops": [1], "nodes": [{"id": 0, "label": "we"}, {"id": 1, "label": "too"}], "edges": [{"source": 0, "target": 1, "label": "arg1"}], "language": "eng"}
