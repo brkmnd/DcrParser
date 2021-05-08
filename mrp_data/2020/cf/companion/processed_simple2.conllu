@@ -1,0 +1,28 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = english-ewt-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = When the insurance company receives a new claim , the clerk calls the agent to actually check the claim.
+1	When	when	ADV	WRB	PronType=Int	5	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	insurance	insurance	NOUN	NN	Number=Sing	4	compound	_	_
+4	company	company	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	receives	receive	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	new	new	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	claim	claim	NOUN	NN	Number=Sing	5	obj	_	_
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	clerk	clerk	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	calls	call	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	agent	agent	NOUN	NN	Number=Sing	12	obj	_	_
+15	to	to	PART	TO	_	17	mark	_	_
+16	actually	actually	ADV	RB	_	17	advmod	_	_
+17	check	check	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	claim	claim	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	12	punct	_	SpaceAfter=No
+

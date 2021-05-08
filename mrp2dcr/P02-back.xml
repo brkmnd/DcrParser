@@ -1,0 +1,617 @@
+<dcrgraph title="rev1/annotated/P02r2" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-1" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB" graphType="0">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity0">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="250" yLoc="250"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>insurance company</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;receive a new claim&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>1</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity1">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="500" yLoc="250"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>clerk</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;calls the agent to check the claim&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>2</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity2">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="750" yLoc="250"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>clerk</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;creates a new case&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>3</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity3">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1000" yLoc="250"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>agent</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;check the claim&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>4</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity4">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="250" yLoc="500"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>agent</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;confirm the claim&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>5</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity5">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="500" yLoc="500"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>agent</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;supports the customer with additional assistance&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>6</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity6">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="750" yLoc="500"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>agent</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;Blocks lost id-card&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>7</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity7">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1000" yLoc="500"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>agent</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;Generates new id-card&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>8</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity8">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="250" yLoc="750"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>clerk</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;receive confirmation from agent&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>9</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity9">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="500" yLoc="750"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>clerk</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;issues a money order for the claim&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>10</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="Activity10">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="750" yLoc="750"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>insurance company</role>
+                        </roles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription>&lt;p&gt;close claim&lt;/p&gt;</eventDescription>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>11</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses/>
+            <distribution/>
+            <labels>
+                <label id="receive a new claim"/>
+                <label id="calls the agent to check the claim"/>
+                <label id="creates a new case"/>
+                <label id="check the claim"/>
+                <label id="confirm the claim"/>
+                <label id="supports the customer with additional assistance"/>
+                <label id="Blocks lost id-card"/>
+                <label id="Generates new id-card"/>
+                <label id="receive confirmation from agent"/>
+                <label id="issues a money order for the claim"/>
+                <label id="close claim"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity0" labelId="receive a new claim"/>
+                <labelMapping eventId="Activity1" labelId="calls the agent to check the claim"/>
+                <labelMapping eventId="Activity2" labelId="creates a new case"/>
+                <labelMapping eventId="Activity3" labelId="check the claim"/>
+                <labelMapping eventId="Activity4" labelId="confirm the claim"/>
+                <labelMapping eventId="Activity5" labelId="supports the customer with additional assistance"/>
+                <labelMapping eventId="Activity6" labelId="Blocks lost id-card"/>
+                <labelMapping eventId="Activity7" labelId="Generates new id-card"/>
+                <labelMapping eventId="Activity8" labelId="receive confirmation from agent"/>
+                <labelMapping eventId="Activity9" labelId="issues a money order for the claim"/>
+                <labelMapping eventId="Activity10" labelId="close claim"/>
+            </labelMappings>
+            <expressions/>
+            <variables/>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords>BPMAI, Demo, Highlighter tool</keywords>
+                <roles>
+                    <role description="agent" specification="">agent</role>
+                    <role description="clerk" specification="">clerk</role>
+                    <role description="insurance company" specification="">insurance company</role>
+                </roles>
+                <groups/>
+                <phases/>
+                <eventTypes/>
+                <eventParameters/>
+                <graphDetails>When the insurance company receives a new claim , the clerk calls the agent to actually check the claim, and creates a new case. The activities are scheduled in parallel. After the agent has confirmed the claim to the clerk, he supports the customer with additional assistance (e.g. getting a new id-card from the public authority). After the clerk has received the confirmation from the agent, she issues a money order for the claim. If the agent has completed his additional support and the clerk has issued the money order, the claim is closed. The agent will confirm the claim only after having checked it.</graphDetails>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups/>
+                    <filteredRoles/>
+                    <filteredPhases/>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"/>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">When the insurance company receives a new claim , the clerk calls the agent to actually check the claim, and creates a new case. The activities are scheduled in parallel. After the agent has confirmed the claim to the clerk, he supports the customer with additional assistance (e.g. getting a new id-card from the public authority). After the clerk has received the confirmation from the agent, she issues a money order for the claim. If the agent has completed his additional support and the clerk has issued the money order, the claim is closed. The agent will confirm the claim only after having checked it.</highlightLayer>
+                    </highlightLayers>
+                    <highlights>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="27" end="48">receive a new claim</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity0"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="60" end="103">calls the agent to check the claim</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity1"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="109" end="127">creates a new case</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity2"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="79" end="103">check the claim</range>
+                                        <range start="599" end="609">check the claim</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity3"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="191" end="210">confirm the claim</range>
+                                        <range start="563" end="580">confirm the claim</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity4"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="228" end="276">supports the customer with additional assistance</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity5"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="283" end="330">Generates new id-card</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity7"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="211" end="223">receive confirmation from agent</range>
+                                        <range start="353" end="393">receive confirmation from agent</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity8"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="399" end="433">issues a money order for the claim</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity9"/>
+                            </items>
+                        </highlight>
+                        <highlight type="activity">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="527" end="546">close claim</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                                <item id="Activity10"/>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="177" end="186">agent</range>
+                                        <range start="225" end="227">agent</range>
+                                        <range start="548" end="557">agent</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="50" end="59">clerk</range>
+                                        <range start="339" end="348">clerk</range>
+                                        <range start="395" end="398">clerk</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                            </items>
+                        </highlight>
+                        <highlight type="role">
+                            <layers>
+                                <layer name="description">
+                                    <ranges>
+                                        <range start="9" end="26">insurance company</range>
+                                    </ranges>
+                                </layer>
+                            </layers>
+                            <items>
+                            </items>
+                        </highlight>
+                    </highlights>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity0" targetId="Activity1"  filterLevel="0" description="" time="" groups="" />
+                <condition sourceId="Activity0" targetId="Activity2"  filterLevel="0" description="" time="" groups="" />
+                <condition sourceId="Activity4" targetId="Activity5"  filterLevel="0" description="" time="" groups="" />
+                <condition sourceId="Activity8" targetId="Activity9"  filterLevel="0" description="" time="" groups="" />
+                <condition sourceId="Activity5" targetId="Activity10"  filterLevel="0" description="" time="" groups="" />
+                <condition sourceId="Activity9" targetId="Activity10"  filterLevel="0" description="" time="" groups="" />
+                <condition sourceId="Activity2" targetId="Activity8"  filterLevel="0" description="" time="" groups="" />
+                <condition sourceId="Activity3" targetId="Activity4"  filterLevel="0" description="" time="" groups="" />
+                <condition sourceId="Activity1" targetId="Activity3"  filterLevel="0" description="" time="" groups="" />
+                <condition sourceId="Activity4" targetId="Activity8"  filterLevel="0" description="" time="" groups="" />
+                <condition sourceId="Activity6" targetId="Activity7"  filterLevel="0" description="" time="" groups="" />
+            </conditions>
+            <responses>
+                <response sourceId="Activity4" targetId="Activity8"  filterLevel="0" description="" time="" groups="" />
+                <response sourceId="Activity6" targetId="Activity7"  filterLevel="0" description="" time="" groups="" />
+                <response sourceId="Activity0" targetId="Activity10"  filterLevel="0" description="" time="" groups="" />
+            </responses>
+            <coresponses>
+
+            </coresponses>
+            <excludes>
+                <exclude sourceId="Activity2" targetId="Activity2"  filterLevel="0" description="" time="" groups="" />
+                <exclude sourceId="Activity7" targetId="Activity7"  filterLevel="0" description="" time="" groups="" />
+                <exclude sourceId="Activity9" targetId="Activity9"  filterLevel="0" description="" time="" groups="" />
+            </excludes>
+            <includes>
+
+            </includes>
+            <milestones>
+
+            </milestones>
+            <spawns />
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking/>
+        </custom>
+        <marking>
+            <globalStore/>
+            <executed/>
+            <included>
+                <event id="Activity0"/>
+                <event id="Activity1"/>
+                <event id="Activity2"/>
+                <event id="Activity3"/>
+                <event id="Activity4"/>
+                <event id="Activity5"/>
+                <event id="Activity6"/>
+                <event id="Activity7"/>
+                <event id="Activity8"/>
+                <event id="Activity9"/>
+                <event id="Activity10"/>
+            </included>
+            <pendingResponses />
+        </marking>
+    </runtime>
+</dcrgraph>

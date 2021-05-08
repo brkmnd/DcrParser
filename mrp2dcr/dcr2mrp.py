@@ -446,7 +446,7 @@ class Mrp:
         retval += "}" + nl
         return retval
 
-def xml2mrp(fname,id0):
+def xml2mrp(fname,id0,do_cutoff=True):
     with open("ProcessModels/" + fname,"r") as f:
         parser = XmlParser(fname)
         parser.feed(f.read())
@@ -460,7 +460,7 @@ def xml2mrp(fname,id0):
                   }
         role_edges.append(em)
     parser.edges = role_edges + parser.edges
-    mrp = Mrp(parser,fname,id0)
+    mrp = Mrp(parser,fname,id0,do_cutoff=do_cutoff)
     return mrp
 
 def save_data(txt,fname):
