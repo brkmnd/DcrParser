@@ -30,6 +30,10 @@ def main_dcr2mrp():
         res_g = mrp.toString(framework=fwork,flavor=flavor)
         res_eval = mrp.create_input()
         res_d = mrp.desc
+        
+        print(res_g)
+    
+        return True
 
         save_data(res_g,"training/dcr.mrp")
         save_data(res_g,"validation/dcr.mrp")
