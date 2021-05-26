@@ -126,7 +126,6 @@ class XmlParser(HTMLParser):
             data = data.strip()
             if self.role_eventid == "" or data == "":
                 print("warning in " + self.fname + ": empty event2role: '" + self.role_eventid + "' -> '" + data + "'")
-            #print("[" + self.fname + "]" + self.role_eventid + "->" + data)
             self.map_event2role.append((self.role_eventid,data))
         elif self.tag == "high-desc":
             self.desc = data
@@ -181,6 +180,13 @@ class Mrp:
 
         if self.desc == "":
             print("warning, empty description for " + fname)
+
+
+        self.stats = { "full desc count":len(list_tokens_desc(self.full_desc))
+                     , "desc count":len(list_tokens_desc(self.desc))
+                     , "nr nodes":len(self.nodes)
+                     , "nr edges":len(self.edges)
+                     }
 
     def cutoff_desc(self,desc,max_ts):
         if max_ts > 0:
@@ -447,7 +453,7 @@ class Mrp:
         return retval
 
 def xml2mrp(fname,id0,do_cutoff=True):
-    with open("ProcessModels/" + fname,"r") as f:
+    with open("../ProcessModels/" + fname,"r") as f:
         parser = XmlParser(fname)
         parser.feed(f.read())
     role_edges = []
@@ -463,11 +469,6 @@ def xml2mrp(fname,id0,do_cutoff=True):
     mrp = Mrp(parser,fname,id0,do_cutoff=do_cutoff)
     return mrp
 
-def save_data(txt,fname):
-    fname = "mrp_data/2020/cf/" + fname
-    with open(fname,"w") as f:
-        f.write(txt)
-    print("saved '" + fname + "'")
 
 
 

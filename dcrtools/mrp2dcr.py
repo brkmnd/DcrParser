@@ -371,14 +371,18 @@ class MrpParser():
         
         return res
 
+"""
+MAIN MAIN MAIN MAIN
+MAIN MAIN MAIN MAIN
+MAIN MAIN MAIN MAIN
+"""
+
 def main():
     ts = file2lines("dcr.mrp")
     jts = [json.loads(t) for t in ts]
     parser = MrpParser(jts[0])
     res = parser.toString()
     xml2file("P02simple-back.xml",res)
-
-
 
 if __name__ == "__main__":
     main()

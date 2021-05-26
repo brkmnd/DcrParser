@@ -1,0 +1,1 @@
+{"id": "1", "version": 1.1, "time": "2021-02-09", "language": "eng", "source": "lpps", "provenance": "MRP 2020", "targets": ["eds", "amr", "ucca", "ptg", "dcr"], "input": "When the insurance company receives a new claim , the clerk calls the agent to actually check the claim.", "nodes": [{"id": 0, "label": "clerk", "anchors": []}], "edges": [], "tops": [0], "framework": "dcr"}

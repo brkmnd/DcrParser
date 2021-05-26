@@ -1,1 +1,50 @@
-{"id":"1","flavor":1 ,"language":"eng" ,"framework":"dcr","version":1.1,"time": "2021-02-09", "source":"simplified/P02-simple.xml","input":"When the insurance company receives a new claim , the clerk calls the agent to actually check the claim.","tops":[0,1],"nodes":[{"id":0,"label":"receives a new claim","anchors":[{"from":27,"to":48}]},{"id":1,"label":"calls the agent to actually check the claim","anchors":[{"from":60,"to":103}]},{"id":2,"label":"clerk","anchors":[{"from":50,"to":59}]},{"id":3,"label":"insurance company","anchors":[{"from":9,"to":26}]}],"edges":[{"source":0,"target":3,"label":"role"},{"source":1,"target":2,"label":"role"},{"source":0,"target":1,"label":"condition"}]}
+{
+  "id":"1",
+  "flavor":1 ,
+  "language":"eng" ,
+  "framework":"dcr",
+  "version":1.1,
+  "time": "2021-02-09", 
+  "source":"simplified/P02-simple.xml",
+  "input":"When the insurance company receives a new claim , the clerk calls the agent to actually check the claim.",
+  "tops":[0,1],
+  "nodes":[
+    {
+      "id":0,
+      "label":"receives a new claim"
+      ,"anchors":[{"from":27,"to":48}]
+    }
+    ,{
+      "id":1,
+      "label":"calls the agent to actually check the claim"
+      ,"anchors":[{"from":60,"to":103}]
+    }
+    ,{
+      "id":2,
+      "label":"clerk"
+      ,"anchors":[{"from":54,"to":59}]
+    }
+    ,{
+      "id":3,
+      "label":"insurance company"
+      ,"anchors":[{"from":9,"to":26}]
+    }
+  ],
+  "edges":[
+    {
+      "source":0,
+      "target":3,
+      "label":"role"
+    }
+    ,{
+      "source":1,
+      "target":2,
+      "label":"role"
+    }
+    ,{
+      "source":0,
+      "target":1,
+      "label":"condition"
+    }
+  ]
+}
