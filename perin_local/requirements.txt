@@ -10,5 +10,4 @@ pysat==2.1.0
 scipy==1.4.1
 transformers==2.10.0
 wandb==0.9.1
-pillow==7.2.0
 pycnnum==1.0.1
