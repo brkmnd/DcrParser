@@ -1,5 +1,6 @@
 <h1 align="center"><b>Local version of PERIN for use with DCR graphs</b></h1>
 <p>This is a local clone of PERIN configured to work with DCR graphs. The README for the original version of PERIN is found below here.</p>
+<p>Note that among PERIN pip dependencies are Pillow version ~7.0. Git was complaining that this version have security issues. So I have removed pillow from requirements.txt.</p>
 
 <hr>
 
